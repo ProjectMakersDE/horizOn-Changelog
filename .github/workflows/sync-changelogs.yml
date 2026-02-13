@@ -1,0 +1,97 @@
+name: Sync Changelogs
+
+on:
+  repository_dispatch:
+    types: [sync-changelog]
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Source to sync (dashboard, server, or both)'
+        required: false
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - dashboard
+          - server
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout changelog repo
+        uses: actions/checkout@v4
+
+      - name: Determine source
+        id: source
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "source=${{ github.event.client_payload.source }}" >> $GITHUB_OUTPUT
+          else
+            echo "source=${{ inputs.source }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Sync Dashboard changelog
+        if: steps.source.outputs.source == 'dashboard' || steps.source.outputs.source == 'both'
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-Dashboard/contents/CHANGELOG.md --jq '.content' | base64 -d)
+          FRONTMATTER="---
+          layout: default
+          title: Dashboard Changelog
+          ---
+
+          # Dashboard Changelog
+
+          All notable changes to the horizOn Dashboard (Frontend).
+
+          [Back to Overview](.)
+
+          "
+          echo "$FRONTMATTER" > dashboard-changelog.md
+          echo "$CONTENT" >> dashboard-changelog.md
+
+      - name: Sync Server changelog
+        if: steps.source.outputs.source == 'server' || steps.source.outputs.source == 'both'
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-Dashboard-Backend/contents/CHANGELOG.md --jq '.content' | base64 -d)
+          FRONTMATTER="---
+          layout: default
+          title: Server Changelog
+          ---
+
+          # Server Changelog
+
+          All notable changes to the horizOn Server (Backend API).
+
+          [Back to Overview](.)
+
+          "
+          echo "$FRONTMATTER" > server-changelog.md
+          echo "$CONTENT" >> server-changelog.md
+
+      - name: Update index with latest versions
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          DASHBOARD_VERSION=$(head -1 dashboard-changelog.md | grep -oP 'v?\d+\.\d+\.\d+' | head -1 || echo "unknown")
+          DASHBOARD_DATE=$(head -5 dashboard-changelog.md | grep -oP '\d{4}-\d{2}-\d{2}' | head -1 || echo "unknown")
+          SERVER_VERSION=$(head -1 server-changelog.md | grep -oP 'v?\d+\.\d+\.\d+' | head -1 || echo "unknown")
+          SERVER_DATE=$(head -5 server-changelog.md | grep -oP '\d{4}-\d{2}-\d{2}' | head -1 || echo "unknown")
+
+          sed -i "s|**Latest:** v.*|**Latest:** v${DASHBOARD_VERSION} (${DASHBOARD_DATE})|" index.md || true
+          sed -i "0,/\*\*Latest:\*\*/! s|**Latest:** v.*|**Latest:** v${SERVER_VERSION} (${SERVER_DATE})|" index.md || true
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: sync changelogs [skip ci]"
+          git push
