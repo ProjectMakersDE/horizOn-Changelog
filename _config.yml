@@ -1,9 +1,12 @@
 title: horizOn Changelog
 description: Public changelog for the horizOn platform by ProjectMakers
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
+url: https://projectmakersde.github.io
+baseurl: /horizOn-Changelog
+
+plugins: []
 
 exclude:
   - README.md
   - LICENSE
+  - Gemfile
+  - Gemfile.lock

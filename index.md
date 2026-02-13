@@ -3,33 +3,33 @@ layout: default
 title: horizOn Changelog
 ---
 
-# horizOn Changelog
+# Changelog
 
 Stay up to date with the latest changes to the horizOn platform.
 
+<div class="product-grid">
+  <a href="dashboard-changelog" class="product-card">
+    <h3>Dashboard</h3>
+    <p>Web interface for managing your account, API keys, users, and more.</p>
+    <span class="version">v1.23.2</span>
+  </a>
+  <a href="server-changelog" class="product-card">
+    <h3>Server API</h3>
+    <p>Backend API powering authentication, data management, and integrations.</p>
+    <span class="version">v1.18.0</span>
+  </a>
+  <a href="godot-sdk-changelog" class="product-card">
+    <h3>Godot SDK</h3>
+    <p>Native GDScript plugin for integrating horizOn into Godot Engine projects.</p>
+    <span class="version">v1.0.0</span>
+  </a>
+  <a href="unity-sdk-changelog" class="product-card">
+    <h3>Unity SDK</h3>
+    <p>C# package for integrating horizOn into Unity game projects.</p>
+    <span class="version">coming soon</span>
+  </a>
+</div>
+
 ---
 
-## Dashboard (Frontend)
-
-The horizOn Dashboard is the web interface for managing your account, API keys, users, and more.
-
-[View Dashboard Changelog](dashboard-changelog)
-
-**Latest:** v1.23.1 (2026-02-13)
-
----
-
-## Server (Backend API)
-
-The horizOn Server powers all API endpoints, authentication, and data management.
-
-[View Server Changelog](server-changelog)
-
-**Latest:** v1.18.0 (2026-02-11)
-
----
-
-## Feedback
-
-Found a bug or have a feature request?
-[Open an issue on GitHub](https://github.com/ProjectMakersDE/horizOn-Changelog/issues/new/choose)
+Found a bug or have a feature request? [Open an issue](https://github.com/ProjectMakersDE/horizOn-Changelog/issues/new/choose)

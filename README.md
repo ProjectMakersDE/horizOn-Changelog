@@ -12,6 +12,8 @@ Or browse the raw files:
 
 - [Dashboard Changelog](dashboard-changelog.md) (Frontend)
 - [Server Changelog](server-changelog.md) (Backend API)
+- [Godot SDK Changelog](godot-sdk-changelog.md) (Godot Engine Plugin)
+- [Unity SDK Changelog](unity-sdk-changelog.md) (Unity Package) *coming soon*
 
 ## Feedback & Requests
 
