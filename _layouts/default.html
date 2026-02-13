@@ -356,6 +356,26 @@
     }
 
     setTheme(getTheme());
+
+    // Rewrite version compare links to release links
+    document.querySelectorAll('.content a').forEach(function(link) {
+      var href = link.getAttribute('href');
+      if (!href) return;
+
+      // Rewrite /compare/vX...vY to /releases/tag/vY
+      if (href.includes('/compare/')) {
+        var match = href.match(/\/compare\/[^.]+\.\.\.(.+)$/);
+        if (match) {
+          var base = href.split('/compare/')[0];
+          link.setAttribute('href', base + '/releases/tag/' + match[1]);
+        }
+      }
+    });
+
+    // Remove commit hash links and surrounding parentheses
+    document.querySelectorAll('.content li').forEach(function(li) {
+      li.innerHTML = li.innerHTML.replace(/\s*\(<a[^>]*\/commit\/[^>]*>[^<]*<\/a>\)/g, '');
+    });
   </script>
 </body>
 </html>
