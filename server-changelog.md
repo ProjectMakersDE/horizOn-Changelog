@@ -9,6 +9,20 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.20.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.19.0...v1.20.0) (2026-02-13)
+
+
+### Features
+
+* **ci:** trigger changelog sync after new release ([d9d3bac](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/d9d3bacac33328bb89bd42c7d2dc19cb25b6d5bc))
+
+# [1.19.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.18.0...v1.19.0) (2026-02-12)
+
+
+### Features
+
+* **auth:** grant actuator user admin role for n8n blog automation ([7667858](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/7667858c51423053472376817fc6a03ca6e96047))
+
 # [1.18.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.17.0...v1.18.0) (2026-02-11)
 
 
@@ -96,6 +110,8 @@ All notable changes to the horizOn Server (Backend API).
 
 * add startup log message for better observability ([2db5a65](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/2db5a65ade67cc51c1a62c96bd5013adb8cad6d8))
 
+## [Unreleased]
+
 # [1.10.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.9.7...v1.10.0) (2026-01-28)
 
 
@@ -119,6 +135,15 @@ All notable changes to the horizOn Server (Backend API).
 * replace in-memory statistics calculation in LeaderboardRepositoryCustomImpl
 * batch user count queries in AccountUsageService
 * make email sending asynchronous with @Async annotation
+
+### Refactoring
+
+* split large SupportTicketService into focused services
+* remove redundant EmailManager wrapper class
+* refactor to constructor injection and remove field injection
+* standardize documentation language
+* secure Spring Boot Actuator endpoints
+* remove hardcoded secrets from configuration files
 
 ## [1.9.7](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.9.6...v1.9.7) (2026-01-20)
 
@@ -250,3 +275,9 @@ All notable changes to the horizOn Server (Backend API).
 ### Features
 
 * add semantic-release automation and input validation security ([88d1d50](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/88d1d50d764e46054f4c9317c273945a9a83fd1f))
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+This file is automatically updated by [semantic-release](https://github.com/semantic-release/semantic-release).

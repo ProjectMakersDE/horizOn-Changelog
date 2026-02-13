@@ -16,7 +16,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="server-changelog" class="product-card">
     <h3>Server API</h3>
     <p>Backend API powering authentication, data management, and integrations.</p>
-    <span class="version">v1.18.0</span>
+    <span class="version">v1.20.0</span>
   </a>
   <a href="godot-sdk-changelog" class="product-card">
     <h3>Godot SDK</h3>
