@@ -15,6 +15,7 @@ on:
           - dashboard
           - server
           - godot-sdk
+          - unity-sdk
 
 permissions:
   contents: write
@@ -98,18 +99,42 @@ jobs:
           FRONTMATTER
           echo "$CONTENT" >> godot-sdk-changelog.md
 
+      - name: Sync Unity SDK changelog
+        if: steps.source.outputs.source == 'unity-sdk' || steps.source.outputs.source == 'all'
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-SDK-Unity/contents/CHANGELOG.md --jq '.content' | base64 -d)
+          cat > unity-sdk-changelog.md << 'FRONTMATTER'
+          ---
+          layout: default
+          title: Unity SDK Changelog
+          ---
+
+          # Unity SDK Changelog
+
+          All notable changes to the horizOn Unity SDK.
+
+          [Back to Overview](.)
+
+          FRONTMATTER
+          echo "$CONTENT" >> unity-sdk-changelog.md
+
       - name: Update index version badges
         run: |
           # Extract versions from changelog files (skip frontmatter)
           DASH_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' dashboard-changelog.md | head -1 || echo "0.0.0")
           SERV_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' server-changelog.md | head -1 || echo "0.0.0")
           GODOT_VER=$(grep -oP '##? \K\d+\.\d+\.\d+' godot-sdk-changelog.md | head -1 || echo "0.0.0")
+          UNITY_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' unity-sdk-changelog.md | head -1 || echo "")
 
           # Update version badges in index.md cards
-          sed -i "s|<span class=\"version\">v[0-9.]*</span>\(.*Dashboard\)|<span class=\"version\">v${DASH_VER}</span>\1|" index.md || true
           sed -i "/<h3>Dashboard<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${DASH_VER}</span>|" index.md || true
           sed -i "/<h3>Server API<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${SERV_VER}</span>|" index.md || true
           sed -i "/<h3>Godot SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${GODOT_VER}</span>|" index.md || true
+          if [ -n "$UNITY_VER" ]; then
+            sed -i "/<h3>Unity SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNITY_VER}</span>|" index.md || true
+          fi
 
       - name: Commit and push
         run: |
