@@ -364,10 +364,10 @@
 
       // Rewrite /compare/vX...vY to /releases/tag/vY
       if (href.includes('/compare/')) {
-        var match = href.match(/\/compare\/[^.]+\.\.\.(.+)$/);
-        if (match) {
-          var base = href.split('/compare/')[0];
-          link.setAttribute('href', base + '/releases/tag/' + match[1]);
+        var parts = href.split('...');
+        if (parts.length === 2) {
+          var base = parts[0].split('/compare/')[0];
+          link.setAttribute('href', base + '/releases/tag/' + parts[1]);
         }
       }
     });
