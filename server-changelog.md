@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.21.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.20.0...v1.21.0) (2026-02-14)
+
+
+### Features
+
+* **blog:** add blog image upload and serve via MongoDB GridFS ([4afc5b9](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/4afc5b9811c2073a861ff9796efac5caf0116727))
+
 # [1.20.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.19.0...v1.20.0) (2026-02-13)
 
 
