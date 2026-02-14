@@ -9,6 +9,34 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.25.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.24.1...v1.25.0) (2026-02-14)
+
+
+### Features
+
+* **blog:** add blog image upload UI with drag-and-drop support ([6494339](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/64943395dc4ed101dab2e96945d1cbebdf0ccab1))
+
+## [1.24.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.24.0...v1.24.1) (2026-02-13)
+
+
+### Bug Fixes
+
+* improve Trust Bar alignment, light mode overlays, and sidebar button order ([ff594e8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ff594e890b0f5244ea02f6afed178699f9b21030))
+
+# [1.24.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.23.3...v1.24.0) (2026-02-13)
+
+
+### Features
+
+* add changelog link to Trust Bar and dashboard sidebar ([8c825eb](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/8c825eb337009c9c2ae5d6cceac3de81321fc5cc))
+
+## [1.23.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.23.2...v1.23.3) (2026-02-13)
+
+
+### Bug Fixes
+
+* use wildcard CSP for Clarity subdomains to fix v.clarity.ms block ([c99abf0](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c99abf004dd0c781a1c356816cf0bc90570f431a))
+
 ## [1.23.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.23.1...v1.23.2) (2026-02-13)
 
 

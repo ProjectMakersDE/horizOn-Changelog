@@ -11,7 +11,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="dashboard-changelog" class="product-card">
     <h3>Dashboard</h3>
     <p>Web interface for managing your account, API keys, users, and more.</p>
-    <span class="version">v1.23.2</span>
+    <span class="version">v1.25.0</span>
   </a>
   <a href="server-changelog" class="product-card">
     <h3>Server API</h3>
