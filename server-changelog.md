@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.25.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.24.0...v1.25.0) (2026-02-15)
+
+
+### Features
+
+* **blog:** add admin endpoint to retrieve blog post images ([2f614b0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/2f614b0c34e5b942a3e74de489a2c293edb8557c))
+
 # [1.24.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.23.0...v1.24.0) (2026-02-15)
 
 
