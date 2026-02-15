@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.26.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.1...v1.26.2) (2026-02-15)
+
+
+### Bug Fixes
+
+* allow LM Studio connections by relaxing CSP connect-src directive ([7d1e7b8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/7d1e7b8713d3cffd2e5092039888de0e65a7e326))
+
 ## [1.26.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.0...v1.26.1) (2026-02-15)
 
 
