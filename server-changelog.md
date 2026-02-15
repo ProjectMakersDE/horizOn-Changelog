@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.23.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.22.0...v1.23.0) (2026-02-15)
+
+
+### Features
+
+* **blog:** add URL-friendly slug support for blog posts ([ba7eb3d](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/ba7eb3d7421eb6a52dc86883f6af0da9c1aa1fcf))
+
 # [1.22.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.21.0...v1.22.0) (2026-02-15)
 
 
