@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.26.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.0...v1.26.1) (2026-02-15)
+
+
+### Bug Fixes
+
+* attach auth token for ticket creation and expose blog hasImage field ([1e9e99a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1e9e99abca872b5a9192110dc8f67f11de2608a5))
+
 # [1.26.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.25.0...v1.26.0) (2026-02-15)
 
 
