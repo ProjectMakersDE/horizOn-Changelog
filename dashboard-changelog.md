@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.26.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.2...v1.26.3) (2026-02-15)
+
+
+### Bug Fixes
+
+* resolve blog image visibility, missing translations, footer year, and deletion UX ([ed03c0d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ed03c0df9ce16d25d3c3e4e663144c088e034077))
+
 ## [1.26.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.1...v1.26.2) (2026-02-15)
 
 
