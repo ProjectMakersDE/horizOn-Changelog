@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.27.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.5...v1.27.0) (2026-02-15)
+
+
+### Features
+
+* add optional base URL field for OpenAI and Gemini providers ([4866723](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/486672344626cc3ed39623dd78425a391415430f))
+
 ## [1.26.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.4...v1.26.5) (2026-02-15)
 
 
