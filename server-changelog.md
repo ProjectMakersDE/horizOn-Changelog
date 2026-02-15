@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.26.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.25.0...v1.26.0) (2026-02-15)
+
+
+### Features
+
+* **blog:** add image consistency check and improve image retrieval flow ([d0f2a8e](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/d0f2a8e530ac329f9963b358254bcb1871816383))
+
 # [1.25.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.24.0...v1.25.0) (2026-02-15)
 
 
