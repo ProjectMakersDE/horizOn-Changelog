@@ -9,6 +9,24 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.26.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.25.0...v1.26.0) (2026-02-15)
+
+
+### Bug Fixes
+
+* **blog:** update news spec tests for card grid and Load More redesign ([ab8dad1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ab8dad1e16e33053cd2436e3e317176eab7a43d8))
+
+
+### Features
+
+* add blog redesign implementation plan ([c43e0a0](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c43e0a0d0679ccdca73ab7b346be00aa4b36de2f))
+* **blog:** create NewsDetail component with SEO meta tags and adjacent navigation ([e93c992](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e93c992b14deb88a6b27c395200269b10b86ae04))
+* **blog:** redesign blog list with card grid and Load More button ([4297f8d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4297f8da0a4789761e1b8b9da0dfcd44537869b5))
+* **blog:** translate blog i18n keys for all languages and add productionUrl ([bc50fb2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bc50fb26a954d099d2e82ac07b85150dc6c22b3d))
+* **blog:** update data layer for blog redesign ([c5e0163](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c5e0163f5f9b67179e853bf03a1afe87d08d3b5b))
+* **blog:** update English i18n keys for blog redesign ([950c8b3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/950c8b375ad76401619f751f7a740314e65bdc12))
+* finalize blog redesign design document ([d098c96](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d098c96a3500a280c6e86264ad4af83307c6ff41))
+
 # [1.25.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.24.1...v1.25.0) (2026-02-14)
 
 
