@@ -9,6 +9,19 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.22.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.21.0...v1.22.0) (2026-02-15)
+
+
+### Features
+
+* **blog:** accept slug or UUID in public blog endpoints ([9567684](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/95676846b9b3d003275f979a396f1ee254831c8e))
+* **blog:** add slug field to Blog entity with unique index ([05eabf7](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/05eabf7eb6ecf8a49f2511bbec56d84f1b336a91))
+* **blog:** add slug field to PublicBlogResponse and BlogResponse DTOs ([8b96fc7](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/8b96fc706df3b69fac9c69c9c87e139f15f164b6))
+* **blog:** add slug finder methods to BlogRepository ([88a07b6](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/88a07b6f8ad5d91abd04f82942de7a5867fd134c))
+* **blog:** add slug generation and lookup to BlogService ([724a95d](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/724a95dd3841770a9d7e0fa0e22ebd6d58151d4e))
+* **blog:** add startup migration to generate slugs for existing posts ([0846ab4](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/0846ab464b9e355ecde5e3cf63b1b2387d9c73e2))
+* **blog:** use slug in imageUrl paths ([ef5d9d2](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/ef5d9d2a8bbbe093263a319099b79c05451370bc))
+
 # [1.21.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.20.0...v1.21.0) (2026-02-14)
 
 
