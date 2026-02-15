@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.27.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.27.0...v1.27.1) (2026-02-15)
+
+
+### Bug Fixes
+
+* auto-append /chat/completions to custom OpenAI base URLs ([923a064](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/923a06448fe3163038e8afa90b98cdb6a6b8e276))
+
 # [1.27.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.5...v1.27.0) (2026-02-15)
 
 
