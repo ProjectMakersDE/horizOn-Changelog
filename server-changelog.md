@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.24.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.23.0...v1.24.0) (2026-02-15)
+
+
+### Features
+
+* **blog:** expose hasImage field in blog response DTO ([ac50f91](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/ac50f91fc8ca434285d23e6b4eb61c84227dacbc))
+
 # [1.23.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.22.0...v1.23.0) (2026-02-15)
 
 
