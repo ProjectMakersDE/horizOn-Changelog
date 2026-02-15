@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.28.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.27.1...v1.28.0) (2026-02-15)
+
+
+### Features
+
+* add markdown rendering for blog detail page ([da035fe](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/da035fee81f61599712fba045107c2714bd86559))
+
 ## [1.27.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.27.0...v1.27.1) (2026-02-15)
 
 
