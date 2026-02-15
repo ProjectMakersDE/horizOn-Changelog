@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.26.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.4...v1.26.5) (2026-02-15)
+
+
+### Bug Fixes
+
+* add blob: to CSP img-src for blog image preview ([32696f7](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/32696f7841518ee7bb67c9eb38aad0395d9293cc))
+
 ## [1.26.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.3...v1.26.4) (2026-02-15)
 
 
