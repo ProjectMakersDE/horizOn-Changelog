@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.26.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.3...v1.26.4) (2026-02-15)
+
+
+### Bug Fixes
+
+* load blog image in modal when imageUrl is present ([4c616e9](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4c616e9dacd43ddca2a09626542ce1db8da542ff))
+
 ## [1.26.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.26.2...v1.26.3) (2026-02-15)
 
 
