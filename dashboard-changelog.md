@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.30.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.29.2...v1.30.0) (2026-02-16)
+
+
+### Features
+
+* add Meta Pixel conversion events for signup, purchase, and checkout ([0c00fbd](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0c00fbd523246343783ea2206031856c44ba2641))
+
 ## [1.29.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.29.1...v1.29.2) (2026-02-16)
 
 
