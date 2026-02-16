@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.27.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.26.0...v1.27.0) (2026-02-16)
+
+
+### Features
+
+* **seo:** add dynamic sitemap.xml endpoint with blog posts ([5ec6a94](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/5ec6a942e8a0f0d852aba68a82a4991c361bde21))
+
 # [1.26.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.25.0...v1.26.0) (2026-02-15)
 
 
