@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.29.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.29.1...v1.29.2) (2026-02-16)
+
+
+### Bug Fixes
+
+* add Facebook domains to CSP for Meta Pixel tracking ([069224c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/069224c266905f37317d922a56dbaffa07662e48))
+
 ## [1.29.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.29.0...v1.29.1) (2026-02-16)
 
 
