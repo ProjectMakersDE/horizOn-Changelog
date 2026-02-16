@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.29.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.28.0...v1.29.0) (2026-02-16)
+
+
+### Features
+
+* add Meta Pixel (Facebook) tracking with cookie consent integration ([204cb06](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/204cb0696b53055ba083a78fa16f266332b14de7))
+
 # [1.28.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.27.1...v1.28.0) (2026-02-15)
 
 
