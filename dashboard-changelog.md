@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.29.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.29.0...v1.29.1) (2026-02-16)
+
+
+### Bug Fixes
+
+* set default Meta Pixel ID so pixel loads without env var override ([d7f694c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d7f694ca76638d8c77a4a6cd8bd5a8c56ec23f6f))
+
 # [1.29.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.28.0...v1.29.0) (2026-02-16)
 
 
