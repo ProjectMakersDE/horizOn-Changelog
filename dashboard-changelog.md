@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.31.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.30.1...v1.31.0) (2026-02-17)
+
+
+### Features
+
+* **seo:** canonicalize all regions to us.horizon.pm ([81c5413](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/81c5413db016c67ebdc9083faefd2cf4d837bc03))
+
 ## [1.30.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.30.0...v1.30.1) (2026-02-17)
 
 
