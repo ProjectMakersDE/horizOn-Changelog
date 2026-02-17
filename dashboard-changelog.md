@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.34.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.0...v1.34.1) (2026-02-17)
+
+
+### Bug Fixes
+
+* enable lazy background image loading on About Us page ([d5dd9c7](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d5dd9c7d76edabf1a6f5563c881874358eacc8fe))
+
 # [1.34.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.33.0...v1.34.0) (2026-02-17)
 
 
