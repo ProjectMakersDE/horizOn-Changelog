@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.30.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.30.0...v1.30.1) (2026-02-17)
+
+
+### Bug Fixes
+
+* add SEO page titles and meta descriptions to examples, quickstart, and blog pages ([d49b5a3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d49b5a36ecaa846ca63d12024e24ad7328502a98))
+
 # [1.30.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.29.2...v1.30.0) (2026-02-16)
 
 
