@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.33.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.32.0...v1.33.0) (2026-02-17)
+
+
+### Features
+
+* add About Us page with indie dev story and live stats ([e414f81](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e414f81af88c87d832ecea83c148f2ff36c08daf))
+
 # [1.32.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.31.0...v1.32.0) (2026-02-17)
 
 
