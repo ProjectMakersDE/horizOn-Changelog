@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.28.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.27.0...v1.28.0) (2026-02-17)
+
+
+### Features
+
+* **seo:** add separate sitemap base URL property ([47dd0c6](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/47dd0c60f52ddf1513daae08ea554446a2ab4a8f))
+
 # [1.27.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.26.0...v1.27.0) (2026-02-16)
 
 
