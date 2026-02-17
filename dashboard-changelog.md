@@ -9,6 +9,23 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.34.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.33.0...v1.34.0) (2026-02-17)
+
+
+### Bug Fixes
+
+* add missing analytics replay and cookie service wiring ([69d0c6b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/69d0c6b6b78d2fd1a6a36a9dd5052e8673b71e1a))
+* make Mori seagull images visible and inline on About Us page ([bdec386](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bdec3868ae37b720dc51a68549525c840e7a5c0e))
+
+
+### Features
+
+* add cookie consent translations for pt, nl, pl, ru, zh, ja, ar, ko, tr, id ([2d79888](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/2d79888b34b2b93f28bfd39a4cad6a264f723307))
+* add Google Consent Mode v2 default (all denied) before scripts load ([4c71254](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4c71254f785262c0f220b7bee4140d9325e849ef))
+* add Microsoft Advertising to cookie consent analytics services ([e1a2169](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e1a21693bb00387f305a15e57d26282c4efd2c83))
+* enhance About Us page with visual design and Mori seagulls ([9a1ced7](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9a1ced737ff1c9215f1da8693cd48f65d8087dab))
+* fire gtag consent update on cookie consent change ([f8f4041](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f8f4041d416b442306f05c0afdc11de642c61b4a))
+
 # [1.33.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.32.0...v1.33.0) (2026-02-17)
 
 
