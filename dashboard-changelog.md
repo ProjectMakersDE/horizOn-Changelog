@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.32.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.31.0...v1.32.0) (2026-02-17)
+
+
+### Features
+
+* **i18n:** SSR language detection from Accept-Language header ([0cbada4](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0cbada4ddc1d28461f8facea8a6ede562f7c63f0))
+
 # [1.31.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.30.1...v1.31.0) (2026-02-17)
 
 
