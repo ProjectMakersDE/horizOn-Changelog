@@ -9,6 +9,24 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.29.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.28.1...v1.29.0) (2026-02-19)
+
+
+### Bug Fixes
+
+* **tracking:** disable Bing CAPI until pilot activation ([75e5dca](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/75e5dcaa13f9d8884c78b8d73bbca717bf4d9f14))
+
+
+### Features
+
+* add Meta CAPI and Bing CAPI configuration properties ([568b481](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/568b4810432846f9fb7dc1d4da2896c07195bda4))
+* add PublicCollectController for server-side tracking ([4309d06](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/4309d0627fccad68b07e9ac85c544252d0bb3a2e))
+* add server-side tracking feature DTOs ([ef0fc39](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/ef0fc393133a8ef4eec324edd770b7e93a2dd491))
+* implement BingConversionsClient for server-side Bing CAPI ([6d17af7](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/6d17af7de4e7850f48530d9d1b5b26d860f57b3f))
+* implement Ga4TrackingClient for server-side GA4 events ([6b32e78](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/6b32e780cddbf97c53bdda1b974f95836b17195b))
+* implement MetaConversionsClient for server-side Meta CAPI ([e12adb5](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/e12adb5e8a28147852e03b97d2a6ef0d28269bf7))
+* implement TrackingDispatcherService with client stubs ([6a32017](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/6a32017d388dab6a73fba9eca5c4da99f1fc9b24))
+
 ## [1.28.1](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.28.0...v1.28.1) (2026-02-19)
 
 
