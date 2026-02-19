@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.34.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.2...v1.34.3) (2026-02-19)
+
+
+### Bug Fixes
+
+* add regional subdomains to CSP img-src for blog images ([3b90f66](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/3b90f66777bc08e3cec917dd69b491fbe774419d))
+
 ## [1.34.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.1...v1.34.2) (2026-02-19)
 
 
