@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.35.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.3...v1.35.0) (2026-02-19)
+
+
+### Bug Fixes
+
+* consolidate regional subdomain URLs to single horizon.pm domain ([427356b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/427356b4ca6d523981205f3319cbfb9bbd80f169))
+
+
+### Features
+
+* replace client-side tracking with server-side TrackingCollectService ([538597f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/538597f5b80b93ae481ffbc9e73ce8a5e043d6c5))
+
 ## [1.34.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.2...v1.34.3) (2026-02-19)
 
 
