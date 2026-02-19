@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.34.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.1...v1.34.2) (2026-02-19)
+
+
+### Bug Fixes
+
+* **seo:** consolidate domain to horizon.pm and remove /home route ([#3](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/3)) ([24e0ef2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/24e0ef29e3c279c6d7ee072c04c657d7954fb85a))
+
 ## [1.34.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.0...v1.34.1) (2026-02-17)
 
 
