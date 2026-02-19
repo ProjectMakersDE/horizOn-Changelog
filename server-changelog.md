@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.28.1](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.28.0...v1.28.1) (2026-02-19)
+
+
+### Bug Fixes
+
+* **seo:** consolidate domain defaults to horizon.pm ([#19](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/issues/19)) ([edc3c06](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/edc3c0663f6028902ed41d373ac386007c59598d))
+
 # [1.28.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.27.0...v1.28.0) (2026-02-17)
 
 
