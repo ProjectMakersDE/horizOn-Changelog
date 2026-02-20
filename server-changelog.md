@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.30.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.29.2...v1.30.0) (2026-02-20)
+
+
+### Features
+
+* **support:** allow anonymous ticket creation without guest email ([98e8100](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/98e8100c4d715f1c57b8d5808f31afa3c754acda))
+
 ## [1.29.2](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.29.1...v1.29.2) (2026-02-20)
 
 
