@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.36.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.36.1...v1.36.2) (2026-02-20)
+
+
+### Bug Fixes
+
+* **i18n:** add missing modal.removeFoldout translation key to all languages ([d108b40](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d108b40a841bd7b6ef70f2d765ae5f652d8f2111))
+
 ## [1.36.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.36.0...v1.36.1) (2026-02-20)
 
 
