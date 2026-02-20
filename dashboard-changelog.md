@@ -9,6 +9,28 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.37.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.36.2...v1.37.0) (2026-02-20)
+
+
+### Bug Fixes
+
+* **i18n:** escape Chinese quotation marks in zh.toml onboarding section ([ac1fde0](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ac1fde08c38df7806da432ff3bc43fa44c7c4e37))
+* **ui:** add max-height and scroll overflow to all modal containers ([25d4d54](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/25d4d54a07cfb14972c766c3491228a987860078))
+
+
+### Features
+
+* **onboarding:** add data-onboarding attributes to target elements ([5d76491](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5d7649160575639498e388e0594fc83ef7b18034))
+* **onboarding:** add declarative tour steps config ([0b70cc3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0b70cc3b2ce7a3d15b900fbf651e7076afa936ed))
+* **onboarding:** add horizOn theme CSS for Shepherd.js tour ([b403c8b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b403c8bd9e09823b496ce68f9f767591c101fe36))
+* **onboarding:** add restart tour button to account settings ([6051c48](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/6051c4870f635b9b7aacec488b52c66d7712fa9e))
+* **onboarding:** add storage keys and English i18n translations ([002e5fa](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/002e5fafba9f8f60db0f00eebd9cd0e1891f9fe4))
+* **onboarding:** add tour translations for all 14 languages ([47f48f9](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/47f48f906859e8c028236be2f78cf6b4d991cc78))
+* **onboarding:** create welcome modal component ([63579aa](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/63579aa95dedf63cad46663498744e3e1f2c96ce))
+* **onboarding:** implement OnboardingTourService with lazy Shepherd.js loading ([0ad8979](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0ad897907fb3881210da6756fa402771e6233250))
+* **onboarding:** integrate tour service and welcome modal into dashboard ([1e5d9bd](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1e5d9bdb4e31a94ddbd57242a2b8a658dd42ad75))
+* **onboarding:** register onboarding-tour feature module ([86401af](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/86401af8a2d38e9724621dc3d4202e12f11266d6))
+
 ## [1.36.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.36.1...v1.36.2) (2026-02-20)
 
 
