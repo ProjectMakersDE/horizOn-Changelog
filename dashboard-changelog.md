@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.37.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.0...v1.37.1) (2026-02-20)
+
+
+### Bug Fixes
+
+* **onboarding:** use default export from shepherd.js dynamic import ([a3ab1d8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a3ab1d8aef8189f3aac457b9ccd46d7ed898545a))
+
 # [1.37.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.36.2...v1.37.0) (2026-02-20)
 
 
