@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.37.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.2...v1.37.3) (2026-02-20)
+
+
+### Bug Fixes
+
+* **onboarding:** persist tour state on dismiss and resume on navigation ([893a76c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/893a76cb5745bea6fa60b1f2c8843bffe2f54ee7))
+
 ## [1.37.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.1...v1.37.2) (2026-02-20)
 
 
