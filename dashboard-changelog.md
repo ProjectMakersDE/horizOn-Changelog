@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.36.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.36.0...v1.36.1) (2026-02-20)
+
+
+### Bug Fixes
+
+* **modal:** replace hardcoded aria-label with translated foldout remove label ([c82da70](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c82da709656797e1f5a8ce3d1edacc95f9ad59e9))
+
 # [1.36.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.35.0...v1.36.0) (2026-02-20)
 
 
