@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.37.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.1...v1.37.2) (2026-02-20)
+
+
+### Bug Fixes
+
+* **onboarding:** resolve tour dialog styling and interactivity issues ([38707d8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/38707d8d9346b65618a4d87cbd88bc8f95a207c7))
+
 ## [1.37.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.0...v1.37.1) (2026-02-20)
 
 
