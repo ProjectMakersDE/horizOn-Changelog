@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.30.1](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.30.0...v1.30.1) (2026-02-20)
+
+
+### Bug Fixes
+
+* **seo:** remove auth pages from sitemap and fix blog slug truncation ([4a2196b](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/4a2196bdd1bfaecf89e4fb73862b7a6de0bd109a))
+
 # [1.30.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.29.2...v1.30.0) (2026-02-20)
 
 
