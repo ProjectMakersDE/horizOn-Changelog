@@ -9,6 +9,24 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.29.2](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.29.1...v1.29.2) (2026-02-20)
+
+
+### Bug Fixes
+
+* **ci:** enforce clean commit message policy in project guidelines ([b369a2e](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/b369a2e89e1f5bcffafc22df30fe2da9d666dc3f))
+
+## [1.29.1](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.29.0...v1.29.1) (2026-02-20)
+
+
+### Bug Fixes
+
+* **account:** complete data export with settings, testimonials, sessions, and missing fields ([44eddea](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/44eddea5beef6af3d2ee16e0e4c0b02bed52d9fe))
+* **gift-codes:** ensure isActive defaults to true on creation and allow re-creation after soft-delete ([bbb3b06](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/bbb3b06292464043bc0c5d30509cc514ff5b353b))
+* remove erroneous googleId assignment in anonymous user creation ([6e825cb](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/6e825cb889a0fbcef6d2d9f93ecd99883b6477fa))
+* **tickets:** fix createdAt 1970 timestamp and guest ticket 400 error with integration tests ([9f2a85a](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/9f2a85a7379bf489ef13279ab8d606417e3f51a7))
+* **user-logs:** remove internal accountId from UserLogResponse DTO ([bbbd220](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/bbbd220b4000e08576726d63d899aea1365d0dfd))
+
 # [1.29.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.28.1...v1.29.0) (2026-02-19)
 
 
