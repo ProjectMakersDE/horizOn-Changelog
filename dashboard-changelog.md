@@ -9,6 +9,22 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.36.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.35.0...v1.36.0) (2026-02-20)
+
+
+### Bug Fixes
+
+* add missing register form i18n keys and hide accountId from user logs ([cd1525e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/cd1525e1ffed034e0aa425e3efbc00e132d2479c))
+* default-hide closed tickets in admin view and add multi-lang design doc ([200ea97](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/200ea97524b63c520bd4e4aeb025bc8e7721f2c5))
+* **modal:** make modal scrollable when content exceeds viewport height ([5bc0036](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5bc0036dd82c18a1f36845b5adfe304d3ba0b99d))
+* **tickets:** add missing fields to TicketListResponse DTO and fix createdAt mapping ([8860871](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/88608713ac3350b683ef36f1b844e141f8416a51))
+
+
+### Features
+
+* add Ahrefs Web Analytics and clean up CSP after server-side tracking migration ([b5c752b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b5c752b39a7ee2377a208d8330677e93240c5d5a))
+* add multi-language field utility and refactor content management modals ([2906e51](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/2906e516cfc6fe19b394e61c58fe464ab3dfaa06))
+
 # [1.35.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.34.3...v1.35.0) (2026-02-19)
 
 
