@@ -16,6 +16,7 @@ on:
           - server
           - godot-sdk
           - unity-sdk
+          - mcp-server
 
 permissions:
   contents: write
@@ -120,6 +121,27 @@ jobs:
           FRONTMATTER
           echo "$CONTENT" >> unity-sdk-changelog.md
 
+      - name: Sync MCP Server changelog
+        if: steps.source.outputs.source == 'mcp-server' || steps.source.outputs.source == 'all'
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-mcp/contents/CHANGELOG.md --jq '.content' | base64 -d)
+          cat > mcp-server-changelog.md << 'FRONTMATTER'
+          ---
+          layout: default
+          title: MCP Server Changelog
+          ---
+
+          # MCP Server Changelog
+
+          All notable changes to the horizOn MCP Server.
+
+          [Back to Overview](.)
+
+          FRONTMATTER
+          echo "$CONTENT" >> mcp-server-changelog.md
+
       - name: Update index version badges
         run: |
           # Extract versions from changelog files (skip frontmatter)
@@ -134,6 +156,11 @@ jobs:
           sed -i "/<h3>Godot SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${GODOT_VER}</span>|" index.md || true
           if [ -n "$UNITY_VER" ]; then
             sed -i "/<h3>Unity SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNITY_VER}</span>|" index.md || true
+          fi
+
+          MCP_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' mcp-server-changelog.md | head -1 || echo "")
+          if [ -n "$MCP_VER" ]; then
+            sed -i "/<h3>MCP Server<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${MCP_VER}</span>|" index.md || true
           fi
 
       - name: Commit and push
