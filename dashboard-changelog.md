@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.37.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.4...v1.37.5) (2026-02-21)
+
+
+### Bug Fixes
+
+* **ticket-system:** use updatedAt as fallback when lastMessageDate is null ([5de2d86](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5de2d866b072aa68c5bf2669112c3a923783a181))
+
 ## [1.37.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.3...v1.37.4) (2026-02-21)
 
 
