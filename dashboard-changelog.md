@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.38.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.38.1...v1.38.2) (2026-02-21)
+
+
+### Bug Fixes
+
+* **blog:** use relative paths for blog images to avoid mixed content and CSP violations ([ecd4b7e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ecd4b7e35fd0fd0c3bba1c666d7e29df0e7257de))
+
 ## [1.38.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.38.0...v1.38.1) (2026-02-21)
 
 
