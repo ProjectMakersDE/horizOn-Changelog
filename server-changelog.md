@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.31.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.30.1...v1.31.0) (2026-02-21)
+
+
+### Features
+
+* **support:** include updatedAt in ticket list response ([860d2da](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/860d2da65b03670d0c8b0df11026fde168dc0eac))
+
 ## [1.30.1](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.30.0...v1.30.1) (2026-02-20)
 
 
