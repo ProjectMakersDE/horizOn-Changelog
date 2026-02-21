@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.40.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.39.0...v1.40.0) (2026-02-21)
+
+
+### Features
+
+* **crash:** add i18n translations for all supported languages ([1d1b2fa](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1d1b2faff1094fcc43a73a68bf4d7ba5ab521571))
+
 # [1.39.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.38.2...v1.39.0) (2026-02-21)
 
 
