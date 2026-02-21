@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.32.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.31.0...v1.32.0) (2026-02-21)
+
+
+### Features
+
+* **crash:** add crash reporting feature ([#20](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/issues/20)) ([73db18a](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/73db18ab4b511513d84147276183a170d473f014))
+
 # [1.31.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.30.1...v1.31.0) (2026-02-21)
 
 
