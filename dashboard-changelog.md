@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.38.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.7...v1.38.0) (2026-02-21)
+
+
+### Features
+
+* **ssr:** enable SSR with real API data for public pages ([1ee0a27](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1ee0a274251647d2533c958731afeeba128f1861))
+
 ## [1.37.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.6...v1.37.7) (2026-02-21)
 
 
