@@ -9,6 +9,23 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.33.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.32.0...v1.33.0) (2026-02-21)
+
+
+### Bug Fixes
+
+* **users:** add missing deleted-status filter to cleanup query ([03d8013](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/03d80130f2c579ac87370bbe7950136d7909a3a5))
+
+
+### Features
+
+* **crash:** add crash reporting entities ([7d401d9](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/7d401d9f50eb8b661c2735dc0192c8d662973640))
+* **crash:** add repositories and MongoDB multi-tenant config ([17a7127](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/17a7127660444c2f5b28abb5d92e78e1417031a9))
+* **crash:** add request and response DTOs ([862cb8a](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/862cb8a59a24874c4f53f76e3d24b8d333ebd575))
+* **crash:** add retention cleanup task ([39410ba](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/39410ba780c9e951053dec81e08a39a7d1c6088c))
+* **crash:** add service and controllers for crash reporting ([f3944fa](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/f3944fab9cfd8979b4037b1ca4bc5e13cbd19e2f))
+* **crash:** add system config keys for crash report limits and retention ([cbd37b8](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/commit/cbd37b8d4b511dbb79484e7cbcd1ba27603670ba))
+
 # [1.32.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.31.0...v1.32.0) (2026-02-21)
 
 
