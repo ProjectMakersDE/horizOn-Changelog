@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.37.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.6...v1.37.7) (2026-02-21)
+
+
+### Bug Fixes
+
+* **ui:** improve tour modal visibility in dark mode with secondary border and glow ([086d344](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/086d344650720ce0f315f7610f3226abcb982063))
+
 ## [1.37.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.5...v1.37.6) (2026-02-21)
 
 
