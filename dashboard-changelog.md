@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.41.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.40.0...v1.41.0) (2026-02-21)
+
+
+### Features
+
+* add unified data table component and migrate all features ([#4](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/4)) ([68708b9](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/68708b9fa413af8f7183c7421c2fac4428b63fa7))
+
 # [1.40.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.39.0...v1.40.0) (2026-02-21)
 
 
