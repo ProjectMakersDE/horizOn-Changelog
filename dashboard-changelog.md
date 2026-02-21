@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.37.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.5...v1.37.6) (2026-02-21)
+
+
+### Bug Fixes
+
+* **ui:** redesign modal with theme-aware styling and tighter spacing ([5b77dd5](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5b77dd592fb1a8d16252ab890ead9323128d0ca3))
+
 ## [1.37.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.4...v1.37.5) (2026-02-21)
 
 
