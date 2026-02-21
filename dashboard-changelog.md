@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.37.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.3...v1.37.4) (2026-02-21)
+
+
+### Bug Fixes
+
+* **ui:** redesign checkboxes with global styles for consistency and visibility ([0db9953](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0db99538c8198de0baa882cb96e58e3a8ab9bd46))
+
 ## [1.37.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.2...v1.37.3) (2026-02-20)
 
 
