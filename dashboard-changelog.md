@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.38.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.38.0...v1.38.1) (2026-02-21)
+
+
+### Bug Fixes
+
+* **a11y:** use blog title as alt attribute for image preview in admin modal ([41e655f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/41e655f8790dcef01ddf2d187c47d8d1f7851edc))
+
 # [1.38.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.37.7...v1.38.0) (2026-02-21)
 
 
