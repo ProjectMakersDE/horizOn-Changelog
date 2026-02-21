@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.39.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.38.2...v1.39.0) (2026-02-21)
+
+
+### Features
+
+* **crash:** add crash reporting page components and state service ([28a9ded](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/28a9dedaacaa616cd6226797d5b63c4c44335689))
+* **crash:** add frontend models, API service, and feature config ([bd11a0c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bd11a0c600d1400404f39ecb43aee61d29eb4926))
+* **crash:** add i18n translations for crash reporting ([93e4362](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/93e4362fea2e48533478ecd384034d38848ba465))
+
 ## [1.38.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.38.1...v1.38.2) (2026-02-21)
 
 
