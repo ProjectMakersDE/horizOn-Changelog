@@ -31,7 +31,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
-    <span class="version">v0.0.0</span>
+    <span class="version">v1.1.0</span>
   </a>
 </div>
 
