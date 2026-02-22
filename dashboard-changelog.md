@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.43.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.1...v1.43.2) (2026-02-22)
+
+
+### Bug Fixes
+
+* **i18n:** resolve broken translation key references across multiple features ([9ea845d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9ea845d180a58a16e8c137de12604fbab149d5b4))
+
 ## [1.43.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.0...v1.43.1) (2026-02-22)
 
 
