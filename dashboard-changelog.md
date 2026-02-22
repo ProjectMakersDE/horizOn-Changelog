@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.43.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.0...v1.43.1) (2026-02-22)
+
+
+### Bug Fixes
+
+* use central domain for tracking collect in production ([f7540e4](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f7540e4e11c260da02a4a970abd3f0f7de45c30b))
+
 # [1.43.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.42.0...v1.43.0) (2026-02-22)
 
 
