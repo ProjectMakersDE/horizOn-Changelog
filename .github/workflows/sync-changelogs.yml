@@ -63,7 +63,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
-          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-Dashboard-Backend/contents/CHANGELOG.md --jq '.content' | base64 -d)
+          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-Server/contents/CHANGELOG.md --jq '.content' | base64 -d)
           cat > server-changelog.md << 'FRONTMATTER'
           ---
           layout: default
