@@ -9,6 +9,14 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.34.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.33.0...v1.34.0) (2026-02-22)
+
+
+### Features
+
+* add cloud save update endpoint, days-based account lifecycle, and Bing CAPI ([4e1b49d](https://github.com/ProjectMakersDE/horizOn-Server/commit/4e1b49de5beb7dd6e2798e0f2f7d5ce3b2914b3d))
+* **sdk:** add public SDK resources endpoint ([d9ab477](https://github.com/ProjectMakersDE/horizOn-Server/commit/d9ab477f383fd10867931d36388aa8bfcc44fca8))
+
 # [1.33.0](https://github.com/ProjectMakersDE/horizOn-Dashboard-Backend/compare/v1.32.0...v1.33.0) (2026-02-21)
 
 
