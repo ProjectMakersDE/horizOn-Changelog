@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.45.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.44.1...v1.45.0) (2026-02-22)
+
+
+### Features
+
+* add 9 dedicated SEO feature pages with shared template architecture ([e1e1dd8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e1e1dd887f777ebddee55f26fc72aa24cebb5edb))
+
 ## [1.44.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.44.0...v1.44.1) (2026-02-22)
 
 
