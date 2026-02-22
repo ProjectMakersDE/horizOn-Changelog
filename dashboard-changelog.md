@@ -9,6 +9,16 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.43.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.42.0...v1.43.0) (2026-02-22)
+
+
+### Features
+
+* activate Unreal Engine quickstart tab with SDK documentation ([f0fcf81](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f0fcf8147643fd4985671580640e87a6015587d0))
+* add crash reporting integration, cloud save enhancements, and UI improvements ([25827de](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/25827de6ddd4f7270016603ed005c409938a08a0))
+* add public /resources page with SSR and i18n ([969a8d4](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/969a8d4c67a569f0222c96873a1b94d0aff9c1f0))
+* mark Unreal Engine SDK as available and link SDKs to quickstart guide ([619010d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/619010d3d7d73754ecc136199b965aa51ad092d4))
+
 # [1.42.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.41.0...v1.42.0) (2026-02-22)
 
 
