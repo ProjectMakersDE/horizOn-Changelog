@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.44.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.3...v1.44.0) (2026-02-22)
+
+
+### Features
+
+* add open source server section and dynamic API URL routing ([a815235](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a81523516d039e49feb3fc01a340b5f30136e238))
+
 ## [1.43.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.2...v1.43.3) (2026-02-22)
 
 
