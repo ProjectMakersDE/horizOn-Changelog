@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.42.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.41.0...v1.42.0) (2026-02-22)
+
+
+### Features
+
+* add crash reporting integration, cloud save enhancements, and UI improvements ([#5](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/5)) ([4ef077a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4ef077affc00fe78ca300d37bbe69bd30ee7ff7a))
+
 # [1.41.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.40.0...v1.41.0) (2026-02-21)
 
 
