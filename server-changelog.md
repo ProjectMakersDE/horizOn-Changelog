@@ -9,6 +9,14 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.34.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.34.0...v1.34.1) (2026-02-22)
+
+
+### Bug Fixes
+
+* stagger scheduled task startup delays to prevent liveness probe failures ([ad44e58](https://github.com/ProjectMakersDE/horizOn-Server/commit/ad44e58474a2c801319a8165aa4e393473c8ab8a))
+* **tracking:** use v4 UUID format for Bing CAPI pageLoadId and log error response body ([0f74912](https://github.com/ProjectMakersDE/horizOn-Server/commit/0f74912fbc05e83eb270f5261ad0486008b70b67))
+
 # [1.34.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.33.0...v1.34.0) (2026-02-22)
 
 
