@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.34.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.34.1...v1.34.2) (2026-02-22)
+
+
+### Bug Fixes
+
+* **blog:** exclude own blog from slug uniqueness check on update ([5227109](https://github.com/ProjectMakersDE/horizOn-Server/commit/522710942bc7b9b6c9613b7cabf631162b665e84))
+
 ## [1.34.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.34.0...v1.34.1) (2026-02-22)
 
 
