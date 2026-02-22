@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.43.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.2...v1.43.3) (2026-02-22)
+
+
+### Bug Fixes
+
+* display blog post title above hero image ([bbb3827](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bbb382763207942267a879c0a56e368a51f3242e))
+
 ## [1.43.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.1...v1.43.2) (2026-02-22)
 
 
