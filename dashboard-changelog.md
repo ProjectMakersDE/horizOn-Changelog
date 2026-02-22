@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.44.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.44.0...v1.44.1) (2026-02-22)
+
+
+### Bug Fixes
+
+* improve SDK section grid layout and testimonial card overflow ([b782b66](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b782b66ba56e125aaea53b2863260515b9541fb3))
+
 # [1.44.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.43.3...v1.44.0) (2026-02-22)
 
 
