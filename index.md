@@ -21,7 +21,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="godot-sdk-changelog" class="product-card">
     <h3>Godot SDK</h3>
     <p>Native GDScript plugin for integrating horizOn into Godot Engine projects.</p>
-    <span class="version">v1.0.0</span>
+    <span class="version">v1.2.0</span>
   </a>
   <a href="unity-sdk-changelog" class="product-card">
     <h3>Unity SDK</h3>
@@ -34,7 +34,7 @@ Stay up to date with the latest changes to the horizOn platform.
     <span class="version">-</span>
   </a>
   <a href="simple-server-changelog" class="product-card">
-    <h3>simpleServer</h3>
+    <h3>Simple Server</h3>
     <p>Lightweight self-hosted server for running horizOn with minimal setup.</p>
     <span class="version">-</span>
   </a>

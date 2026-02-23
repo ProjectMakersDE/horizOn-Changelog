@@ -1,11 +1,11 @@
 ---
 layout: default
-title: simpleServer Changelog
+title: Simple Server Changelog
 ---
 
-# simpleServer Changelog
+# Simple Server Changelog
 
-All notable changes to the horizOn simpleServer.
+All notable changes to the horizOn Simple Server.
 
 [Back to Overview](.)
 
