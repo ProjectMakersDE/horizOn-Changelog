@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.46.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.45.0...v1.46.0) (2026-02-23)
+
+
+### Features
+
+* add bulk action support with confirmation dialogs to 12 data table features ([79b2ad2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/79b2ad2dd6f9a39b4eec10a83c3c35221f3675ba))
+
 # [1.45.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.44.1...v1.45.0) (2026-02-22)
 
 
