@@ -28,6 +28,16 @@ Stay up to date with the latest changes to the horizOn platform.
     <p>C# package for integrating horizOn into Unity game projects.</p>
     <span class="version">v1.2.0</span>
   </a>
+  <a href="unreal-sdk-changelog" class="product-card">
+    <h3>Unreal SDK</h3>
+    <p>C++ plugin for integrating horizOn into Unreal Engine projects.</p>
+    <span class="version">-</span>
+  </a>
+  <a href="simple-server-changelog" class="product-card">
+    <h3>simpleServer</h3>
+    <p>Lightweight self-hosted server for running horizOn with minimal setup.</p>
+    <span class="version">-</span>
+  </a>
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
