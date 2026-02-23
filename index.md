@@ -26,7 +26,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="unity-sdk-changelog" class="product-card">
     <h3>Unity SDK</h3>
     <p>C# package for integrating horizOn into Unity game projects.</p>
-    <span class="version">v1.2.0</span>
+    <span class="version">v1.3.0</span>
   </a>
   <a href="unreal-sdk-changelog" class="product-card">
     <h3>Unreal SDK</h3>
