@@ -16,6 +16,8 @@ on:
           - server
           - godot-sdk
           - unity-sdk
+          - unreal-sdk
+          - simple-server
           - mcp-server
 
 permissions:
@@ -121,6 +123,48 @@ jobs:
           FRONTMATTER
           echo "$CONTENT" >> unity-sdk-changelog.md
 
+      - name: Sync Unreal SDK changelog
+        if: steps.source.outputs.source == 'unreal-sdk' || steps.source.outputs.source == 'all'
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-SDK-Unreal/contents/CHANGELOG.md --jq '.content' | base64 -d)
+          cat > unreal-sdk-changelog.md << 'FRONTMATTER'
+          ---
+          layout: default
+          title: Unreal SDK Changelog
+          ---
+
+          # Unreal SDK Changelog
+
+          All notable changes to the horizOn Unreal SDK.
+
+          [Back to Overview](.)
+
+          FRONTMATTER
+          echo "$CONTENT" >> unreal-sdk-changelog.md
+
+      - name: Sync Simple Server changelog
+        if: steps.source.outputs.source == 'simple-server' || steps.source.outputs.source == 'all'
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          CONTENT=$(gh api repos/ProjectMakersDE/horizOn-simpleServer/contents/CHANGELOG.md --jq '.content' | base64 -d)
+          cat > simple-server-changelog.md << 'FRONTMATTER'
+          ---
+          layout: default
+          title: Simple Server Changelog
+          ---
+
+          # Simple Server Changelog
+
+          All notable changes to the horizOn Simple Server.
+
+          [Back to Overview](.)
+
+          FRONTMATTER
+          echo "$CONTENT" >> simple-server-changelog.md
+
       - name: Sync MCP Server changelog
         if: steps.source.outputs.source == 'mcp-server' || steps.source.outputs.source == 'all'
         env:
@@ -147,7 +191,7 @@ jobs:
           # Extract versions from changelog files (skip frontmatter)
           DASH_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' dashboard-changelog.md | head -1 || echo "0.0.0")
           SERV_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' server-changelog.md | head -1 || echo "0.0.0")
-          GODOT_VER=$(grep -oP '##? \K\d+\.\d+\.\d+' godot-sdk-changelog.md | head -1 || echo "0.0.0")
+          GODOT_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' godot-sdk-changelog.md | head -1 || echo "0.0.0")
           UNITY_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' unity-sdk-changelog.md | head -1 || echo "")
 
           # Update version badges in index.md cards
@@ -156,6 +200,16 @@ jobs:
           sed -i "/<h3>Godot SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${GODOT_VER}</span>|" index.md || true
           if [ -n "$UNITY_VER" ]; then
             sed -i "/<h3>Unity SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNITY_VER}</span>|" index.md || true
+          fi
+
+          UNREAL_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' unreal-sdk-changelog.md | head -1 || echo "")
+          if [ -n "$UNREAL_VER" ]; then
+            sed -i "/<h3>Unreal SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNREAL_VER}</span>|" index.md || true
+          fi
+
+          SIMPLE_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' simple-server-changelog.md | head -1 || echo "")
+          if [ -n "$SIMPLE_VER" ]; then
+            sed -i "/<h3>Simple Server<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${SIMPLE_VER}</span>|" index.md || true
           fi
 
           MCP_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' mcp-server-changelog.md | head -1 || echo "")
