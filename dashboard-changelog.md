@@ -9,6 +9,16 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.47.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.46.0...v1.47.0) (2026-02-23)
+
+
+### Features
+
+* extract shared quickstart-guide component and add reactive route params ([cd7b8a8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/cd7b8a80e651432cf82e1cb65abc68c3913572ff))
+* **frontend:** add version API method to PublicSystemApi ([df150fd](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/df150fd91f91b5dd526c65b740669c512952a054))
+* **frontend:** add VersionManager for backend version fetching ([0c06d04](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0c06d04af029acc66d254b3487ba2d3db34d167d))
+* **frontend:** display frontend and backend version in footer ([d91f23c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d91f23c2516a8b0053faa2ece142e8cb3c1397bb))
+
 # [1.46.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.45.0...v1.46.0) (2026-02-23)
 
 
