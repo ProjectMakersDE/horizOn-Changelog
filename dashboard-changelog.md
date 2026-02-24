@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.49.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.48.0...v1.49.0) (2026-02-24)
+
+
+### Features
+
+* add background hero images and prev/next navigation to feature pages ([e4d252e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e4d252eee750c7305be11363061ffd822dbc7fc5))
+
 # [1.48.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.47.0...v1.48.0) (2026-02-24)
 
 
