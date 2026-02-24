@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.48.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.47.0...v1.48.0) (2026-02-24)
+
+
+### Features
+
+* redesign feature detail pages with interactive mockups and quickstart improvements ([13943f7](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/13943f7f491804e4298abb03c07ace0956f411e3))
+
 # [1.47.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.46.0...v1.47.0) (2026-02-23)
 
 
