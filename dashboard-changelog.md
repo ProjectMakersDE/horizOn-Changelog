@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.50.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.49.0...v1.50.0) (2026-02-24)
+
+
+### Features
+
+* replace hero gradient overlays with frosted glass text containers ([ef9d77b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ef9d77bceadd36028a9466326eaec2bfbedfd767))
+
 # [1.49.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.48.0...v1.49.0) (2026-02-24)
 
 
