@@ -9,6 +9,19 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.35.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.34.2...v1.35.0) (2026-02-24)
+
+
+### Bug Fixes
+
+* **usermanagement:** move password min-length validation to email signup logic ([b8b8530](https://github.com/ProjectMakersDE/horizOn-Server/commit/b8b8530b0d872eb38b54522e2373737f314bbfd2))
+
+
+### Features
+
+* **backend:** add app.version property with Gradle resource filtering ([9a85479](https://github.com/ProjectMakersDE/horizOn-Server/commit/9a854794827d4bf72c16624d3c08708e656d32c2))
+* **backend:** add GET /api/v1/public/system/version endpoint ([fd291cb](https://github.com/ProjectMakersDE/horizOn-Server/commit/fd291cb5587fbc4a192e86ad553567ffa8b133a2))
+
 ## [1.34.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.34.1...v1.34.2) (2026-02-22)
 
 
