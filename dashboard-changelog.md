@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.2...v1.51.3) (2026-02-25)
+
+
+### Bug Fixes
+
+* remove testimonial section scrollbar and reposition bug bounty mascot ([c57d67f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c57d67f3a889c151f808bb60b23ed48a073393bf))
+
 ## [1.51.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.1...v1.51.2) (2026-02-25)
 
 
