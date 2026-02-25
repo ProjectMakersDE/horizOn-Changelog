@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.3...v1.51.4) (2026-02-25)
+
+
+### Bug Fixes
+
+* move bug bounty mascot to left side at -top-32 ([8e6b8d2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/8e6b8d2b13cfc7c8090485f7e4527237a65c2260))
+
 ## [1.51.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.2...v1.51.3) (2026-02-25)
 
 
