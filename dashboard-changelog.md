@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.0...v1.51.1) (2026-02-25)
+
+
+### Bug Fixes
+
+* resolve home page glass styling, missing labels, testimonial height and mascot positioning ([30ecc73](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/30ecc73a2b337d9e5efb61b0a96dc486a60e2670))
+
 # [1.51.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.50.0...v1.51.0) (2026-02-25)
 
 
