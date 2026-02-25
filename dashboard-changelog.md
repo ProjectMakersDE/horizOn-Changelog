@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.51.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.50.0...v1.51.0) (2026-02-25)
+
+
+### Bug Fixes
+
+* remove billing toggles from comparison sections and prices from feature table ([6dc6213](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/6dc62134d9f3c16837855d5f0ebd5d473e7cbacf))
+
+
+### Features
+
+* polish home and features page UI/UX ([3671d91](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/3671d91993c8ee2a08d3e11d7149e65aafb647fe))
+
 # [1.50.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.49.0...v1.50.0) (2026-02-24)
 
 
