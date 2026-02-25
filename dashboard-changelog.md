@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.1...v1.51.2) (2026-02-25)
+
+
+### Bug Fixes
+
+* remove testimonial card height constraint and fix unregistered icon ([5c925d0](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5c925d0422f36fd78326e85af0b15ecc2cdf7669))
+
 ## [1.51.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.0...v1.51.1) (2026-02-25)
 
 
