@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.5...v1.51.6) (2026-02-26)
+
+
+### Bug Fixes
+
+* **seo:** allow Googlebot to fetch public API endpoints ([2b7203a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/2b7203aae01c7ce74844eb2396e250dc133436bc))
+
 ## [1.51.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.4...v1.51.5) (2026-02-26)
 
 
