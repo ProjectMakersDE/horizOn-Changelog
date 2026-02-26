@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.6...v1.51.7) (2026-02-26)
+
+
+### Bug Fixes
+
+* **ssr:** use route resolvers for blog pages to guarantee SSR content ([e39e508](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e39e508386c53b2a38009b5d7afbaefdbc373d4d))
+* **test:** update news spec for resolver-based data loading ([6bf2118](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/6bf211851bf6c764059bf10d227622d0b9e7a2f3))
+
 ## [1.51.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.5...v1.51.6) (2026-02-26)
 
 
