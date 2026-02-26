@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.4...v1.51.5) (2026-02-26)
+
+
+### Bug Fixes
+
+* move commit command to parent workspace root ([433886e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/433886eb4b2724e283da7951c04bc5143a784fc1))
+* refactor CLAUDE.md to remove rules now in workspace root ([cc31d67](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/cc31d6791f1d59d3bdda617f8e8386f4a4987bfd))
+* **ssr:** resolve relative API_URL for server-side data fetching ([c8ee77d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c8ee77d4ed16acb1b49ebb3d071870be59439bb4))
+
 ## [1.51.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.3...v1.51.4) (2026-02-25)
 
 
