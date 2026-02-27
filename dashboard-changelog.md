@@ -9,6 +9,19 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.52.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.8...v1.52.0) (2026-02-27)
+
+
+### Bug Fixes
+
+* **i18n:** remove per-API-key reference from remote config limit message ([0ce5ed8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0ce5ed8c1b0347cd4aa5bb9009ef661d3c516088))
+* **test:** add SystemConfigService mock to ProductService tests ([5ac3275](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5ac3275473bedb47cbbcbd77df61c88f3f4b51a8))
+
+
+### Features
+
+* **products:** fetch real feature limits from API for comparison table ([341980b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/341980b6eb188fd83df22e2ee8dd6a391d7c987a))
+
 ## [1.51.8](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.7...v1.51.8) (2026-02-27)
 
 
