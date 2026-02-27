@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.51.8](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.7...v1.51.8) (2026-02-27)
+
+
+### Bug Fixes
+
+* remove redundant frontend tracking in favor of server-side events ([c8231c5](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c8231c5e494dddfe7111c93b4399b14e88f73fbe))
+
 ## [1.51.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.6...v1.51.7) (2026-02-26)
 
 
