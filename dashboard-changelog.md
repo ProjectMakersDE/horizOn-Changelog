@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.52.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.52.0...v1.52.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* **products:** convert cloudSaveBytes to KB in comparison table ([6159288](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/61592883847fff62412491129b85bab7c6cfd6f8))
+
 # [1.52.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.51.8...v1.52.0) (2026-02-27)
 
 
