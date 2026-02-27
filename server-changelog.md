@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.36.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.36.0...v1.36.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* pass release version to Docker build for correct /version endpoint ([59c0c0a](https://github.com/ProjectMakersDE/horizOn-Server/commit/59c0c0a31735af8b44335f01b2a962e92f23e8c5))
+
 # [1.36.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.35.0...v1.36.0) (2026-02-27)
 
 
