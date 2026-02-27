@@ -9,6 +9,22 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.36.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.35.0...v1.36.0) (2026-02-27)
+
+
+### Bug Fixes
+
+* move commit command to parent workspace root ([3cab16d](https://github.com/ProjectMakersDE/horizOn-Server/commit/3cab16d313f52856fa7d335cf97b1d0a7e3d2ce9))
+* refactor CLAUDE.md to remove rules now in workspace root ([3b23cb5](https://github.com/ProjectMakersDE/horizOn-Server/commit/3b23cb570b996f5fa73639ae9768e2d1571b5de5))
+* **remote-config:** change limit counting from per-API-key to per-account ([1dbbcb1](https://github.com/ProjectMakersDE/horizOn-Server/commit/1dbbcb12676c4a54bc44157d49a2ef3172e48b01))
+* send GA4 conversion events for all users regardless of GCLID ([921ec4a](https://github.com/ProjectMakersDE/horizOn-Server/commit/921ec4a7bd1a3d5872d9fd2f3defa78bfee045f3))
+* **test:** update GoogleAdsConversion tests for always-send behavior ([d21d202](https://github.com/ProjectMakersDE/horizOn-Server/commit/d21d2020d3a2a29501f29f2fc8152afbcab0c4cc))
+
+
+### Features
+
+* **public-api:** add feature-limits endpoint for all tiers ([d33d3ca](https://github.com/ProjectMakersDE/horizOn-Server/commit/d33d3ca0300459b0ef456fae62a6c8506582176f))
+
 # [1.35.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.34.2...v1.35.0) (2026-02-24)
 
 
