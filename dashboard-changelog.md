@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.53.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.53.0...v1.53.1) (2026-02-28)
+
+
+### Bug Fixes
+
+* use full-resolution hero image on portrait screens ([6edfa49](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/6edfa49a2de191d2f1d12546183ee64cdd4d4c33))
+
 # [1.53.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.52.1...v1.53.0) (2026-02-28)
 
 
