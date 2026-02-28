@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.54.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.53.1...v1.54.0) (2026-02-28)
+
+
+### Features
+
+* **quickstart:** add YouTube video tutorials for dashboard, unity, rest-api, and support pages ([8effc3c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/8effc3ca8c8e1b04edd49d0a78dc7e5b135e9ed5))
+
 ## [1.53.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.53.0...v1.53.1) (2026-02-28)
 
 
