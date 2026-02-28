@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.54.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.1...v1.54.2) (2026-02-28)
+
+
+### Bug Fixes
+
+* **quickstart:** correct simpleServer translation keys for specialCards and faqs ([14e49ac](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/14e49ac3a4e23e64fbbb5ef10baa85209f477800))
+
 ## [1.54.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.0...v1.54.1) (2026-02-28)
 
 
