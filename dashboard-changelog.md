@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.53.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.52.1...v1.53.0) (2026-02-28)
+
+
+### Features
+
+* **pricing:** only show available accounts when fewer than 10 remain ([f76b1b6](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f76b1b68c58ff25cdc4cf55718b2c86c46726276))
+
 ## [1.52.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.52.0...v1.52.1) (2026-02-27)
 
 
