@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.54.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.0...v1.54.1) (2026-02-28)
+
+
+### Bug Fixes
+
+* **csp:** allow youtube.com in frame-src for quickstart video embeds ([634c089](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/634c0892321899b011eecd440bae29449a0f4a9b))
+
 # [1.54.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.53.1...v1.54.0) (2026-02-28)
 
 
