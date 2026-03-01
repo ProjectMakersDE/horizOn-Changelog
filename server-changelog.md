@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.36.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.36.1...v1.36.2) (2026-03-01)
+
+
+### Bug Fixes
+
+* return 404 instead of 500 for NotFoundException and fix BrotliCompressionFilter order ([655984d](https://github.com/ProjectMakersDE/horizOn-Server/commit/655984d77f872f2f91f0842f05aa94da892808ec))
+
 ## [1.36.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.36.0...v1.36.1) (2026-02-27)
 
 
