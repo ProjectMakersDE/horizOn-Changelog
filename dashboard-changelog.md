@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.54.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.2...v1.54.3) (2026-03-01)
+
+
+### Bug Fixes
+
+* **i18n:** add missing quickstart prerequisites/troubleshooting keys and fix simple-server category ([d1bcaaf](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d1bcaafc078fccaa231538104c433e20d1fb1365))
+
 ## [1.54.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.1...v1.54.2) (2026-02-28)
 
 
