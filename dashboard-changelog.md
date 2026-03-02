@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.55.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.3...v1.55.0) (2026-03-02)
+
+
+### Features
+
+* **quickstart:** add GitHub hero links, PHP info callout, clean up Unity prereqs, and language-aware YouTube embeds ([883b8e2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/883b8e2414e44e245495f2cabf541408701f84ae))
+
 ## [1.54.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.2...v1.54.3) (2026-03-01)
 
 
