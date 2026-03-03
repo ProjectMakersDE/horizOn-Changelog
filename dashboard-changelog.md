@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.56.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.55.0...v1.56.0) (2026-03-03)
+
+
+### Features
+
+* unify website design with glass cards, nav restructuring, and hero adjustments ([1d129ba](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1d129ba8579254e2654878dbebe42092528815d5))
+
 # [1.55.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.54.3...v1.55.0) (2026-03-02)
 
 
