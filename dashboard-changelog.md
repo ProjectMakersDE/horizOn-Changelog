@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.58.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.57.0...v1.58.0) (2026-03-04)
+
+
+### Features
+
+* **sdk-settings:** add inline editing for SDK links ([0e07757](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0e07757fdf968489087b739542b1d28594b3ec9e))
+
 # [1.57.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.56.0...v1.57.0) (2026-03-04)
 
 
