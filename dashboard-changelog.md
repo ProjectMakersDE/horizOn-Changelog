@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.58.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.4...v1.58.5) (2026-03-04)
+
+
+### Bug Fixes
+
+* **crash:** reload group after status/notes update instead of parsing empty 204 response ([5f247c6](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5f247c633eeedb8f621e384ebaee24ee5bde11e1))
+
 ## [1.58.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.3...v1.58.4) (2026-03-04)
 
 
