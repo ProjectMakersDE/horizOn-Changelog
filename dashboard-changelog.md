@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.58.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.3...v1.58.4) (2026-03-04)
+
+
+### Bug Fixes
+
+* **crash:** register missing lucide icons for crash reporting ([b61514e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b61514eaa6b0d3ab860bba7c455ba4e607979498))
+
 ## [1.58.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.2...v1.58.3) (2026-03-04)
 
 
