@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.58.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.1...v1.58.2) (2026-03-04)
+
+
+### Bug Fixes
+
+* **home:** standardize typography to 4 consistent font sizes ([cb1fe26](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/cb1fe261ec3c92c4dd445e9b37f5d90f78910100))
+
 ## [1.58.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.0...v1.58.1) (2026-03-04)
 
 
