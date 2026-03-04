@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.57.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.56.0...v1.57.0) (2026-03-04)
+
+
+### Features
+
+* add Daily Active Users, soft/hard rate limits to pricing comparison ([c32bc07](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c32bc07166d1cba8e7f1839136b76ce91c01981a))
+
 # [1.56.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.55.0...v1.56.0) (2026-03-03)
 
 
