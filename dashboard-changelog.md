@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.58.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.2...v1.58.3) (2026-03-04)
+
+
+### Bug Fixes
+
+* **about:** remove gap between top-nav and hero section ([f97573a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f97573a3618cf3c9ff8d37bd75b41a1cfbeb464c))
+
 ## [1.58.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.1...v1.58.2) (2026-03-04)
 
 
