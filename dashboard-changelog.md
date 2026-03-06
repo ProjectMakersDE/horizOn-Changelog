@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.60.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.59.1...v1.60.0) (2026-03-06)
+
+
+### Features
+
+* **comparison:** use real Stripe prices and server-side exchange rate ([19d1db2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/19d1db23a06bca594043355af717fb9473d5c207))
+
 ## [1.59.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.59.0...v1.59.1) (2026-03-06)
 
 
