@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.59.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.5...v1.59.0) (2026-03-06)
+
+
+### Features
+
+* add SEO comparison pages (hub + 8 competitor alternatives) ([d0bb286](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d0bb2865fe8f7cfbd36fb78c172c1f576f74a557))
+
 ## [1.58.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.58.4...v1.58.5) (2026-03-04)
 
 
