@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.37.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.36.2...v1.37.0) (2026-03-06)
+
+
+### Features
+
+* add cached EUR/USD exchange rate endpoint ([ebf28ee](https://github.com/ProjectMakersDE/horizOn-Server/commit/ebf28ee57988ebb7260e1fd1bc9aa42b11870214))
+
 ## [1.36.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.36.1...v1.36.2) (2026-03-01)
 
 
