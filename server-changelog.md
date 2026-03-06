@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.38.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.37.0...v1.38.0) (2026-03-06)
+
+
+### Features
+
+* add comparison pages to sitemap and improve index management ([213cb3d](https://github.com/ProjectMakersDE/horizOn-Server/commit/213cb3dcc26bbd9133a80412edb846e5984b555c))
+
 # [1.37.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.36.2...v1.37.0) (2026-03-06)
 
 
