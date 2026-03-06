@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.60.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.60.0...v1.60.1) (2026-03-06)
+
+
+### Bug Fixes
+
+* resolve comparison page issues and update homepage pricing ([98f3ae3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/98f3ae3b86af78de9993d38a309be7811a79c171))
+
 # [1.60.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.59.1...v1.60.0) (2026-03-06)
 
 
