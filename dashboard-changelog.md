@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.61.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.60.2...v1.61.0) (2026-03-12)
+
+
+### Features
+
+* add animated 3-layer hero background and migrate to AVIF format ([2400da7](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/2400da746ca4a193374f9ab357d0b76623a9d678))
+
 ## [1.60.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.60.1...v1.60.2) (2026-03-12)
 
 
