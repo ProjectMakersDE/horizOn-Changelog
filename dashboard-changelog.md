@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.60.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.60.1...v1.60.2) (2026-03-12)
+
+
+### Bug Fixes
+
+* **comparison:** use hardcoded competitor names instead of translation keys ([7cf5657](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/7cf56573d5ba6c60ffd398898ddcb2a802d53c4d))
+* improve background image quality and remove bg-fixed rendering issue ([42fffde](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/42fffded206de750cba2368f02df1ccf610a1dd5))
+
 ## [1.60.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.60.0...v1.60.1) (2026-03-06)
 
 
