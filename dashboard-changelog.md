@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.61.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.61.0...v1.61.1) (2026-03-12)
+
+
+### Bug Fixes
+
+* revert non-hero images back to WebP and fix pixel-wave divider z-index ([3eb211f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/3eb211fdae0ff4f6245c8063d495108831dc1896))
+
 # [1.61.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.60.2...v1.61.0) (2026-03-12)
 
 
