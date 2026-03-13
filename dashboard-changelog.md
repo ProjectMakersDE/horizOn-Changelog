@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.61.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.61.1...v1.61.2) (2026-03-13)
+
+
+### Bug Fixes
+
+* increase AVIF quality to q50 for small hero image breakpoints ([4446c6b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4446c6bb0754a788387cf689c557f3f2bab58813))
+
 ## [1.61.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.61.0...v1.61.1) (2026-03-12)
 
 
