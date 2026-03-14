@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.38.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.38.0...v1.38.1) (2026-03-14)
+
+
+### Bug Fixes
+
+* add lastmod to static sitemap URLs for better Google indexing ([a9db56a](https://github.com/ProjectMakersDE/horizOn-Server/commit/a9db56ae3beaf8e937fe0f454a493264077e2d13))
+
 # [1.38.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.37.0...v1.38.0) (2026-03-06)
 
 
