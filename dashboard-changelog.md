@@ -9,6 +9,19 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.62.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.61.2...v1.62.0) (2026-03-18)
+
+
+### Bug Fixes
+
+* increase hero section height to 80vh for better card visibility on FullHD ([438c565](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/438c565da231322203d74acae45356a4d231cdc0))
+* unify landing page typography for consistent font sizes ([7c393d8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/7c393d8c5343e15e4387e80673b7293894886615))
+
+
+### Features
+
+* add animated background layers with seagulls for all homepage sections ([0ee06b8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0ee06b80aad016f373c54151c19d5a9fb6e3a801))
+
 ## [1.61.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.61.1...v1.61.2) (2026-03-13)
 
 
