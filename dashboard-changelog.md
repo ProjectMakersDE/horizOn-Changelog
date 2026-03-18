@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.62.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.1...v1.62.2) (2026-03-18)
+
+
+### Bug Fixes
+
+* align video language hint with YouTube settings button in real browsers ([dcc6e5c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/dcc6e5cbca33d31f475172abc6b9313a8e97ad14))
+
 ## [1.62.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.0...v1.62.1) (2026-03-18)
 
 
