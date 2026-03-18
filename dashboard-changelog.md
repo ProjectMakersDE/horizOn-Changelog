@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.62.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.0...v1.62.1) (2026-03-18)
+
+
+### Bug Fixes
+
+* add video language hint below YouTube embeds in quickstart guides ([b13e40d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b13e40df10306cf55d5e6b9be6a14e761dfecfbc))
+
 # [1.62.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.61.2...v1.62.0) (2026-03-18)
 
 
