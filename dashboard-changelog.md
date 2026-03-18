@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.63.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.4...v1.63.0) (2026-03-18)
+
+
+### Features
+
+* replace WebP backgrounds with responsive AVIF on about and compare pages ([de61b32](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/de61b32ace21ffce8bc7fff551e68ffad02dd094))
+
 ## [1.62.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.3...v1.62.4) (2026-03-18)
 
 
