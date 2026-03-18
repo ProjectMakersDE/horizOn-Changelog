@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.62.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.2...v1.62.3) (2026-03-18)
+
+
+### Bug Fixes
+
+* fix section background animations and gradients stripped by Tailwind CSS 4 build ([758ef99](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/758ef997f15a588d5accc471a15bd13601746a9b))
+
 ## [1.62.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.1...v1.62.2) (2026-03-18)
 
 
