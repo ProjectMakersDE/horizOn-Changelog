@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.62.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.3...v1.62.4) (2026-03-18)
+
+
+### Bug Fixes
+
+* reduce backdrop-blur from 10px to 6px and add glass effect to price cards ([4411d44](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4411d44da5f5dd9f8e565c3bf2373b6d57234804))
+
 ## [1.62.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.2...v1.62.3) (2026-03-18)
 
 
