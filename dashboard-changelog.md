@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.64.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.63.0...v1.64.0) (2026-03-21)
+
+
+### Features
+
+* add animated 3-layer background system for all feature pages and bug bounty section ([cf0f544](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/cf0f544bca7d4460d8e887b103eb6c4eb8aac5b8))
+
 # [1.63.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.62.4...v1.63.0) (2026-03-18)
 
 
