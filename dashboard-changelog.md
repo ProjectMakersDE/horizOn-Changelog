@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.64.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.64.0...v1.64.1) (2026-03-21)
+
+
+### Bug Fixes
+
+* resolve animation clipping on feature and bug bounty background layers ([7ac83b1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/7ac83b176275c57c98778f43ccbca85f477d6c96))
+
 # [1.64.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.63.0...v1.64.0) (2026-03-21)
 
 
