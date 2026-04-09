@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.39.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.0...v1.39.1) (2026-04-09)
+
+
+### Bug Fixes
+
+* **security:** resolve featureUsageFilter circular bean creation ([4fe4d1b](https://github.com/ProjectMakersDE/horizOn-Server/commit/4fe4d1b5bae8fdcfe7d56ba8dc7dce296839e042))
+
 # [1.39.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.38.1...v1.39.0) (2026-04-09)
 
 
