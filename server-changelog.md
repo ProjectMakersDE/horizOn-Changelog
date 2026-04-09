@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.39.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.38.1...v1.39.0) (2026-04-09)
+
+
+### Features
+
+* **marketing:** admin marketing API backend (TASK-51 Plan 1) ([#21](https://github.com/ProjectMakersDE/horizOn-Server/issues/21)) ([cf526ef](https://github.com/ProjectMakersDE/horizOn-Server/commit/cf526ef4ba32c6e5a0e038b9826f155b481c0b53))
+
 ## [1.38.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.38.0...v1.38.1) (2026-03-14)
 
 
