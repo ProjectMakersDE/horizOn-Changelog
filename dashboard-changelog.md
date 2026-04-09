@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.65.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.64.1...v1.65.0) (2026-04-09)
+
+
+### Features
+
+* **dashboard:** capture UTM parameters in tracking collect service ([#6](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/6)) ([fa514f6](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/fa514f676910fc2524f2f3832491b194aac41985))
+
 ## [1.64.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.64.0...v1.64.1) (2026-03-21)
 
 
