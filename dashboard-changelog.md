@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.65.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.0...v1.65.1) (2026-04-10)
+
+
+### Performance Improvements
+
+* improve PageSpeed score with LCP preload, nav reorder, and background fix ([ed07c7d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ed07c7dad756e686c7364f46f7be169a713d376e))
+
 # [1.65.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.64.1...v1.65.0) (2026-04-09)
 
 
