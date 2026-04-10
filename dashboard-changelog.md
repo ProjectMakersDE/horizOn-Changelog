@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.67.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.0...v1.67.1) (2026-04-10)
+
+
+### Bug Fixes
+
+* API key selector binding and filter propagation ([a25ed97](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a25ed9718839dfbcd87964d382af08be81acbff2))
+
 # [1.67.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.66.1...v1.67.0) (2026-04-10)
 
 
