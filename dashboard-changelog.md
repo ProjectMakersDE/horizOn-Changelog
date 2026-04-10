@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.65.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.2...v1.65.3) (2026-04-10)
+
+
+### Bug Fixes
+
+* revert hero gradient to original and upgrade nav button styling ([d118421](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d1184215f98f5ceea4955c951da2b5e4e550bfea))
+
 ## [1.65.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.1...v1.65.2) (2026-04-10)
 
 
