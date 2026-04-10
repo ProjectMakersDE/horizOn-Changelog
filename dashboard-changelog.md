@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.65.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.3...v1.65.4) (2026-04-10)
+
+
+### Bug Fixes
+
+* correct bug bounty background alignment and improve nav divider visibility ([82f752c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/82f752cf97ea49b3cd3f536daeb7248375fef622))
+
 ## [1.65.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.2...v1.65.3) (2026-04-10)
 
 
