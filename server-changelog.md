@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.39.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.2...v1.39.3) (2026-04-10)
+
+
+### Bug Fixes
+
+* **user-mgmt:** filter users by API key in getUsers endpoint ([1ae5146](https://github.com/ProjectMakersDE/horizOn-Server/commit/1ae5146e7414784015fc07e5aac5628c5b3b7574))
+
 ## [1.39.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.1...v1.39.2) (2026-04-10)
 
 
