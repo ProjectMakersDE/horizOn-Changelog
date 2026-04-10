@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.65.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.1...v1.65.2) (2026-04-10)
+
+
+### Bug Fixes
+
+* correct bug bounty background coverage and make hero-gradient compositable ([c41bae3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c41bae3969e4766da6585a4c73971dc8a6faf91f))
+
 ## [1.65.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.0...v1.65.1) (2026-04-10)
 
 
