@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.66.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.66.0...v1.66.1) (2026-04-10)
+
+
+### Bug Fixes
+
+* **remote-config:** load all entries and fix action column width ([956ec5a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/956ec5a0d918df8e0c7cb66946b801ab20d929ba))
+
 # [1.66.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.4...v1.66.0) (2026-04-10)
 
 
