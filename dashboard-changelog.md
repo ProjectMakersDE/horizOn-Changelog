@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.66.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.4...v1.66.0) (2026-04-10)
+
+
+### Features
+
+* standalone email-verified page without dashboard shell ([34762f5](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/34762f597a399b03a2c190bbd8bc9f2c0203febb))
+
 ## [1.65.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.65.3...v1.65.4) (2026-04-10)
 
 
