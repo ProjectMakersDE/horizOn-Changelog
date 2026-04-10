@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.67.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.4...v1.67.5) (2026-04-10)
+
+
+### Bug Fixes
+
+* apply persisted API key filter on init for leaderboard and feedback ([5c422f7](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5c422f7a1655acc4d5450a0769d99d9044cc855b))
+
 ## [1.67.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.3...v1.67.4) (2026-04-10)
 
 
