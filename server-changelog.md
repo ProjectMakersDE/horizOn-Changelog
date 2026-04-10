@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.39.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.1...v1.39.2) (2026-04-10)
+
+
+### Bug Fixes
+
+* **mail:** align default SMTP config with cluster Postfix relay ([c7cc45e](https://github.com/ProjectMakersDE/horizOn-Server/commit/c7cc45ebacdf9a3cb8ba7dce8eb7661c511583c6))
+
 ## [1.39.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.0...v1.39.1) (2026-04-09)
 
 
