@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.67.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.66.1...v1.67.0) (2026-04-10)
+
+
+### Features
+
+* global API key selector with session persistence ([2a90a04](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/2a90a04c12f4739a45db423fdb59b1883c292035))
+
 ## [1.66.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.66.0...v1.66.1) (2026-04-10)
 
 
