@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.39.5](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.4...v1.39.5) (2026-04-11)
+
+
+### Bug Fixes
+
+* **remote-config:** raise bulk import limit from 100 to 10000 entries ([7217160](https://github.com/ProjectMakersDE/horizOn-Server/commit/7217160cfcbcf31f0bdfa5998a9cab16a25065bd))
+
 ## [1.39.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.3...v1.39.4) (2026-04-11)
 
 
