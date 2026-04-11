@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.39.6](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.5...v1.39.6) (2026-04-11)
+
+
+### Bug Fixes
+
+* **remote-config:** add bulk delete endpoint and fix duplicate key error on soft-delete ([563e76a](https://github.com/ProjectMakersDE/horizOn-Server/commit/563e76a10ae0b6944d2aa5d517943e8e47500298))
+
 ## [1.39.5](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.4...v1.39.5) (2026-04-11)
 
 
