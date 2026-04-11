@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.67.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.5...v1.67.6) (2026-04-11)
+
+
+### Bug Fixes
+
+* **remote-config:** improve import dialog hint text visibility ([ea573c8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ea573c8dc13a077bc7277e64fe8a5c17d09c364a))
+
 ## [1.67.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.4...v1.67.5) (2026-04-10)
 
 
