@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.40.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.6...v1.40.0) (2026-04-11)
+
+
+### Features
+
+* **email-sending:** add email sending feature with template management and queue processing ([4e18e07](https://github.com/ProjectMakersDE/horizOn-Server/commit/4e18e07e5cc15fe5f3defbeb2c4c2619d9abfdd2))
+
 ## [1.39.6](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.5...v1.39.6) (2026-04-11)
 
 
