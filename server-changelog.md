@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.39.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.3...v1.39.4) (2026-04-11)
+
+
+### Bug Fixes
+
+* **remote-config:** raise DTO validation limit to 1024 so role-based limits apply ([133253b](https://github.com/ProjectMakersDE/horizOn-Server/commit/133253bca059bf355f9b9a0488ccfa30370f402e))
+
 ## [1.39.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.2...v1.39.3) (2026-04-10)
 
 
