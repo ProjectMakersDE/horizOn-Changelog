@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.68.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.7...v1.68.0) (2026-04-11)
+
+
+### Features
+
+* **email-sending:** add email sending management feature ([15a82af](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/15a82af542ee6d381300568f9c950e0e49fa6c3b))
+
 ## [1.67.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.6...v1.67.7) (2026-04-11)
 
 
