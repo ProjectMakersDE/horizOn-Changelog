@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.67.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.6...v1.67.7) (2026-04-11)
+
+
+### Bug Fixes
+
+* **remote-config:** use bulk delete endpoint instead of parallel individual requests ([e2bece5](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e2bece5f6a1f7236f49ab60bb5382b5d659fe0a1))
+
 ## [1.67.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.5...v1.67.6) (2026-04-11)
 
 
