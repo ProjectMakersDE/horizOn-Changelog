@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.70.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.69.0...v1.70.0) (2026-04-11)
+
+
+### Bug Fixes
+
+* **email-sending:** add missing feature background and bentogrid images ([02b9b43](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/02b9b4388f0e1f39fac67df169447bb2f50ec164))
+
+
+### Features
+
+* add SMTP settings UI and system email templates support ([668541f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/668541f25ea09207fc4a05096516154a4f3e1a29))
+
 # [1.69.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.68.0...v1.69.0) (2026-04-11)
 
 
