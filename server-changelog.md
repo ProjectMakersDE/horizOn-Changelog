@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.41.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.40.0...v1.41.0) (2026-04-11)
+
+
+### Features
+
+* add SMTP settings and system email template routing ([2c64b7e](https://github.com/ProjectMakersDE/horizOn-Server/commit/2c64b7ee7cca6d3f0f667b37080e43fcf63f6566))
+
 # [1.40.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.39.6...v1.40.0) (2026-04-11)
 
 
