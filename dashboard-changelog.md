@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.69.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.68.0...v1.69.0) (2026-04-11)
+
+
+### Features
+
+* **email-sending:** add multi-language template form and pricing table entry ([8635136](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/8635136265c2e787e7b3198f6636d2bfa60bfc65))
+
 # [1.68.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.67.7...v1.68.0) (2026-04-11)
 
 
