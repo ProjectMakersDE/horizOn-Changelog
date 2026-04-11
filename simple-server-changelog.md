@@ -9,6 +9,13 @@ All notable changes to the horizOn Simple Server.
 
 [Back to Overview](.)
 
+# [1.1.0](https://github.com/ProjectMakersDE/horizOn-simpleServer/compare/v1.0.1...v1.1.0) (2026-04-11)
+
+
+### Features
+
+* add email sending feature with template-based SMTP delivery ([ef36aca](https://github.com/ProjectMakersDE/horizOn-simpleServer/commit/ef36acab691fad26799ba938cb0fd60c1dfb19ab))
+
 ## [1.0.1](https://github.com/ProjectMakersDE/horizOn-simpleServer/compare/v1.0.0...v1.0.1) (2026-03-26)
 
 
