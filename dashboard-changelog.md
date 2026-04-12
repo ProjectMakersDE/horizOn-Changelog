@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.73.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.0...v1.73.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* crop email-sending feature background to 2.357 aspect ([68d78a1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/68d78a134ba0dc539f3ea30087c44fc552ac9fcf))
+
 # [1.73.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.72.0...v1.73.0) (2026-04-12)
 
 
