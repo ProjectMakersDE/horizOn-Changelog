@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.73.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.2...v1.73.3) (2026-04-12)
+
+
+### Bug Fixes
+
+* move email-sending seagull 4% further down so it sits on the computer ([042530a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/042530af82c854d9a0f0ea86c9185d18b4a3cdae))
+
 ## [1.73.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.1...v1.73.2) (2026-04-12)
 
 
