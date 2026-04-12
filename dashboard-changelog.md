@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.72.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.71.2...v1.72.0) (2026-04-12)
+
+
+### Features
+
+* test SMTP with unsaved form and update new bento image ([9367424](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/93674248fc85551de503b12667e1f034a9484e9a))
+
 ## [1.71.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.71.1...v1.71.2) (2026-04-12)
 
 
