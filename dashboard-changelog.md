@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.73.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.1...v1.73.2) (2026-04-12)
+
+
+### Bug Fixes
+
+* regenerate email-sending webp fallback, remove orphan avifs ([a48a1ea](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a48a1eafd223d58134e258f61050dbc60e82ab6c))
+* stop forcing object-fit: contain on email-sending background ([69a5bd9](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/69a5bd99215962dbb9407c211547278b7ed4e758))
+
 ## [1.73.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.0...v1.73.1) (2026-04-12)
 
 
