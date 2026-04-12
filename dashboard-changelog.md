@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.71.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.71.1...v1.71.2) (2026-04-12)
+
+
+### Bug Fixes
+
+* regenerate EmailSending bentogrid placeholder ([a312a37](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a312a37905572f0ec7d485a5ec6fdb9a143445bf))
+
 ## [1.71.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.71.0...v1.71.1) (2026-04-12)
 
 
