@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.73.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.72.0...v1.73.0) (2026-04-12)
+
+
+### Features
+
+* apply playground-generated email-sending feature background ([d0dee88](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d0dee885c67c0f4477ccc67a96821ad0d565c1f1)), closes [#f39c12](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/f39c12) [#ff8a65](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/ff8a65)
+
 # [1.72.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.71.2...v1.72.0) (2026-04-12)
 
 
