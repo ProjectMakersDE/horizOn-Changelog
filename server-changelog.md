@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.42.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.42.0...v1.42.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* support SMTPS/STARTTLS auto-detection and unsaved-config tests ([19a50a9](https://github.com/ProjectMakersDE/horizOn-Server/commit/19a50a9b7e90de488637114d27f5336e19afa069))
+
 # [1.42.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.41.0...v1.42.0) (2026-04-12)
 
 
