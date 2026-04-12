@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.73.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.3...v1.73.4) (2026-04-12)
+
+
+### Bug Fixes
+
+* pin email-sending seagull to background content via shared canvas ([18ddd1f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/18ddd1f83bc11d552c84e4c05d10fa2213fab2d3))
+
 ## [1.73.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.2...v1.73.3) (2026-04-12)
 
 
