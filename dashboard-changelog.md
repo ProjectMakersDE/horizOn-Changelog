@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.71.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.71.0...v1.71.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* move SMTP banner and sender override i18n keys to correct namespace ([3a1b951](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/3a1b951206657e3f08b9d4b4af2532e7b92b9187))
+
 # [1.71.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.70.0...v1.71.0) (2026-04-12)
 
 
