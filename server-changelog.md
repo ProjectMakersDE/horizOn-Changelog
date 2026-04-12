@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.42.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.41.0...v1.42.0) (2026-04-12)
+
+
+### Features
+
+* boost test coverage to 82% instructions, add 251 tests ([b8f6f45](https://github.com/ProjectMakersDE/horizOn-Server/commit/b8f6f45e1cd250ffe97d7e521e576d44eb43e99b))
+
 # [1.41.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.40.0...v1.41.0) (2026-04-11)
 
 
