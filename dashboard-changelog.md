@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.71.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.70.0...v1.71.0) (2026-04-12)
+
+
+### Features
+
+* boost test coverage to 86% statements, add 238 tests ([a419cbb](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a419cbb07b889fcae771bce82f98bf65f844ab34))
+
 # [1.70.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.69.0...v1.70.0) (2026-04-11)
 
 
