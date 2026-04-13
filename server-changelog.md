@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.43.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.42.1...v1.43.0) (2026-04-13)
+
+
+### Features
+
+* expose deleted api-key count and extended cloud-save statistics ([c1b3e3d](https://github.com/ProjectMakersDE/horizOn-Server/commit/c1b3e3dece713e8935f39b0e31945bb78675a76c))
+
 ## [1.42.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.42.0...v1.42.1) (2026-04-12)
 
 
