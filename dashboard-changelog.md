@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.75.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.74.0...v1.75.0) (2026-04-13)
+
+
+### Features
+
+* **dashboard:** introduce global api-key selector in dashboard topbar ([0f511d8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0f511d8d0f9a3f612329b51e32f752391e2e40ca))
+
 # [1.74.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.73.4...v1.74.0) (2026-04-13)
 
 
