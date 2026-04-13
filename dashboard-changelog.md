@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.76.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.75.0...v1.76.0) (2026-04-13)
+
+
+### Features
+
+* **dashboard:** apply shared feature-layout across all dashboard features ([a10faa3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a10faa37286ce64a9bef11bdc5450b2c09ba1ee8))
+
 # [1.75.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.74.0...v1.75.0) (2026-04-13)
 
 
