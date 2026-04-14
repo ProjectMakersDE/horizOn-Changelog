@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.77.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.77.1...v1.77.2) (2026-04-14)
+
+
+### Bug Fixes
+
+* **dashboard:** break leaderboard effect loop and restore remote-config import button ([30a76a4](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/30a76a43ec2e5b996ce7acb8be7b688864d4405e))
+
 ## [1.77.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.77.0...v1.77.1) (2026-04-14)
 
 
