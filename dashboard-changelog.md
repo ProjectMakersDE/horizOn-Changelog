@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.77.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.77.0...v1.77.1) (2026-04-14)
+
+
+### Bug Fixes
+
+* **dashboard:** apply global api-key filter on feature navigation and shrink stat card value text ([bd23c43](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bd23c43bb346c94b5583387b4816148c02302e9a))
+
 # [1.77.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.76.0...v1.77.0) (2026-04-13)
 
 
