@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.43.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.43.0...v1.43.1) (2026-04-14)
+
+
+### Performance Improvements
+
+* **blog:** embed adjacent posts in detail response to cut payload by 4.98MB ([cfd39ab](https://github.com/ProjectMakersDE/horizOn-Server/commit/cfd39abdb262fc98e16377643ae783e08b84ac0c))
+
 # [1.43.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.42.1...v1.43.0) (2026-04-13)
 
 
