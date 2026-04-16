@@ -9,6 +9,24 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.78.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.77.3...v1.78.0) (2026-04-16)
+
+
+### Bug Fixes
+
+* **about:** update test counts for frontend and backend ([81c50cd](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/81c50cdb904ad49a5bb75ac419d17aadeef0f1fd))
+* **api-keys:** conditional modal info text and move key type to status filter area ([95f213e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/95f213e88d3aca6db390cf2b0b620acdfbeac952))
+* **api-keys:** guard against non-array response in getAccountApiKeys ([5aa5068](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5aa5068e5f2bbb57c1c10439f696289f45d60f76))
+
+
+### Features
+
+* **api-keys:** add API layer for account-api-keys endpoints ([9ff04c0](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9ff04c06a9f6e91db43107a961a111bc616bd527))
+* **api-keys:** add i18n for key type filter and mcp setup (15 languages) ([6ee0e96](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/6ee0e96e1aeff61e3503902dcdfaa6f23bcb8296))
+* **api-keys:** add keyType to ApiKey interface and DTOs ([9358aa3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9358aa3c61352cdfd992a59b03f4c96ecef9d59c))
+* **api-keys:** add type select filter tabs and mcp setup snippet ([6450cd1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/6450cd1aaacca82d577b4538cc2f982b7e069fbe))
+* **api-keys:** unified service for project and account keys ([38068a1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/38068a1256a05577f8ed97a86385128cd39f9eb9))
+
 ## [1.77.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.77.2...v1.77.3) (2026-04-14)
 
 
