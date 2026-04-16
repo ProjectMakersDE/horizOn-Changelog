@@ -9,6 +9,29 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.44.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.43.1...v1.44.0) (2026-04-16)
+
+
+### Features
+
+* **account-api-keys:** add CRUD controller and service ([7407a64](https://github.com/ProjectMakersDE/horizOn-Server/commit/7407a6462c29ac75f643bb0ecef80b9bc60d485f))
+* **api-keys:** add keyType field to distinguish PROJECT and ACCOUNT keys ([64e2907](https://github.com/ProjectMakersDE/horizOn-Server/commit/64e29075ca6e3b30c492526ab2969b0f339f6ef1))
+* **api-keys:** add keyType filter overload to authenticateApiKey ([e796f47](https://github.com/ProjectMakersDE/horizOn-Server/commit/e796f476ff145669f9da2e0cf57c0e500ef4e476))
+* **api-keys:** expose keyType in responses and allow filtering ([8883d19](https://github.com/ProjectMakersDE/horizOn-Server/commit/8883d194eadda5470cc74e2409e4ab12981417e7))
+* **api-keys:** support custom key prefix and revoke reason ([a6e3209](https://github.com/ProjectMakersDE/horizOn-Server/commit/a6e320937e921aacc7f5b01e906f9a4de1297bc1))
+* **security:** add @SessionOnly annotation and interceptor ([25073be](https://github.com/ProjectMakersDE/horizOn-Server/commit/25073beda74756bed2cbab33f5a83b54ba7334fc))
+* **security:** add AccountApiKeyAuthentication token ([f84ab31](https://github.com/ProjectMakersDE/horizOn-Server/commit/f84ab319a8f86b0eabcdba9fd767586bf21d6621))
+* **security:** add AccountApiKeyAuthenticationFilter for X-Account-API-Key header ([95829c6](https://github.com/ProjectMakersDE/horizOn-Server/commit/95829c6b2f0e3fd7248cf3fa9caac6b01d4fb820))
+* **security:** audit-log mutations performed via account-api-key ([d1c4895](https://github.com/ProjectMakersDE/horizOn-Server/commit/d1c4895228487503c1c5fb8a0e2ef273ac8d4241))
+* **security:** register AccountApiKeyAuthenticationFilter in SecurityConfig ([77f81ed](https://github.com/ProjectMakersDE/horizOn-Server/commit/77f81edb4776d91f70d3432b4094052cd24504b8))
+* **security:** restrict sensitive endpoints to session auth via @SessionOnly ([f32182b](https://github.com/ProjectMakersDE/horizOn-Server/commit/f32182bbaef12384b488486f735536f30d3f231c))
+* **user-management:** add statistics endpoint for dashboard stats ([800deae](https://github.com/ProjectMakersDE/horizOn-Server/commit/800deaecd29bc6fdd8bf2dce2e8e7238cdaa792f))
+
+
+### Performance Improvements
+
+* **security:** add per-key rate-limit bucket for account api keys ([20902d1](https://github.com/ProjectMakersDE/horizOn-Server/commit/20902d111bbf7746c8743b1490ece70881d456a7))
+
 ## [1.43.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.43.0...v1.43.1) (2026-04-14)
 
 
