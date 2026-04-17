@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.44.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.0...v1.44.1) (2026-04-17)
+
+
+### Bug Fixes
+
+* **api-keys:** treat legacy keys without key_type field as PROJECT ([538ae24](https://github.com/ProjectMakersDE/horizOn-Server/commit/538ae2466d4a62aadbd66d9ce044295f2a397dae))
+
 # [1.44.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.43.1...v1.44.0) (2026-04-16)
 
 
