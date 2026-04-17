@@ -9,6 +9,23 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.44.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.2...v1.44.3) (2026-04-17)
+
+
+### Bug Fixes
+
+* **remote-config:** batch bulk-delete and bulk-upsert into single-round mongo writes ([65158fa](https://github.com/ProjectMakersDE/horizOn-Server/commit/65158fa819a2a782782c40ede5bb232cdf0efccc))
+
+
+### Performance Improvements
+
+* **app-api:** atomic $inc on redeem plus api-key from request context ([91562e7](https://github.com/ProjectMakersDE/horizOn-Server/commit/91562e7a84aced8b57482dfa5d85b040c46e5ecf))
+* **app-api:** cache /remote-config/all responses per api key ([fffadc8](https://github.com/ProjectMakersDE/horizOn-Server/commit/fffadc850aa7fc6af8c56bc1ef7f70d8d827a819))
+* **app-api:** cache smtp config and email templates on send hot-path ([3ccb7ac](https://github.com/ProjectMakersDE/horizOn-Server/commit/3ccb7ac9fa504459700c070d033589d33cbe722d))
+* **app-api:** change-name via atomic updateFirst instead of findById+save ([eea7e41](https://github.com/ProjectMakersDE/horizOn-Server/commit/eea7e41506bacf65f746db5503b4e33e52d1372e))
+* **app-api:** skip getUserRank in /leaderboard/submit app path ([a65486e](https://github.com/ProjectMakersDE/horizOn-Server/commit/a65486e68ff86a14029f5da05ef9863c2b7dd4e7))
+* **app-api:** user-feedback submit uses context account plus count cache ([2009ccc](https://github.com/ProjectMakersDE/horizOn-Server/commit/2009cccec48633efaa30dc15043e433f3113b78f))
+
 ## [1.44.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.1...v1.44.2) (2026-04-17)
 
 
