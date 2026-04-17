@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.78.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.78.0...v1.78.1) (2026-04-17)
+
+
+### Bug Fixes
+
+* **remote-config:** validate bulk import json against plan limits client-side ([94953f4](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/94953f4bad2d5a895a18d2076d02212eba79ee33))
+* **theme:** raise light-theme primary and muted-text contrast to WCAG AA ([b96e956](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b96e9563e7922881fa5e4012544c8e7514f832cc)), closes [#D87943](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/D87943)
+* **users,remote-config:** deduplicate users-tab cards and move import button into page header ([3e1e05e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/3e1e05ef9933861bcdb43bbddc6e68ba32b00d52))
+
 # [1.78.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.77.3...v1.78.0) (2026-04-16)
 
 
