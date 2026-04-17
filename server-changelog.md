@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.44.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.1...v1.44.2) (2026-04-17)
+
+
+### Bug Fixes
+
+* **user-auth:** scope google, email and anonymous identity per API key ([fadf9f1](https://github.com/ProjectMakersDE/horizOn-Server/commit/fadf9f144490ef267ddd462df17a1a42d88f165b))
+
 ## [1.44.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.0...v1.44.1) (2026-04-17)
 
 
