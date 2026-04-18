@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.45.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.3...v1.45.0) (2026-04-18)
+
+
+### Features
+
+* **app-api:** perf easy-wins + admin resend verification email ([99e25d9](https://github.com/ProjectMakersDE/horizOn-Server/commit/99e25d92f2124698d96022c01a4808274728c066))
+
 ## [1.44.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.2...v1.44.3) (2026-04-17)
 
 
