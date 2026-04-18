@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.45.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.45.0...v1.45.1) (2026-04-18)
+
+
+### Bug Fixes
+
+* **async:** propagate AccountContextHolder to async executor threads ([1598c79](https://github.com/ProjectMakersDE/horizOn-Server/commit/1598c79c50a4948861b716f653696afb63af9b5e))
+
 # [1.45.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.44.3...v1.45.0) (2026-04-18)
 
 
