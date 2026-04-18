@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.45.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.45.1...v1.45.2) (2026-04-18)
+
+
+### Bug Fixes
+
+* **user-management:** regenerate verification token on admin resend ([1e26490](https://github.com/ProjectMakersDE/horizOn-Server/commit/1e264905cfd44eca4cdc7ef7734b853c3f5d08bf))
+
 ## [1.45.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.45.0...v1.45.1) (2026-04-18)
 
 
