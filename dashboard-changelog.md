@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.81.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.80.0...v1.81.0) (2026-04-18)
+
+
+### Features
+
+* **user-management:** replace max-users stat with limit card ([a907811](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a907811fa6e0fff604d9042f01ab9a53284498cc))
+
 # [1.80.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.79.0...v1.80.0) (2026-04-18)
 
 
