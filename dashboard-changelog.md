@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.80.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.79.0...v1.80.0) (2026-04-18)
+
+
+### Bug Fixes
+
+* **resources:** make structured-data spec resilient to test order randomization ([4e6014d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4e6014dbbe11b0f1f9fec240d6eea2758aaa423b))
+
+
+### Features
+
+* **user-management:** add resend verification email action ([7ccc189](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/7ccc189c310cf4a8ede27ff1f3682fed51cfcce3))
+
 # [1.79.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.78.1...v1.79.0) (2026-04-18)
 
 
