@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.79.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.78.1...v1.79.0) (2026-04-18)
+
+
+### Features
+
+* **home:** replace simple integration card with 5-minute step tabs ([d534e98](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d534e98dfccb5a9c56b42f4bfcdaff2dbcba9031))
+* **home:** streamline trust section and add continuity faq ([c103e12](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c103e12e19d61484b357923c336aadc05106bd9d))
+
 ## [1.78.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.78.0...v1.78.1) (2026-04-17)
 
 
