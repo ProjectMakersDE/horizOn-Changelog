@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.46.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.46.1...v1.46.2) (2026-04-19)
+
+
+### Bug Fixes
+
+* **email-template:** align RESERVED_SLUGS with token-only template variables ([ca623e1](https://github.com/ProjectMakersDE/horizOn-Server/commit/ca623e1c35b0c2ca9814d1c35e3b3ba3e526066b))
+
 ## [1.46.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.46.0...v1.46.1) (2026-04-19)
 
 
