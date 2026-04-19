@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.46.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.46.0...v1.46.1) (2026-04-19)
+
+
+### Bug Fixes
+
+* **user-email:** drop horizon.pm link injection in account-SMTP path ([0b5a85f](https://github.com/ProjectMakersDE/horizOn-Server/commit/0b5a85f414bdf6a394b5b18bd87229a3dde0d8e7))
+
 # [1.46.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.45.2...v1.46.0) (2026-04-19)
 
 
