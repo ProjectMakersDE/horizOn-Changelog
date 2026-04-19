@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.46.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.45.2...v1.46.0) (2026-04-19)
+
+
+### Features
+
+* **email:** allow leading underscore in template slug ([a0a81a1](https://github.com/ProjectMakersDE/horizOn-Server/commit/a0a81a19d72a142051ccb31858647acfd33a944e))
+
 ## [1.45.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.45.1...v1.45.2) (2026-04-18)
 
 
