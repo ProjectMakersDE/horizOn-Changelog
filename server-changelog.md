@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.49.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.0...v1.49.1) (2026-04-20)
+
+
+### Bug Fixes
+
+* **ci:** allow build/libs jar to enter docker build context ([6d6a847](https://github.com/ProjectMakersDE/horizOn-Server/commit/6d6a847ef54b4a5a9901f270211d4b50a359f464))
+
 # [1.49.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.48.0...v1.49.0) (2026-04-20)
 
 
