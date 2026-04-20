@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.83.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.0...v1.83.1) (2026-04-20)
+
+
+### Bug Fixes
+
+* **blog:** resolve silent text-to-speech playback on article detail ([81742c9](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/81742c9c7109b6d120df140ced56a923f0d1fbea))
+
 # [1.83.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.5...v1.83.0) (2026-04-20)
 
 
