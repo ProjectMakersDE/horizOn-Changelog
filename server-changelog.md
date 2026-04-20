@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.47.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.46.2...v1.47.0) (2026-04-20)
+
+
+### Features
+
+* **auth:** apple sign-in for accounts and users ([863689c](https://github.com/ProjectMakersDE/horizOn-Server/commit/863689c64a9743726d2c2441ce7e55fc6b3d7db6))
+
 ## [1.46.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.46.1...v1.46.2) (2026-04-19)
 
 
