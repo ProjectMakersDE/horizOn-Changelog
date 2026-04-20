@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.82.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.81.0...v1.82.0) (2026-04-20)
+
+
+### Features
+
+* **apple-signin:** add Sign in with Apple support to dashboard ([4c83b9a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4c83b9a02d61c6daa486322c9a24658f9b40c4f9))
+
 # [1.81.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.80.0...v1.81.0) (2026-04-18)
 
 
