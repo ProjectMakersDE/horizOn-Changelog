@@ -31,7 +31,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="unreal-sdk-changelog" class="product-card">
     <h3>Unreal SDK</h3>
     <p>C++ plugin for integrating horizOn into Unreal Engine projects.</p>
-    <span class="version">v1.3.0</span>
+    <span class="version">v1.4.0</span>
   </a>
   <a href="simple-server-changelog" class="product-card">
     <h3>Simple Server</h3>
