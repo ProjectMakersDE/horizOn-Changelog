@@ -9,6 +9,23 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.49.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.48.0...v1.49.0) (2026-04-20)
+
+
+### Features
+
+* **blog:** add summaries field for blog post summaries ([68a50b3](https://github.com/ProjectMakersDE/horizOn-Server/commit/68a50b39620a1b2aacc3529c491b9b1a76c54755))
+* **blog:** add summaries field for per-language blog post summaries ([37a7bf6](https://github.com/ProjectMakersDE/horizOn-Server/commit/37a7bf6a8e3367e702e64d0e29b7c63743a71867))
+
+
+### Performance Improvements
+
+* **api-app:** reduce db round-trips across auth, crash-reports, user-logs, leaderboard ([fdafc76](https://github.com/ProjectMakersDE/horizOn-Server/commit/fdafc76ff50875873d76db3b0daba1582371f8b8))
+* **check-auth:** snapshot user state on session + atomic sliding update ([998ff96](https://github.com/ProjectMakersDE/horizOn-Server/commit/998ff968d0408b311516548cbd852b24ccfd6438))
+* **crash-reports:** incremental user tracking, cached limit, atomic session mark ([ab32972](https://github.com/ProjectMakersDE/horizOn-Server/commit/ab32972a819843f4c841a5b31968235fde892c49))
+* **leaderboard/around:** facet around query, db-side bulk rank, count cache ([709173f](https://github.com/ProjectMakersDE/horizOn-Server/commit/709173f7dcb8985a391436b9dbb4417c54072e80))
+* **user-logs:** async limit enforcement, cached count, bulk soft-delete ([2cdf460](https://github.com/ProjectMakersDE/horizOn-Server/commit/2cdf4602b8529b22b9d37a124333395ff5817350))
+
 # [1.48.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.47.0...v1.48.0) (2026-04-20)
 
 
