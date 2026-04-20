@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.83.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.1...v1.83.2) (2026-04-20)
+
+
+### Bug Fixes
+
+* **blog:** remove pause/resume keep-alive that triggered TTS 'interrupted' error ([4aab3df](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4aab3df66af4d10045c5512982da0fff942e4c8a))
+
 ## [1.83.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.0...v1.83.1) (2026-04-20)
 
 
