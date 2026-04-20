@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.48.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.47.0...v1.48.0) (2026-04-20)
+
+
+### Features
+
+* **apple-signin:** expose authStatus in SignUpResponse ([1e18dac](https://github.com/ProjectMakersDE/horizOn-Server/commit/1e18dac398ed2ee430fd8475a363d79ba3da5b0b))
+
 # [1.47.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.46.2...v1.47.0) (2026-04-20)
 
 
