@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.82.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.1...v1.82.2) (2026-04-20)
+
+
+### Bug Fixes
+
+* **apple-signin:** allow apple CSP script/frame sources ([620a1af](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/620a1afe2e3c585476be8b26ea654bb684019589))
+
 ## [1.82.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.0...v1.82.1) (2026-04-20)
 
 
