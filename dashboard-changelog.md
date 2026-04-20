@@ -9,6 +9,22 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.83.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.5...v1.83.0) (2026-04-20)
+
+
+### Bug Fixes
+
+* **email-templates:** correct required variables and improve template documentation ([82b2acb](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/82b2acbb1bf11f0f0b934e33995dcf506b9a4072))
+* **email-templates:** correct required variables for system email templates ([244a600](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/244a600ba30452680bd2df6efaa0532ecb243a07))
+* **email-templates:** i18n updates for 14 languages (TASK-130) ([ec2f3c2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ec2f3c274b6a6831143e6628f5177d92b96ead74))
+
+
+### Features
+
+* **blog:** add summary box and text-to-speech to blog detail view ([49da0fe](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/49da0fe3c1b6e3706892a1b6eb0d440319ce9bc1))
+* **blog:** add summary box and TTS read-aloud to blog detail view ([bf69dee](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bf69dee604de6d4a6df0dd3f058f190e97f7f7d8))
+* **blog:** i18n translations for blog public read features (TASK-1) ([7367433](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/73674338fc0acd4067f436b16f69c9d431bb2425))
+
 ## [1.82.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.4...v1.82.5) (2026-04-20)
 
 
