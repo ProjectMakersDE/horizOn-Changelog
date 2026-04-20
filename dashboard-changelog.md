@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.82.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.2...v1.82.3) (2026-04-20)
+
+
+### Bug Fixes
+
+* **apple-signin:** correct client-id prefix and button UX ([bf1b52e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bf1b52eee7fd084f175279b5654da362a44fcae9))
+
 ## [1.82.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.1...v1.82.2) (2026-04-20)
 
 
