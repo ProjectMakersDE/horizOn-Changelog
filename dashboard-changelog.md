@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.82.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.3...v1.82.4) (2026-04-20)
+
+
+### Bug Fixes
+
+* TASK-142 landingpage polish, mobile layout, dashboard sidebar scroll ([9151b19](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9151b190d13776e32b17a3a3cbad7c4a7026fad8))
+
 ## [1.82.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.2...v1.82.3) (2026-04-20)
 
 
