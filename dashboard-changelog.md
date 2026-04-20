@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.82.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.0...v1.82.1) (2026-04-20)
+
+
+### Bug Fixes
+
+* **apple-signin:** align response account type with backend Account interface ([ae43b22](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ae43b2208673db59e860d303e99fb04eee31c986))
+
 # [1.82.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.81.0...v1.82.0) (2026-04-20)
 
 
