@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.82.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.4...v1.82.5) (2026-04-20)
+
+
+### Bug Fixes
+
+* unblock docker build for pre-built artifacts + clean up about-us dead code ([e048367](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e048367d793fe87ac126e6571bd59b6c76d61fb5))
+
 ## [1.82.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.82.3...v1.82.4) (2026-04-20)
 
 
