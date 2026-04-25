@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.49.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.1...v1.49.2) (2026-04-25)
+
+
+### Bug Fixes
+
+* **user-management:** map InvalidApiKeyException to 403 instead of 401 ([d571c20](https://github.com/ProjectMakersDE/horizOn-Server/commit/d571c20d60724daa475c774494fa06886f327e00))
+
 ## [1.49.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.0...v1.49.1) (2026-04-20)
 
 
