@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.83.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.2...v1.83.3) (2026-04-25)
+
+
+### Bug Fixes
+
+* **user-management:** route deactivate to user's api-key in all-keys mode ([aef693d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/aef693dfc49c9f8f659d9da842d31bedd8300132))
+
 ## [1.83.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.1...v1.83.2) (2026-04-20)
 
 
