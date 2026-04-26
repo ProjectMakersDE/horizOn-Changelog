@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.84.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.3...v1.84.0) (2026-04-26)
+
+
+### Features
+
+* add Apple Sign-In API key configuration modal ([5c70dfd](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5c70dfd173f6bd62f8958d219e9e233af7f4e821))
+
 ## [1.83.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.2...v1.83.3) (2026-04-25)
 
 
