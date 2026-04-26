@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.84.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.84.0...v1.84.1) (2026-04-26)
+
+
+### Bug Fixes
+
+* improve dashboard filtering and navigation ([5ee624e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5ee624e5bfd2aeaff30d4cadfd1b0042b13e201a))
+
 # [1.84.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.83.3...v1.84.0) (2026-04-26)
 
 
