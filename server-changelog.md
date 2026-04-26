@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.49.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.2...v1.49.3) (2026-04-26)
+
+
+### Bug Fixes
+
+* return Apple signup failures with proper status ([83fafa3](https://github.com/ProjectMakersDE/horizOn-Server/commit/83fafa38cc610eb02211468d5252844aa4f4e825))
+
 ## [1.49.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.1...v1.49.2) (2026-04-25)
 
 
