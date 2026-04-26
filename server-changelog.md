@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.49.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.3...v1.49.4) (2026-04-26)
+
+
+### Bug Fixes
+
+* support server-side user filters ([467acac](https://github.com/ProjectMakersDE/horizOn-Server/commit/467acacc071f1e7bffe216f84b26296bb52cc447))
+
 ## [1.49.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.2...v1.49.3) (2026-04-26)
 
 
