@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.85.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.0...v1.85.1) (2026-04-27)
+
+
+### Bug Fixes
+
+* **api-keys:** hide account scope fields for project keys ([137cd1c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/137cd1c1c703285ab1c11dcb64a8390828e492d6))
+
 # [1.85.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.84.1...v1.85.0) (2026-04-27)
 
 
