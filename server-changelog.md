@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.50.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.4...v1.50.0) (2026-04-27)
+
+
+### Features
+
+* **account-keys:** add scoped account keys ([d247ecb](https://github.com/ProjectMakersDE/horizOn-Server/commit/d247ecb9ee267b3be3f27f1b5a2f998643803c24))
+
 ## [1.49.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.3...v1.49.4) (2026-04-26)
 
 
