@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.50.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.0...v1.50.1) (2026-04-27)
+
+
+### Bug Fixes
+
+* **health:** prevent edge caching of public health ([b22df95](https://github.com/ProjectMakersDE/horizOn-Server/commit/b22df957d009d16c0e2ff568f76e53e891c6d33b))
+
 # [1.50.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.49.4...v1.50.0) (2026-04-27)
 
 
