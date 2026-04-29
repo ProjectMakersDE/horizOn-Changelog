@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.85.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.2...v1.85.3) (2026-04-29)
+
+
+### Bug Fixes
+
+* preserve llm keys and translation parsing ([fe6233e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/fe6233e5fde9b0c6843e4e2299c6bc96ebe5f5dc))
+
 ## [1.85.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.1...v1.85.2) (2026-04-29)
 
 
