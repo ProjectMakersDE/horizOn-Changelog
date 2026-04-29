@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.85.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.1...v1.85.2) (2026-04-29)
+
+
+### Performance Improvements
+
+* improve modal performance ([d39fa36](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d39fa368e50e7425f5ecea3b9178384de5acf517))
+
 ## [1.85.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.0...v1.85.1) (2026-04-27)
 
 
