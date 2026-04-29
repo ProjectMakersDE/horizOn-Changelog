@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.50.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.2...v1.50.3) (2026-04-29)
+
+
+### Performance Improvements
+
+* **remote-config:** use mongo bulk writes for imports ([12adc90](https://github.com/ProjectMakersDE/horizOn-Server/commit/12adc90d9973c31e6a3818b5dde0333963fc1761))
+
 ## [1.50.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.1...v1.50.2) (2026-04-27)
 
 
