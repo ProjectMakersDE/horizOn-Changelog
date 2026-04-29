@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.50.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.3...v1.50.4) (2026-04-29)
+
+
+### Bug Fixes
+
+* preserve llm api keys on settings updates ([81548b7](https://github.com/ProjectMakersDE/horizOn-Server/commit/81548b781d98cc09182f0b6ed1e9e620252e0d35))
+
 ## [1.50.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.2...v1.50.3) (2026-04-29)
 
 
