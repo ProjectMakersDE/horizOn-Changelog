@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.51.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.4...v1.51.0) (2026-04-30)
+
+
+### Features
+
+* support remote config glob filters ([edfc5c2](https://github.com/ProjectMakersDE/horizOn-Server/commit/edfc5c21160bf031ca4969869dc6de58d7244ef5))
+
 ## [1.50.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.3...v1.50.4) (2026-04-29)
 
 
