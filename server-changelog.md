@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.52.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.51.0...v1.52.0) (2026-05-03)
+
+
+### Features
+
+* add user role update endpoint ([edcace8](https://github.com/ProjectMakersDE/horizOn-Server/commit/edcace8fdeba695a067282103c0d458bc085a4c9))
+
 # [1.51.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.50.4...v1.51.0) (2026-04-30)
 
 
