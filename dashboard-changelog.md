@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.86.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.0...v1.86.1) (2026-05-09)
+
+
+### Bug Fixes
+
+* show multi-leaderboard limit in pricing comparison ([28aa975](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/28aa9750f42c0a911763e1fc0a5aae068a413475))
+
 # [1.86.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.3...v1.86.0) (2026-05-09)
 
 
