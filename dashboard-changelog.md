@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.86.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.3...v1.86.0) (2026-05-09)
+
+
+### Features
+
+* **leaderboard:** multi-board management UI ([#10](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/10)) ([9841444](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9841444eb080f8dac51ec9c899cb305d5c68eacb))
+
 ## [1.85.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.85.2...v1.85.3) (2026-04-29)
 
 
