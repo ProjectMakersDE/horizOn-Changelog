@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.53.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.52.0...v1.53.0) (2026-05-09)
+
+
+### Features
+
+* **leaderboard:** multi-board schema with slim scores ([#24](https://github.com/ProjectMakersDE/horizOn-Server/issues/24)) ([bb10b41](https://github.com/ProjectMakersDE/horizOn-Server/commit/bb10b4108bcacfccecf51c8703fadb69876fd3fe))
+
 # [1.52.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.51.0...v1.52.0) (2026-05-03)
 
 
