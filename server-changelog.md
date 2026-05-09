@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.53.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.53.0...v1.53.1) (2026-05-09)
+
+
+### Bug Fixes
+
+* expose multi-leaderboard limit in public feature limits ([c2e1ecd](https://github.com/ProjectMakersDE/horizOn-Server/commit/c2e1ecd0a4ad03a4f42823b941bda2373505e6ca))
+
 # [1.53.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.52.0...v1.53.0) (2026-05-09)
 
 
