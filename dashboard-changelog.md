@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.86.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.1...v1.86.2) (2026-05-09)
+
+
+### Bug Fixes
+
+* **i18n:** update leaderboard FAQ and quickstart for multi-board feature ([86ebb75](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/86ebb75c2f6a992d5fc8521ffb1a9e952567a5cc))
+
 ## [1.86.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.0...v1.86.1) (2026-05-09)
 
 
