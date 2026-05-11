@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.86.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.2...v1.86.3) (2026-05-11)
+
+
+### Bug Fixes
+
+* **account:** show banner and reactivate CTA for soft-deleted accounts ([28f1c4d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/28f1c4d7c92e3018a4c2249692ad6544c3bbc7b0))
+
 ## [1.86.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.1...v1.86.2) (2026-05-09)
 
 
