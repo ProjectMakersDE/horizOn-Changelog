@@ -9,6 +9,15 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.53.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.53.1...v1.53.2) (2026-05-11)
+
+
+### Bug Fixes
+
+* **auth:** auto-reactivate soft-deleted accounts on re-login ([c878476](https://github.com/ProjectMakersDE/horizOn-Server/commit/c87847603a161b11eaba108ee53b253105ccc86b))
+* **build:** add Brotli native libs for macOS and Windows test runs ([ad2dc5e](https://github.com/ProjectMakersDE/horizOn-Server/commit/ad2dc5e9376b0ec4ff3e5e773665a892fbb3ad75))
+* sync SystemConfig cache across backend pods via Mongo change stream ([9fbb1c9](https://github.com/ProjectMakersDE/horizOn-Server/commit/9fbb1c9f3d88001d13b8c7ed2960acde31533f39))
+
 ## [1.53.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.53.0...v1.53.1) (2026-05-09)
 
 
