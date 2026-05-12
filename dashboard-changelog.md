@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.87.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.3...v1.87.0) (2026-05-12)
+
+
+### Features
+
+* **dashboard:** show region versions and edit user roles ([446ea1f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/446ea1f994747804ba9ab3ed8573a1df2821ffcd))
+
 ## [1.86.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.2...v1.86.3) (2026-05-11)
 
 
