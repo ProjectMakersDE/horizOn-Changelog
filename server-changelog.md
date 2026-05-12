@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.54.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.53.2...v1.54.0) (2026-05-12)
+
+
+### Features
+
+* **system:** expose app region in version response ([49f0c23](https://github.com/ProjectMakersDE/horizOn-Server/commit/49f0c23419fbe87c2bdbfe3abff86456cdfa8821))
+
 ## [1.53.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.53.1...v1.53.2) (2026-05-11)
 
 
