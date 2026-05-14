@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.0...v1.87.1) (2026-05-14)
+
+
+### Bug Fixes
+
+* **quickstart:** cover all 10 core features per engine in /quickstart (TASK-217) ([46020a8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/46020a82e03d49d6653c48fcd34f8fcf05470ce5))
+
 # [1.87.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.86.3...v1.87.0) (2026-05-12)
 
 
