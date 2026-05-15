@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.1...v1.87.2) (2026-05-15)
+
+
+### Bug Fixes
+
+* **i18n:** translate reactivate keys for admin-account in 13 languages ([ffadf82](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ffadf82e60f521d7411b2f30b1a66a0446844508))
+
 ## [1.87.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.0...v1.87.1) (2026-05-14)
 
 
