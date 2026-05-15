@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.2...v1.87.3) (2026-05-15)
+
+
+### Bug Fixes
+
+* **ci:** gate dashboard build on i18n key parity ([d52a0aa](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d52a0aaf8000e1504655d1cc8d9d91770ec72c0c))
+
 ## [1.87.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.1...v1.87.2) (2026-05-15)
 
 
