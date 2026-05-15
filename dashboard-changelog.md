@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.3...v1.87.4) (2026-05-15)
+
+
+### Bug Fixes
+
+* **i18n:** translate fallback values across all 36 i18n directories and gate CI on translation coverage ([c656532](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c656532339413f6331165fbd684e9a92dd02d3e8))
+
 ## [1.87.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.2...v1.87.3) (2026-05-15)
 
 
