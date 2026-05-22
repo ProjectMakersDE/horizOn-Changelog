@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.54.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.3...v1.54.4) (2026-05-22)
+
+
+### Performance Improvements
+
+* buffer feature telemetry and harden compression ([03f9d8c](https://github.com/ProjectMakersDE/horizOn-Server/commit/03f9d8c85becdeea5af6ad931497e4124417d1e7))
+
 ## [1.54.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.2...v1.54.3) (2026-05-22)
 
 
