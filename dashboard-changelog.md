@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.88.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.8...v1.88.0) (2026-05-22)
+
+
+### Features
+
+* add searchable docs guide hub ([a5c658d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a5c658df621fd21aeedf2d136714de85251b225f))
+
 ## [1.87.8](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.7...v1.87.8) (2026-05-22)
 
 
