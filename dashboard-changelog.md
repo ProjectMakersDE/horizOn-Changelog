@@ -9,6 +9,20 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.4...v1.87.5) (2026-05-22)
+
+
+### Bug Fixes
+
+* **consent,tracking:** queue cookie-consent calls; bound sendBeacon by byte size ([d481443](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d4814433360adaed12b9bfce876417dc5628fd64))
+
+
+### Performance Improvements
+
+* **bundle:** lazy-load marked, vanilla-cookieconsent; drop SSR compression ([9a13579](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9a13579fea8dae21302d2140584db81b8d46add9))
+* **dashboard:** bound tracking payload, plug modal subscription leak, shell to OnPush ([ea0bead](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ea0bead01be4b6c7eb2bad431d2eedbf255da496))
+* **dashboard:** cache public GET requests, default page size 25, trim prod logging ([c171099](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c1710994d04f4f95d6563590f47d412f54facc72))
+
 ## [1.87.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.3...v1.87.4) (2026-05-15)
 
 
