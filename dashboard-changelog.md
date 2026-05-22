@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.89.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.88.0...v1.89.0) (2026-05-22)
+
+
+### Features
+
+* add dashboard api explorer ([451e90f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/451e90f011a98fa9e10cca995b168f4c75333ae5))
+
 # [1.88.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.8...v1.88.0) (2026-05-22)
 
 
