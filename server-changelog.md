@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.54.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.1...v1.54.2) (2026-05-22)
+
+
+### Bug Fixes
+
+* **backend:** drop disabled mongo contributor from readiness probe group ([524230e](https://github.com/ProjectMakersDE/horizOn-Server/commit/524230e4c1060241bd581f97252a4c5e5c2f98c0))
+
 ## [1.54.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.0...v1.54.1) (2026-05-22)
 
 
