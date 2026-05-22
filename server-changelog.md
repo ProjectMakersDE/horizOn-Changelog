@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.54.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.2...v1.54.3) (2026-05-22)
+
+
+### Performance Improvements
+
+* harden backend scheduling and async tasks ([1c05481](https://github.com/ProjectMakersDE/horizOn-Server/commit/1c054812e2fb63cd989475b7ca8b7f691b9657ef))
+
 ## [1.54.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.1...v1.54.2) (2026-05-22)
 
 
