@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.6...v1.87.7) (2026-05-22)
+
+
+### Performance Improvements
+
+* unblock frontend init pipeline ([b89c0af](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b89c0afb2290d696047e5c6266a587f2f9fe99f5))
+
 ## [1.87.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.5...v1.87.6) (2026-05-22)
 
 
