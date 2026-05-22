@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.6](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.5...v1.87.6) (2026-05-22)
+
+
+### Bug Fixes
+
+* **dashboard:** keep prerendering disabled; supply MENU_ITEMS to SSR config ([d03e0ac](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d03e0acc48a852004382fa6f88058aff63cd0c4b))
+
 ## [1.87.5](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.4...v1.87.5) (2026-05-22)
 
 
