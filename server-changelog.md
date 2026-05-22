@@ -9,6 +9,22 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.54.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.0...v1.54.1) (2026-05-22)
+
+
+### Bug Fixes
+
+* **blog-stats:** coerce $sum counters via Number to survive int64 promotion ([90326e5](https://github.com/ProjectMakersDE/horizOn-Server/commit/90326e5f75ecac8f22c415dfff143bee476320a7))
+* **security:** require authentication for admin API docs endpoints ([31ee9ff](https://github.com/ProjectMakersDE/horizOn-Server/commit/31ee9ff8461dd3170d6ea8c7cc607cf76274853a))
+* **tests:** align sitemap, crash-retention and stripe-webhook unit tests with refactored services ([3a4e8e3](https://github.com/ProjectMakersDE/horizOn-Server/commit/3a4e8e375c36ac434e7ca920f9852596fb874094))
+
+
+### Performance Improvements
+
+* **backend:** probes split, Tomcat sized for virtual threads, stop creating sessions on /api/v1/app ([b9512b3](https://github.com/ProjectMakersDE/horizOn-Server/commit/b9512b32fd02232ff4b57701faa9daa640f4e90d))
+* **mongo:** index coverage, capped pagination, bulk-write retention sweeps ([9b1f554](https://github.com/ProjectMakersDE/horizOn-Server/commit/9b1f5542a786648f38c62581cbd00232d8f35717))
+* **mongo:** kill collection scans on Stripe lookup, crash retention, sitemap ([1eb9bdf](https://github.com/ProjectMakersDE/horizOn-Server/commit/1eb9bdfb3e084a9a0a6dcd3cafff7a9b86d65f72))
+
 # [1.54.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.53.2...v1.54.0) (2026-05-12)
 
 
