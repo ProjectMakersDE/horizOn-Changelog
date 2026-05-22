@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.87.8](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.7...v1.87.8) (2026-05-22)
+
+
+### Performance Improvements
+
+* enable zoneless dashboard change detection ([2a3e79a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/2a3e79a569463de75aef93bf503fb3852dc13c0b))
+
 ## [1.87.7](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.87.6...v1.87.7) (2026-05-22)
 
 
