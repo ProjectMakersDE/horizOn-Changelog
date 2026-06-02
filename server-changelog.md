@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.55.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.55.0...v1.55.1) (2026-06-02)
+
+
+### Bug Fixes
+
+* null-safe session cache unless to stop 401s on cold cache ([2f20ca0](https://github.com/ProjectMakersDE/horizOn-Server/commit/2f20ca06030d9de3a3ba5978e03433a2b53b40b2))
+
 # [1.55.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.5...v1.55.0) (2026-06-02)
 
 
