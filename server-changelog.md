@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.55.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.5...v1.55.0) (2026-06-02)
+
+
+### Features
+
+* **i18n:** language-prefixed sitemap URLs + localized email links (TASK-271 [#1](https://github.com/ProjectMakersDE/horizOn-Server/issues/1),[#3](https://github.com/ProjectMakersDE/horizOn-Server/issues/3)) ([b2ecab6](https://github.com/ProjectMakersDE/horizOn-Server/commit/b2ecab67d39e215975c67d0f2faf88f3fc3d243c))
+
 ## [1.54.5](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.54.4...v1.54.5) (2026-05-22)
 
 
