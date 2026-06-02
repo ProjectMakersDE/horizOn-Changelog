@@ -9,6 +9,24 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.90.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.89.0...v1.90.0) (2026-06-02)
+
+
+### Bug Fixes
+
+* align product/quickstart specs with forced horizon.pm base ([e650fdb](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e650fdbb7c83aa93cbb2260041d8c77a7092c92b))
+* **frontpages:** enforce section alternation; fix pricing/home/about-us layout ([52b2850](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/52b28505ae16399de23f074e7d9463fa48817039))
+* **seo:** derive SSR canonical/hreflang path from the request URL (TASK-263) ([8e8bc65](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/8e8bc656efa581ecf4713f86433abcd7ac041ca1))
+
+
+### Features
+
+* **dashboard:** per-language URL routing (TASK-263) + TASK-270 frontend batch ([4e4f7d8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4e4f7d82b6a95f568522f6183d1bc25591a24530))
+* **frontpages:** TASK-273 usability and UX overhaul ([b3edad2](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b3edad2a499f6fbbbd4f2a1ea55178416abf7fb9))
+* **frontpages:** TASK-274 design + real-data corrections (review of TASK-273) ([f9d79c1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f9d79c1255c2e6a9137e31e62d49fc1e220ab002))
+* **quickstart:** consolidate docs hub into /quickstart, remove colliding frontend /docs ([9c69d1f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9c69d1f8dd86e4c6b7c33b2ac792318d99aa6e3a))
+* **seo:** localize per-page title + description via SeoService (TASK-271 [#4](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/4)) ([61bb0c6](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/61bb0c6c5030f60ed7976b46025a365263fe2a28))
+
 # [1.89.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.88.0...v1.89.0) (2026-05-22)
 
 
