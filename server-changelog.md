@@ -9,6 +9,14 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.56.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.55.1...v1.56.0) (2026-06-03)
+
+
+### Features
+
+* **seo:** curate sitemap to needed public pages only (TASK-275) ([65a2d6a](https://github.com/ProjectMakersDE/horizOn-Server/commit/65a2d6a0bf367032b055a1caeba5d5a3b6968b02))
+* **seo:** sitemap serves English unprefixed for horizon.pm (TASK-275) ([eb25c76](https://github.com/ProjectMakersDE/horizOn-Server/commit/eb25c76a13ad32bf389738353c4779c225db908d))
+
 ## [1.55.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.55.0...v1.55.1) (2026-06-02)
 
 
