@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.91.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.91.0...v1.91.1) (2026-06-03)
+
+
+### Bug Fixes
+
+* **home:** give testimonial cards a fixed height with clamp and modal ([793beae](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/793beaef40913463beb867fe73795df87bdea32d))
+
 # [1.91.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.90.0...v1.91.0) (2026-06-03)
 
 
