@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.91.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.90.0...v1.91.0) (2026-06-03)
+
+
+### Features
+
+* **seo:** English default served unprefixed at / (TASK-275) ([1bfe73f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1bfe73f761e84f09b92246fb86bf155cd0b2791c))
+
 # [1.90.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.89.0...v1.90.0) (2026-06-02)
 
 
