@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.57.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.56.0...v1.57.0) (2026-06-05)
+
+
+### Features
+
+* **analytics:** behavior analytics ingest + admin aggregations (TASK-276) ([521d441](https://github.com/ProjectMakersDE/horizOn-Server/commit/521d4413701cbd675b5ff5fa4fb8253f8935536a))
+
 # [1.56.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.55.1...v1.56.0) (2026-06-03)
 
 
