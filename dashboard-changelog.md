@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.92.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.91.1...v1.92.0) (2026-06-05)
+
+
+### Bug Fixes
+
+* **frontpages:** survive a partial public-stats response (whole-site crash) ([c9bfeaf](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c9bfeaf317683d6856586bb73c051a5b14609064))
+
+
+### Features
+
+* **analytics:** behavior capture + admin behavior-analytics page (TASK-276) ([196661f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/196661ffdfe700d478d6aa401e378c2f8ae06da8))
+
 ## [1.91.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.91.0...v1.91.1) (2026-06-03)
 
 
