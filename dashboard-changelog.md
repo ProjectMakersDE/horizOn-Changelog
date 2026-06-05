@@ -9,6 +9,19 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.93.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.92.0...v1.93.0) (2026-06-05)
+
+
+### Bug Fixes
+
+* **analytics:** guard behavior-analytics chart/timeline against missing points/events (TASK-276) ([fae5e12](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/fae5e123e591dc2304ce84f37937b6853f0f5bc5))
+* **i18n:** translate behavior-analytics frustration terms + titles for strict gate (TASK-276) ([69825ff](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/69825ff77647cb5a539e2f8460d85dcf43560c8a))
+
+
+### Features
+
+* **analytics:** rework behavior-analytics page into 5 tabs (TASK-276) ([dec3f81](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/dec3f819e7812190b3be6172e60da006e36db6cf))
+
 # [1.92.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.91.1...v1.92.0) (2026-06-05)
 
 
