@@ -9,6 +9,30 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.59.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.58.0...v1.59.0) (2026-06-11)
+
+
+### Bug Fixes
+
+* add apple service test default ([9f1d25e](https://github.com/ProjectMakersDE/horizOn-Server/commit/9f1d25e3d89aa4dc66ccdd9d7e78fccbe3610da6))
+* add discord oauth test default ([32f89bb](https://github.com/ProjectMakersDE/horizOn-Server/commit/32f89bb0760881a72ca08968cc2946ff180176dd))
+* **api-explorer:** send prefixed app api key ([50beca4](https://github.com/ProjectMakersDE/horizOn-Server/commit/50beca4725fe190f01c5b2448c5a9aa406d8c472))
+* **auth:** restore sessions from cookie ([cf0c49e](https://github.com/ProjectMakersDE/horizOn-Server/commit/cf0c49ecd690e6dc058a1a2586d8b7cf9582cd97))
+* enforce server coverage quality gates ([3b6a0ae](https://github.com/ProjectMakersDE/horizOn-Server/commit/3b6a0aeb9cb53cee98924582078a333ae98559a0))
+* harden mongo integration tests and account limits ([67fb3c0](https://github.com/ProjectMakersDE/horizOn-Server/commit/67fb3c020da04511217a09a8f10d37bfa49299ee))
+* keep server ci coverage gate deterministic ([6e00430](https://github.com/ProjectMakersDE/horizOn-Server/commit/6e004304867412903085a2930ac8bb41d94eb09c))
+* provide test admin email default ([4d5d948](https://github.com/ProjectMakersDE/horizOn-Server/commit/4d5d94893178501971373ef82728e80a9a6618ad))
+* route api explorer app proxy internally ([2bd1905](https://github.com/ProjectMakersDE/horizOn-Server/commit/2bd1905568de420b0bbc523a17a693ce72e2bafa))
+* stabilize remaining mongo integration assertions ([6369bda](https://github.com/ProjectMakersDE/horizOn-Server/commit/6369bda5c8244babdc73764aaeb288e51b07bca8))
+* stabilize server test defaults in ci ([ba70440](https://github.com/ProjectMakersDE/horizOn-Server/commit/ba70440482c33ccec892c9a552c92b5738216a05))
+
+
+### Features
+
+* add admin api explorer proxy ([36bb89d](https://github.com/ProjectMakersDE/horizOn-Server/commit/36bb89dc1c51a38dc9af8d97e552958b17eb7a2d))
+* merge API explorer proxy into master ([197a1dc](https://github.com/ProjectMakersDE/horizOn-Server/commit/197a1dc2329547174c1ed638dd42813736bf7f5a))
+* proxy app endpoints in api explorer ([935556e](https://github.com/ProjectMakersDE/horizOn-Server/commit/935556eaab16695205f1f7a9ca8edfb56ded85ef))
+
 # [1.58.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.57.0...v1.58.0) (2026-06-05)
 
 
