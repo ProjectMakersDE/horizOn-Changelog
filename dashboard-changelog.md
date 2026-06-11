@@ -9,6 +9,23 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.94.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.93.0...v1.94.0) (2026-06-11)
+
+
+### Bug Fixes
+
+* **auth:** keep access tokens in memory ([17c8ce1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/17c8ce10c09d56f2e66096394fcdddc8df851b62))
+* **auth:** preserve session across reload ([a8a9488](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a8a9488eef2fb34c74af588d811e7102a38bac3c))
+* handle api explorer in dev mode ([fb54730](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/fb547306b46fce9e42fe190fac5d61cfaced6938))
+* strengthen dashboard coverage quality gates ([67f90e6](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/67f90e64f37a483b6a02b639465f576afbd2ccbc))
+
+
+### Features
+
+* expand api explorer endpoint runner ([66176cf](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/66176cfeb7c2d766f29e3e7df0346ff78257537e))
+* improve api explorer project testing ([d8b40a1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d8b40a12b5103d97f8a5810bdec51a5e2219079b))
+* merge API explorer updates into main ([9fa110b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/9fa110b124ade91cc280aef00d75fac73b5a7e40))
+
 # [1.93.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.92.0...v1.93.0) (2026-06-05)
 
 
