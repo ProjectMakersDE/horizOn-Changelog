@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.94.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.0...v1.94.1) (2026-06-14)
+
+
+### Performance Improvements
+
+* **ssr:** cache evergreen pages 12h and blog 1h (was 10min) ([61cb151](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/61cb15188dce66f80d9606f52d3eaf53857b8929))
+
 # [1.94.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.93.0...v1.94.0) (2026-06-11)
 
 
