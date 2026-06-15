@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.94.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.1...v1.94.2) (2026-06-15)
+
+
+### Bug Fixes
+
+* **ssr:** render pages with AngularNodeAppEngine instead of empty CSR shell ([c536376](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c536376c7499f2281e8bb8d0ec59b432bbbdb754))
+
 ## [1.94.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.0...v1.94.1) (2026-06-14)
 
 
