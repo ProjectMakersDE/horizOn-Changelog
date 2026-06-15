@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.94.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.3...v1.94.4) (2026-06-15)
+
+
+### Bug Fixes
+
+* **ssr:** trust x-forwarded-scheme so ingress renders SSR not CSR shell ([0a1306c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0a1306cca07f1184af0bf15f303da33840e1ed1f))
+
 ## [1.94.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.2...v1.94.3) (2026-06-15)
 
 
