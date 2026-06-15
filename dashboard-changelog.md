@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.94.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.2...v1.94.3) (2026-06-15)
+
+
+### Bug Fixes
+
+* **ssr:** fetch public SSR data over internal cluster DNS (TASK-317) ([b674e49](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b674e496da4ecaf6c7c1a50a954f2d30e487085a))
+
 ## [1.94.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.1...v1.94.2) (2026-06-15)
 
 
