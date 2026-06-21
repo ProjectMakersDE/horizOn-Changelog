@@ -9,6 +9,20 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.95.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.4...v1.95.0) (2026-06-21)
+
+
+### Bug Fixes
+
+* **home:** TASK-178 fix hero LCP preload and deprioritize decorative seagull ([39b0fe3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/39b0fe370779a763a20aaa03fb9131d585c92c75))
+* **legal:** render legal pages under zoneless change detection via signals ([96e6d4b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/96e6d4badf65304b965822b2b6f460c1eee6d3b2))
+
+
+### Features
+
+* **dashboard:** add data-testid coverage for tutorial capture (TASK-333) ([049de85](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/049de8542abf9cbbd61631455551a878ea66b9e8))
+* **dashboard:** migrate icons from lucide-angular to offline iconify-icon (line-md) ([74b7c6c](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/74b7c6c6ff1b79491d2131e9765d0f4b4df2d29d))
+
 ## [1.94.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.3...v1.94.4) (2026-06-15)
 
 
