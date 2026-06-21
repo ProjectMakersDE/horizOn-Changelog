@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.95.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.95.0...v1.95.1) (2026-06-21)
+
+
+### Bug Fixes
+
+* **icons:** restore icon size & centering after iconify migration (TASK-343) ([042c2cf](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/042c2cf20417d8570c1971fcf738a0c47f2d9645))
+
 # [1.95.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.94.4...v1.95.0) (2026-06-21)
 
 
