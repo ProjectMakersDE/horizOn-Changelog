@@ -9,6 +9,20 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.96.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.95.1...v1.96.0) (2026-06-24)
+
+
+### Bug Fixes
+
+* gated dev-only /api proxy in SSR server so the dev box reaches the backend ([d11260b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d11260b66eeda8359fdf309b02861091b59c697d))
+* **localization:** tolerate a list response without entries (avoid load crash) ([f9b45a8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f9b45a8b15039d01f2f7a1d4744b3e202e3a22ed))
+
+
+### Features
+
+* **localization:** dashboard quickstart for all SDKs + System Config category ([69052c5](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/69052c5e73706b2e4e7ee7de39594d26f13e00b8))
+* **localization:** management UI, frontpages, and 15-language i18n ([43d076a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/43d076ae8378ecb587685dfd358ed8cbc56a3815))
+
 ## [1.95.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.95.0...v1.95.1) (2026-06-21)
 
 
