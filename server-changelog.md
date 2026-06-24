@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.60.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.59.0...v1.60.0) (2026-06-24)
+
+
+### Features
+
+* **localization:** backend storage, app + admin APIs, per-key limits ([e5a195a](https://github.com/ProjectMakersDE/horizOn-Server/commit/e5a195ae4f6952f17e830f38807afe189a14d652))
+
 # [1.59.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.58.0...v1.59.0) (2026-06-11)
 
 
