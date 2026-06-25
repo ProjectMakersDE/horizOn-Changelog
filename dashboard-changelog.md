@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.96.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.96.0...v1.96.1) (2026-06-25)
+
+
+### Bug Fixes
+
+* **localization:** reachable Import Language trigger, strict-safe copy-key, correct empty-state route ([c04141d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/c04141d88436e0a77460a9be5424cd9a45444536))
+
 # [1.96.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.95.1...v1.96.0) (2026-06-24)
 
 
