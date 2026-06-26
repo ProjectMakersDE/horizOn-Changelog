@@ -9,6 +9,19 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.97.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.96.1...v1.97.0) (2026-06-26)
+
+
+### Bug Fixes
+
+* **localization:** reachable Import Language trigger, strict-safe copy-key, correct empty-state route ([0d27a00](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0d27a003b07cff6fdfcee7c2f5d07599a0235c2f))
+* **routing:** keep multi-segment localize paths as one router command ([4d26774](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4d267748031a1a89ca67fd6cfcb4010fce107991))
+
+
+### Features
+
+* **crash-reporting:** occurrence-detail device + stack-trace testids for tutorial capture ([ad538d8](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ad538d8de5b9d1898e076249fabada1e8b2ef1cf))
+
 ## [1.96.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.96.0...v1.96.1) (2026-06-25)
 
 
