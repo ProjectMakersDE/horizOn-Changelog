@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.98.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.97.0...v1.98.0) (2026-06-26)
+
+
+### Features
+
+* **dashboard:** AI translation for email templates & localization, email tab/list UX fixes ([#17](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/17)) ([07c5d71](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/07c5d71bd7c5258ad9d68de729ac5f35ae1e1275))
+
 # [1.97.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.96.1...v1.97.0) (2026-06-26)
 
 
