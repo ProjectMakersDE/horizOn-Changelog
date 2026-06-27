@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.98.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.98.0...v1.98.1) (2026-06-27)
+
+
+### Bug Fixes
+
+* **dashboard:** localization + email AI-translate use the News table-action modal (TASK-372/373) ([#18](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/18)) ([1a84b64](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1a84b64828ed45f7ddb1bd3f3a8e7f784b41a4f5)), closes [#17](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/17)
+
 # [1.98.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.97.0...v1.98.0) (2026-06-26)
 
 
