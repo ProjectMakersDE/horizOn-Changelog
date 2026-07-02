@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.61.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.60.0...v1.61.0) (2026-07-02)
+
+
+### Features
+
+* **user-management:** one-click Google auth via signInIfExists upsert sign-up ([0e221cb](https://github.com/ProjectMakersDE/horizOn-Server/commit/0e221cbe4b7ff595dc15f532c611dfb034ff3f70))
+
 # [1.60.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.59.0...v1.60.0) (2026-06-24)
 
 
