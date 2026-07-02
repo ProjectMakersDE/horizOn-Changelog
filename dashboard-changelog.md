@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.99.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.99.0...v1.99.1) (2026-07-02)
+
+
+### Bug Fixes
+
+* **ssr:** allow R2 tutorial videos via media-src in the CSP (TASK-387) ([1f5b3da](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/1f5b3da68fb245d21a32be20966f10fe8e368edf))
+
 # [1.99.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.98.1...v1.99.0) (2026-07-02)
 
 
