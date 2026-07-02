@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.99.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.98.1...v1.99.0) (2026-07-02)
+
+
+### Features
+
+* **quickstart:** embed the 15 R2-hosted tutorial videos in the Dashboard Guide (TASK-387) ([f110e2b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f110e2b5249b9963f39ebb55c15bb90b42d52b76))
+
 ## [1.98.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.98.0...v1.98.1) (2026-06-27)
 
 
