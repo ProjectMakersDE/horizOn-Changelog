@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.99.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.99.1...v1.99.2) (2026-07-04)
+
+
+### Bug Fixes
+
+* **dashboard:** show serving region in version footer instead of "unknown" ([995989a](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/995989adedc4d520e2373e2eada0467e4c255aec))
+* **frontpages:** resolve PageSpeed accessibility, contrast, and image audits ([d01c50b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/d01c50b5df448fe66697ec7f4b4f6e2ccd43190a))
+
 ## [1.99.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.99.0...v1.99.1) (2026-07-02)
 
 
