@@ -9,6 +9,31 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.100.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.99.2...v1.100.0) (2026-07-08)
+
+
+### Bug Fixes
+
+* **i18n:** allow Seagull Storm example title in i18n check-strict ([4916d3d](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4916d3d831cb91853c5375e4bf525bfb3850d7ef))
+* **quickstart:** a11y labels, dead-import cleanup, DE label fixes, and funnel unit tests ([800f845](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/800f845159bb12034dc794acff0af655f19a153c))
+* **quickstart:** drop non-functional sticky plan bar (global app-root overflow blocks position:sticky) ([08d3d2e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/08d3d2e4e754c1b2b18f0d709880a1ec507b9435))
+* **quickstart:** rate-limits reference body, one-player Erkunden tour, sticky plan bar, engine-switch step sync ([f49f310](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f49f310382249a0606311a6ee1e65a606bf5ff46))
+* **quickstart:** stop SDK guide clobbering page title, hide step counter for stepless track ([e6be325](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e6be3254cb3595f734bc7bdeb0bd4ba4a2627290))
+
+
+### Features
+
+* **quickstart:** example cards and collapsed reference accordion ([b6cc683](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b6cc6832530d0213f5aaea02c822b022c57baddc))
+* **quickstart:** funnel i18n keys in 15 languages ([bc87853](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/bc8785387cadc0b90002aa448a92cfa72377fc76))
+* **quickstart:** funnel model interfaces ([dbfe2a4](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/dbfe2a4141628fca0123214e7b97884bcb575d89))
+* **quickstart:** goal cards, plan bar, hero, engine picker ([fbd2fe4](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/fbd2fe480fa4655ae14f520dbf2f3969c6a6258d))
+* **quickstart:** guided step card with copy block and step video ([5396c7b](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/5396c7b9d351f3baa9c8bef6c09ec9f6640222ed))
+* **quickstart:** quiet video card (poster + summary, no autoplay) ([96323ca](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/96323ca6364087e6c9ace5d03e62251f0a84f3c7))
+* **quickstart:** rewrite page as goal-first funnel orchestrator ([8b1b2cd](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/8b1b2cd16dd4ad61e0bcb3ce0e6e1423d44ea96d))
+* **quickstart:** show "recommended to start" hint on the suggested goal card ([a6e1f21](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/a6e1f21a6efb128759c337e3dbb48e6a1b1c3333))
+* **quickstart:** stepper with single open step and progress ([24dffab](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/24dffab48789431c121f881a4309f748f5827b2b))
+* **quickstart:** track data for Ausprobieren and Einbauen ([e9968d1](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/e9968d19eb8c757ec33a3d9eae3b666b43b0bc0d))
+
 ## [1.99.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.99.1...v1.99.2) (2026-07-04)
 
 
