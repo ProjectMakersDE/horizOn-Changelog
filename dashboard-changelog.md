@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.100.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.100.0...v1.100.1) (2026-07-08)
+
+
+### Bug Fixes
+
+* **quickstart:** repair dead reference links and rework goal navigation ([ae9c795](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/ae9c7959c071278e81350cf056e709c1032150c6))
+
 # [1.100.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.99.2...v1.100.0) (2026-07-08)
 
 
