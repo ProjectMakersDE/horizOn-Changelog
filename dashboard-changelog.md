@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.100.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.100.1...v1.100.2) (2026-07-08)
+
+
+### Bug Fixes
+
+* **api-keys:** do not call the admin api-keys endpoint when logged out ([012ff78](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/012ff78a00d5d9ba980d5458499449debfb0c5c6))
+
 ## [1.100.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.100.0...v1.100.1) (2026-07-08)
 
 
