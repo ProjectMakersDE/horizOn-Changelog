@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.101.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.100.2...v1.101.0) (2026-07-10)
+
+
+### Features
+
+* **quickstart:** video cards show real titles, tighter summaries and a lightbox player ([3149da3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/3149da3c6ed451999cefabb3dc9e92947f8376aa))
+
 ## [1.100.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.100.1...v1.100.2) (2026-07-08)
 
 
