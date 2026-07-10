@@ -9,6 +9,20 @@ All notable changes to the horizOn Unity SDK.
 
 [Back to Overview](.)
 
+## [1.8.1](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/compare/v1.8.0...v1.8.1) (2026-07-10)
+
+
+### Bug Fixes
+
+* reset static SDK state for Fast Enter Play Mode (Unity 6.6 domain reload) ([10e6744](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/commit/10e674437ea0c7b0a0081ac295157d2b5d4ffaf3))
+
+# [1.8.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/compare/v1.7.0...v1.8.0) (2026-06-24)
+
+
+### Features
+
+* **localization:** add LocalizationManager, responses and example ([12c6c73](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/commit/12c6c737aa6d06ad2407f48acb20d624e563cf43))
+
 # [1.7.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/compare/v1.6.0...v1.7.0) (2026-06-17)
 
 
