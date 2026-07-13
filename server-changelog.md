@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.62.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.61.2...v1.62.0) (2026-07-13)
+
+
+### Features
+
+* **auth:** add rotating refresh tokens ([47a012a](https://github.com/ProjectMakersDE/horizOn-Server/commit/47a012a5cb675d663c7b7df1018334347f89a07a))
+
 ## [1.61.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.61.1...v1.61.2) (2026-07-13)
 
 
