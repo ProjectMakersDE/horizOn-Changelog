@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.61.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.61.1...v1.61.2) (2026-07-13)
+
+
+### Bug Fixes
+
+* **security:** encrypt retained cloud saves ([a794dae](https://github.com/ProjectMakersDE/horizOn-Server/commit/a794dae7ccbdd493e1ec0d0fb6436614e1cec2b1))
+
 ## [1.61.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.61.0...v1.61.1) (2026-07-13)
 
 
