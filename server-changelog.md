@@ -9,6 +9,16 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.61.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.61.0...v1.61.1) (2026-07-13)
+
+
+### Bug Fixes
+
+* **auth:** accept long passwords at sign in ([2bd3b37](https://github.com/ProjectMakersDE/horizOn-Server/commit/2bd3b3742905e14c54ec564228c0a89724d1bfb2))
+* **security:** bind and encrypt cloud saves ([574bb4d](https://github.com/ProjectMakersDE/horizOn-Server/commit/574bb4db4a98c15a31387875694ebc424a542ef6))
+* **security:** encrypt cloud save admin operations ([78a7598](https://github.com/ProjectMakersDE/horizOn-Server/commit/78a7598e0fc064e6d43af326af47995d1d83f71c))
+* **security:** migrate legacy cloud saves at startup ([c328dfa](https://github.com/ProjectMakersDE/horizOn-Server/commit/c328dfa64a4df0bdb593e7fb09fb8c88bdb4388c))
+
 # [1.61.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.60.0...v1.61.0) (2026-07-02)
 
 
