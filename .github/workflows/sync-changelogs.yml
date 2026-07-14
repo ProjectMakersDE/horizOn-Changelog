@@ -1,46 +1,50 @@
-name: Sync Changelogs
+name: Sync and Publish Changelogs
 
 on:
+  push:
+    branches: ["master"]
   repository_dispatch:
     types: [sync-changelog]
   workflow_dispatch:
-    inputs:
-      source:
-        description: 'Source to sync'
-        required: false
-        default: 'all'
-        type: choice
-        options:
-          - all
-          - dashboard
-          - server
-          - godot-sdk
-          - unity-sdk
-          - unreal-sdk
-          - simple-server
-          - mcp-server
 
-permissions:
-  contents: write
+# Every run reconciles every source, so the newest queued run also heals any
+# dispatch that was superseded while another publication was still running.
+concurrency:
+  group: changelog-sync-and-publish
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      commit: ${{ steps.commit.outputs.sha }}
+      dashboard_version: ${{ steps.versions.outputs.dashboard }}
+      server_version: ${{ steps.versions.outputs.server }}
+      godot_version: ${{ steps.versions.outputs.godot }}
+      unity_version: ${{ steps.versions.outputs.unity }}
+      unreal_version: ${{ steps.versions.outputs.unreal }}
+      simple_server_version: ${{ steps.versions.outputs.simple_server }}
+      mcp_version: ${{ steps.versions.outputs.mcp }}
+
     steps:
       - name: Checkout changelog repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
+        with:
+          ref: master
+          fetch-depth: 0
 
-      - name: Determine source
-        id: source
+      - name: Report reconciliation trigger
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REQUESTED_SOURCE: ${{ github.event.client_payload.source }}
         run: |
-          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
-            echo "source=${{ github.event.client_payload.source }}" >> $GITHUB_OUTPUT
-          else
-            echo "source=${{ inputs.source }}" >> $GITHUB_OUTPUT
-          fi
+          echo "Running full changelog reconciliation"
+          echo "Event: ${EVENT_NAME}"
+          echo "Requested source: ${REQUESTED_SOURCE:-all}"
 
       - name: Sync Dashboard changelog
-        if: steps.source.outputs.source == 'dashboard' || steps.source.outputs.source == 'all'
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -61,7 +65,6 @@ jobs:
           echo "$CONTENT" >> dashboard-changelog.md
 
       - name: Sync Server changelog
-        if: steps.source.outputs.source == 'server' || steps.source.outputs.source == 'all'
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -82,7 +85,6 @@ jobs:
           echo "$CONTENT" >> server-changelog.md
 
       - name: Sync Godot SDK changelog
-        if: steps.source.outputs.source == 'godot-sdk' || steps.source.outputs.source == 'all'
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -103,7 +105,6 @@ jobs:
           echo "$CONTENT" >> godot-sdk-changelog.md
 
       - name: Sync Unity SDK changelog
-        if: steps.source.outputs.source == 'unity-sdk' || steps.source.outputs.source == 'all'
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -124,7 +125,6 @@ jobs:
           echo "$CONTENT" >> unity-sdk-changelog.md
 
       - name: Sync Unreal SDK changelog
-        if: steps.source.outputs.source == 'unreal-sdk' || steps.source.outputs.source == 'all'
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -145,7 +145,6 @@ jobs:
           echo "$CONTENT" >> unreal-sdk-changelog.md
 
       - name: Sync Simple Server changelog
-        if: steps.source.outputs.source == 'simple-server' || steps.source.outputs.source == 'all'
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -166,7 +165,6 @@ jobs:
           echo "$CONTENT" >> simple-server-changelog.md
 
       - name: Sync MCP Server changelog
-        if: steps.source.outputs.source == 'mcp-server' || steps.source.outputs.source == 'all'
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -187,40 +185,165 @@ jobs:
           echo "$CONTENT" >> mcp-server-changelog.md
 
       - name: Update index version badges
+        id: versions
+        shell: bash
         run: |
-          # Extract versions from changelog files (skip frontmatter)
-          DASH_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' dashboard-changelog.md | head -1 || echo "0.0.0")
-          SERV_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' server-changelog.md | head -1 || echo "0.0.0")
-          GODOT_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' godot-sdk-changelog.md | head -1 || echo "0.0.0")
-          UNITY_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' unity-sdk-changelog.md | head -1 || echo "")
+          set -euo pipefail
 
-          # Update version badges in index.md cards
-          sed -i "/<h3>Dashboard<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${DASH_VER}</span>|" index.md || true
-          sed -i "/<h3>Server API<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${SERV_VER}</span>|" index.md || true
-          sed -i "/<h3>Godot SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${GODOT_VER}</span>|" index.md || true
-          if [ -n "$UNITY_VER" ]; then
-            sed -i "/<h3>Unity SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNITY_VER}</span>|" index.md || true
-          fi
+          extract_version() {
+            local file="$1"
+            local version
+            version=$(grep -m1 -oP '##? \[\K\d+\.\d+\.\d+' "$file")
+            if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+              echo "No valid release version found in $file" >&2
+              exit 1
+            fi
+            printf '%s' "$version"
+          }
 
-          UNREAL_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' unreal-sdk-changelog.md | head -1 || echo "")
-          if [ -n "$UNREAL_VER" ]; then
-            sed -i "/<h3>Unreal SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNREAL_VER}</span>|" index.md || true
-          fi
+          DASH_VER=$(extract_version dashboard-changelog.md)
+          SERV_VER=$(extract_version server-changelog.md)
+          GODOT_VER=$(extract_version godot-sdk-changelog.md)
+          UNITY_VER=$(extract_version unity-sdk-changelog.md)
+          UNREAL_VER=$(extract_version unreal-sdk-changelog.md)
+          SIMPLE_VER=$(extract_version simple-server-changelog.md)
+          MCP_VER=$(extract_version mcp-server-changelog.md)
 
-          SIMPLE_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' simple-server-changelog.md | head -1 || echo "")
-          if [ -n "$SIMPLE_VER" ]; then
-            sed -i "/<h3>Simple Server<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${SIMPLE_VER}</span>|" index.md || true
-          fi
+          sed -i "/<h3>Dashboard<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${DASH_VER}</span>|" index.md
+          sed -i "/<h3>Server API<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${SERV_VER}</span>|" index.md
+          sed -i "/<h3>Godot SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">v[0-9.]*</span>|<span class=\"version\">v${GODOT_VER}</span>|" index.md
+          sed -i "/<h3>Unity SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNITY_VER}</span>|" index.md
+          sed -i "/<h3>Unreal SDK<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${UNREAL_VER}</span>|" index.md
+          sed -i "/<h3>Simple Server<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${SIMPLE_VER}</span>|" index.md
+          sed -i "/<h3>MCP Server<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${MCP_VER}</span>|" index.md
 
-          MCP_VER=$(grep -oP '##? \[\K\d+\.\d+\.\d+' mcp-server-changelog.md | head -1 || echo "")
-          if [ -n "$MCP_VER" ]; then
-            sed -i "/<h3>MCP Server<\/h3>/,/<\/a>/ s|<span class=\"version\">.*</span>|<span class=\"version\">v${MCP_VER}</span>|" index.md || true
-          fi
+          for version in "$DASH_VER" "$SERV_VER" "$GODOT_VER" "$UNITY_VER" "$UNREAL_VER" "$SIMPLE_VER" "$MCP_VER"; do
+            grep -Fq "<span class=\"version\">v${version}</span>" index.md
+          done
 
-      - name: Commit and push
+          echo "dashboard=$DASH_VER" >> "$GITHUB_OUTPUT"
+          echo "server=$SERV_VER" >> "$GITHUB_OUTPUT"
+          echo "godot=$GODOT_VER" >> "$GITHUB_OUTPUT"
+          echo "unity=$UNITY_VER" >> "$GITHUB_OUTPUT"
+          echo "unreal=$UNREAL_VER" >> "$GITHUB_OUTPUT"
+          echo "simple_server=$SIMPLE_VER" >> "$GITHUB_OUTPUT"
+          echo "mcp=$MCP_VER" >> "$GITHUB_OUTPUT"
+
+      - name: Commit reconciled changelogs
+        id: commit
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "chore: sync changelogs [skip ci]"
-          git push
+          git add \
+            dashboard-changelog.md \
+            server-changelog.md \
+            godot-sdk-changelog.md \
+            unity-sdk-changelog.md \
+            unreal-sdk-changelog.md \
+            simple-server-changelog.md \
+            mcp-server-changelog.md \
+            index.md
+
+          if git diff --staged --quiet; then
+            echo "All changelogs are already current"
+          else
+            git commit -m "chore: reconcile changelogs"
+            git push origin HEAD:master
+          fi
+
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: sync
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+    steps:
+      - name: Checkout reconciled changelogs
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ needs.sync.outputs.commit }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+          build_revision: ${{ needs.sync.outputs.commit }}
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+
+  deploy:
+    needs: [sync, build]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Verify published changelog versions
+        shell: bash
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          DASHBOARD_VERSION: ${{ needs.sync.outputs.dashboard_version }}
+          SERVER_VERSION: ${{ needs.sync.outputs.server_version }}
+          GODOT_VERSION: ${{ needs.sync.outputs.godot_version }}
+          UNITY_VERSION: ${{ needs.sync.outputs.unity_version }}
+          UNREAL_VERSION: ${{ needs.sync.outputs.unreal_version }}
+          SIMPLE_SERVER_VERSION: ${{ needs.sync.outputs.simple_server_version }}
+          MCP_VERSION: ${{ needs.sync.outputs.mcp_version }}
+        run: |
+          set -euo pipefail
+          base_url=${PAGE_URL%/}
+
+          for attempt in {1..12}; do
+            failed=0
+            for page_and_version in \
+              "dashboard-changelog.html:$DASHBOARD_VERSION" \
+              "server-changelog.html:$SERVER_VERSION" \
+              "godot-sdk-changelog.html:$GODOT_VERSION" \
+              "unity-sdk-changelog.html:$UNITY_VERSION" \
+              "unreal-sdk-changelog.html:$UNREAL_VERSION" \
+              "simple-server-changelog.html:$SIMPLE_SERVER_VERSION" \
+              "mcp-server-changelog.html:$MCP_VERSION"; do
+              page=${page_and_version%%:*}
+              version=${page_and_version#*:}
+              if ! body=$(curl -fsSL \
+                --connect-timeout 5 \
+                --max-time 15 \
+                -H 'Cache-Control: no-cache' \
+                "${base_url}/${page}?deployment=${GITHUB_RUN_ID}-${attempt}"); then
+                echo "Waiting for ${page} to become reachable"
+                failed=1
+                continue
+              fi
+
+              if ! grep -Fq "$version" <<< "$body"; then
+                echo "Waiting for ${page} to publish ${version}"
+                failed=1
+              fi
+            done
+
+            if [ "$failed" -eq 0 ]; then
+              echo "All changelog pages expose the reconciled versions"
+              exit 0
+            fi
+
+            sleep 5
+          done
+
+          echo "Published changelog verification timed out" >&2
+          exit 1
