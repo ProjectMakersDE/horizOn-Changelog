@@ -6,6 +6,9 @@ baseurl: ""
 plugins: []
 
 exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - GEMINI.md
   - README.md
   - LICENSE
   - Gemfile
