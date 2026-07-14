@@ -9,6 +9,27 @@ All notable changes to the horizOn Unreal SDK.
 
 [Back to Overview](.)
 
+# [1.6.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.5.0...v1.6.0) (2026-06-24)
+
+
+### Features
+
+* **localization:** add HorizonLocalizationManager, async actions and example ([87e2433](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/commit/87e2433edce0a87dcda98df815eb2c593efa20d2))
+
+# [1.5.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.4.1...v1.5.0) (2026-05-22)
+
+
+### Features
+
+* harmonize sdk multi-board APIs ([ee0fe62](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/commit/ee0fe62de0bcb7fb7b979df1dc984f62daeb8445))
+
+## [1.4.1](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.4.0...v1.4.1) (2026-05-14)
+
+
+### Bug Fixes
+
+* **sdk:** add per-feature minimal examples and Hello horizOn entry (TASK-217) ([abcb21b](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/commit/abcb21b4755cfa7936b8239703a9cbe08de5995f))
+
 # [1.4.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.3.0...v1.4.0) (2026-04-20)
 
 
