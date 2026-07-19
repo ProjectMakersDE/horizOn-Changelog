@@ -9,6 +9,18 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.63.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.62.0...v1.63.0) (2026-07-19)
+
+
+### Bug Fixes
+
+* **ci:** prevent Kotlin test compilation OOM ([51e4b4e](https://github.com/ProjectMakersDE/horizOn-Server/commit/51e4b4ebdbb8eb8151607ba2dc2b1721415eca58))
+
+
+### Features
+
+* **restore:** coordinate account-selective database restores ([e5b901e](https://github.com/ProjectMakersDE/horizOn-Server/commit/e5b901e6727c944691c7770f2ef22b081edf553d))
+
 # [1.62.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.61.2...v1.62.0) (2026-07-13)
 
 
