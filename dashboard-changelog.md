@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# [1.102.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.101.0...v1.102.0) (2026-07-24)
+
+
+### Features
+
+* **blog:** render hero images at 3:2 ([35f8f19](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/35f8f196c18dcfb1640edec3198a309375cf9fb2))
+
 # [1.101.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.100.2...v1.101.0) (2026-07-10)
 
 
