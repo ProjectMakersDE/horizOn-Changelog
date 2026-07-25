@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.102.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.102.0...v1.102.1) (2026-07-25)
+
+
+### Bug Fixes
+
+* **analytics:** rebuild behavior insights ([05a13d3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/05a13d3e1ec08dc3fdaab416b552e7f8dcfd40ef))
+
 # [1.102.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.101.0...v1.102.0) (2026-07-24)
 
 
