@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.63.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.63.1...v1.63.2) (2026-07-25)
+
+
+### Bug Fixes
+
+* **analytics:** repair traffic segmentation and filters ([af3db1d](https://github.com/ProjectMakersDE/horizOn-Server/commit/af3db1dcea8ef2eb3ebbef51c4ad3881f21dfb97))
+
 ## [1.63.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.63.0...v1.63.1) (2026-07-25)
 
 
