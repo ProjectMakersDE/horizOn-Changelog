@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.63.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.63.0...v1.63.1) (2026-07-25)
+
+
+### Bug Fixes
+
+* **analytics:** rebuild behavior insights ([1195a95](https://github.com/ProjectMakersDE/horizOn-Server/commit/1195a95082546c7b26960afb6a41d87770b82a2a))
+
 # [1.63.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.62.0...v1.63.0) (2026-07-19)
 
 
