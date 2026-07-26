@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.63.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.63.2...v1.63.3) (2026-07-26)
+
+
+### Bug Fixes
+
+* **scheduling:** pin index maintenance outside the backup window ([fd14939](https://github.com/ProjectMakersDE/horizOn-Server/commit/fd1493975ff9e3e57afbbecc3d43bb7658e21ff7))
+
 ## [1.63.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.63.1...v1.63.2) (2026-07-25)
 
 
