@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.102.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.102.2...v1.102.3) (2026-07-31)
+
+
+### Bug Fixes
+
+* **blog:** disclose AI-generated images ([2f3c929](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/2f3c92901ba65198fde1f289c491296385588a6e))
+
 ## [1.102.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.102.1...v1.102.2) (2026-07-25)
 
 
