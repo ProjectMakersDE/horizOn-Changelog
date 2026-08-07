@@ -9,6 +9,21 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# [1.64.0](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.63.3...v1.64.0) (2026-08-07)
+
+
+### Bug Fixes
+
+* **ci:** allow manual workflow recovery ([49ade45](https://github.com/ProjectMakersDE/horizOn-Server/commit/49ade45118212e47c56b2821a53521f5a8504072))
+* **users:** cover test account marker lifecycle ([b84a0f6](https://github.com/ProjectMakersDE/horizOn-Server/commit/b84a0f619f1d578106d61448d62b81a28ae07d52))
+* **users:** include role in signin response ([76bfec3](https://github.com/ProjectMakersDE/horizOn-Server/commit/76bfec3d88f660230fcbba78442159224c9ef12e))
+* **users:** remove BodySeasons test account marker ([2dfc93d](https://github.com/ProjectMakersDE/horizOn-Server/commit/2dfc93db4113bb35ce35a94f634b1d01a9a3ad49))
+
+
+### Features
+
+* **users:** mark internal test accounts ([d55cd79](https://github.com/ProjectMakersDE/horizOn-Server/commit/d55cd798d1a01cb13b442360350d92f8829c41ce))
+
 ## [1.63.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.63.2...v1.63.3) (2026-07-26)
 
 
