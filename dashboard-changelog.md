@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.102.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.102.3...v1.102.4) (2026-08-08)
+
+
+### Bug Fixes
+
+* **api-keys:** forward never-expire account key choice ([7c75dc3](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/7c75dc3b07df62b14063b86adab790972e276752))
+
 ## [1.102.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.102.2...v1.102.3) (2026-07-31)
 
 
