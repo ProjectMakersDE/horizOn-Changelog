@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.64.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.1...v1.64.2) (2026-08-08)
+
+
+### Bug Fixes
+
+* **api-keys:** honor never-expire account keys ([030f1c1](https://github.com/ProjectMakersDE/horizOn-Server/commit/030f1c12c1ba922b7b152c733783069825f0828e))
+
 ## [1.64.1](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.0...v1.64.1) (2026-08-07)
 
 
