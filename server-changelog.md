@@ -9,6 +9,14 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.64.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.2...v1.64.3) (2026-08-13)
+
+
+### Bug Fixes
+
+* **news:** publish scheduled entries automatically ([989c545](https://github.com/ProjectMakersDE/horizOn-Server/commit/989c54534d342f26a6069e360a9bb6324644e70c))
+* run server CI on local runners ([164a405](https://github.com/ProjectMakersDE/horizOn-Server/commit/164a40584b1a091e6f9805f2ff6063ba3a7c7e74))
+
 ## [1.64.2](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.1...v1.64.2) (2026-08-08)
 
 

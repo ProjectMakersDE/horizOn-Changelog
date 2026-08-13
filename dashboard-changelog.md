@@ -9,6 +9,25 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.103.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.103.0...v1.103.1) (2026-08-13)
+
+
+### Bug Fixes
+
+* **ci:** dispatch changelog without gh cli ([f7df598](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/f7df598569c7f2cdfc048b705ef957ee2e2e8b66))
+
+# [1.103.0](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.102.4...v1.103.0) (2026-08-13)
+
+
+### Bug Fixes
+
+* run dashboard CI on local runners ([812dacb](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/812dacbfc8c5b7d9a489f517631497f1fcad8b3a))
+
+
+### Features
+
+* **news:** add scheduled publication time ([54e243f](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/54e243ff34cfe2e892a0aeb10a15cd06392dcd77))
+
 ## [1.102.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.102.3...v1.102.4) (2026-08-08)
 
 
