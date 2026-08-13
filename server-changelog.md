@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.64.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.3...v1.64.4) (2026-08-13)
+
+
+### Bug Fixes
+
+* **ci:** dispatch changelog without gh cli ([6609381](https://github.com/ProjectMakersDE/horizOn-Server/commit/6609381d551cadd1d0bf9dde3d4fe4e082f8d0c7))
+
 ## [1.64.3](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.2...v1.64.3) (2026-08-13)
 
 
