@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.103.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.103.1...v1.103.2) (2026-08-20)
+
+
+### Bug Fixes
+
+* **users:** scope statistics and stabilize pagination ([128fa11](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/128fa11e69115fa9d97f5426200f331c30313120))
+
 ## [1.103.1](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.103.0...v1.103.1) (2026-08-13)
 
 
