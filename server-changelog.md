@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.64.5](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.4...v1.64.5) (2026-08-20)
+
+
+### Bug Fixes
+
+* **users:** scope statistics by api key ([5429a77](https://github.com/ProjectMakersDE/horizOn-Server/commit/5429a773728b248a293c79378ff00025b10d59c4))
+
 ## [1.64.4](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.3...v1.64.4) (2026-08-13)
 
 
