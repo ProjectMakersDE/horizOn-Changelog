@@ -9,6 +9,14 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.64.6](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.5...v1.64.6) (2026-08-24)
+
+
+### Bug Fixes
+
+* **users:** allow scoped user deletion ([761c402](https://github.com/ProjectMakersDE/horizOn-Server/commit/761c402f3ce215fd9de10458dbb35ea239f84cab))
+* **users:** allow scoped user deletion ([#42](https://github.com/ProjectMakersDE/horizOn-Server/issues/42)) ([600c0bb](https://github.com/ProjectMakersDE/horizOn-Server/commit/600c0bb16d96cfe32a55da9a0e4224540d6433b1))
+
 ## [1.64.5](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.4...v1.64.5) (2026-08-20)
 
 
