@@ -21,12 +21,12 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="godot-sdk-changelog" class="product-card">
     <h3>Godot SDK</h3>
     <p>Native GDScript plugin for integrating horizOn into Godot Engine projects.</p>
-    <span class="version">v1.7.0</span>
+    <span class="version">v1.7.1</span>
   </a>
   <a href="unity-sdk-changelog" class="product-card">
     <h3>Unity SDK</h3>
     <p>C# package for integrating horizOn into Unity game projects.</p>
-    <span class="version">v1.8.3</span>
+    <span class="version">v1.8.4</span>
   </a>
   <a href="unreal-sdk-changelog" class="product-card">
     <h3>Unreal SDK</h3>
