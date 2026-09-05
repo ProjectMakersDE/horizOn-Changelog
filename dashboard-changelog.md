@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.103.4](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.103.3...v1.103.4) (2026-09-05)
+
+
+### Bug Fixes
+
+* restore inline styles under the content security policy ([0cba9ca](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/0cba9ca0f25559f547be87d5f4e4d8e8565f91dc))
+
 ## [1.103.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.103.2...v1.103.3) (2026-09-05)
 
 
