@@ -9,6 +9,43 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.64.7](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.6...v1.64.7) (2026-09-05)
+
+
+### Bug Fixes
+
+* bind leaderboard submissions to user sessions ([d65d2c8](https://github.com/ProjectMakersDE/horizOn-Server/commit/d65d2c851519c12b7ed32a1aa34707c06a6b821e))
+* **blog:** sanitize stored markdown content ([19c37e8](https://github.com/ProjectMakersDE/horizOn-Server/commit/19c37e837747c6c6756c825678649108a350c7b2))
+* **ci:** pass timing mutation into test JVM ([513ffd1](https://github.com/ProjectMakersDE/horizOn-Server/commit/513ffd194926efc05ba365b657cb7390e9d4da31))
+* **ci:** run timing mutation on Mongo test task ([03340e2](https://github.com/ProjectMakersDE/horizOn-Server/commit/03340e21694edb11352a431b19e71e6ec5d3546c))
+* cover gift code transaction execution ([986b3d9](https://github.com/ProjectMakersDE/horizOn-Server/commit/986b3d9fe5c19885487fdce103c9f36c9837b57e))
+* **gift-codes:** strengthen transaction consistency ([77d0da2](https://github.com/ProjectMakersDE/horizOn-Server/commit/77d0da2b12288e569ec13d1740a724ddee7008c7))
+* make gift code redemption atomic ([77ff6d6](https://github.com/ProjectMakersDE/horizOn-Server/commit/77ff6d669e301c59e46fb812465bb9bd32b2771b))
+* **mongo:** preserve tenant routing in transactions ([e7a8a1a](https://github.com/ProjectMakersDE/horizOn-Server/commit/e7a8a1a23358fd1e90cfed73273c50cabe2fb5f3))
+* **release:** promote security hardening to production ([#44](https://github.com/ProjectMakersDE/horizOn-Server/issues/44)) ([ab33f48](https://github.com/ProjectMakersDE/horizOn-Server/commit/ab33f480241ceef82563e4f8832e990a06faf133))
+* revoke inactive account session privileges ([ef3bb0b](https://github.com/ProjectMakersDE/horizOn-Server/commit/ef3bb0b535f887149be32f62fd895f392b240373))
+* **security:** align Mongo integration fixtures ([dad019f](https://github.com/ProjectMakersDE/horizOn-Server/commit/dad019fd3071016e6e9a4492ef1838c3dd4e1013))
+* **security:** bind email recipients to project keys ([721f3d6](https://github.com/ProjectMakersDE/horizOn-Server/commit/721f3d6588f5ad66bf58b429ebac2926c8a7531c))
+* **security:** bound Mongo integration resources ([3e19ede](https://github.com/ProjectMakersDE/horizOn-Server/commit/3e19ede1d0c9b2e900c8daf7589c3aa9f6dc4b55))
+* **security:** close audit follow-up gaps ([eb5dd18](https://github.com/ProjectMakersDE/horizOn-Server/commit/eb5dd182a2516edc64d5a5d55d6bd930c7726c3e))
+* **security:** configure Testcontainers API ([df773e0](https://github.com/ProjectMakersDE/horizOn-Server/commit/df773e017f5d365294255ccee5a1248fcc2f714a))
+* **security:** enforce Mongo integration execution ([534869b](https://github.com/ProjectMakersDE/horizOn-Server/commit/534869bb5b0a1ab1a0f2cc9ddbe5bbdb89e1c317))
+* **security:** harden actuator credentials ([5bf28ca](https://github.com/ProjectMakersDE/horizOn-Server/commit/5bf28cabdcf98585172e3d069fd1db0a5414bf04))
+* **security:** harden anonymous user tokens ([c6d151d](https://github.com/ProjectMakersDE/horizOn-Server/commit/c6d151dd162127acee6cb93d5bcae76cefc7b041))
+* **security:** harden public log ingestion ([98b8554](https://github.com/ProjectMakersDE/horizOn-Server/commit/98b855458e052158a28dd00a016791770e479ec6))
+* **security:** harden SMTP test targets ([85c464d](https://github.com/ProjectMakersDE/horizOn-Server/commit/85c464da7946412c01601b9d03990ada31a66416))
+* **security:** isolate account key management ([ab8cb3f](https://github.com/ProjectMakersDE/horizOn-Server/commit/ab8cb3f1b38265c7210c1e894779b32ad8e32d05))
+* **security:** isolate Mongo integration scheduling ([32c9ec0](https://github.com/ProjectMakersDE/horizOn-Server/commit/32c9ec09b9b0d77b31275db4a911a082eb0a05d9))
+* **security:** keep disabled change stream injectable ([5522011](https://github.com/ProjectMakersDE/horizOn-Server/commit/5522011d2e31d789eef8b92bc0db1e34ebfa4b4d))
+* **security:** prevent auth email enumeration ([ffe3746](https://github.com/ProjectMakersDE/horizOn-Server/commit/ffe37467356563f7dae3e1065c5fd13d5ca99fc8))
+* **security:** protect global cache and index operations ([010e001](https://github.com/ProjectMakersDE/horizOn-Server/commit/010e0010dd879b206341161f6fb3d7d9019d64ca))
+* **security:** protect settings secrets in data exports ([8bc4880](https://github.com/ProjectMakersDE/horizOn-Server/commit/8bc48801df3c6936ec7ac377de7f4898d7df4d74))
+* **security:** prove auth timing floor regression ([8053861](https://github.com/ProjectMakersDE/horizOn-Server/commit/8053861782b6b1464607583a76884ed631fce7f4))
+* **security:** remove production GA4 test endpoint ([e03ff8d](https://github.com/ProjectMakersDE/horizOn-Server/commit/e03ff8dffd7ebd23c2c1e382dd69c225a0c2dc49))
+* **security:** stabilize auth timing regression ([ce02589](https://github.com/ProjectMakersDE/horizOn-Server/commit/ce02589360b306e29f27e708cd0c1b883a717068))
+* **security:** verify real public auth timing paths ([024e36f](https://github.com/ProjectMakersDE/horizOn-Server/commit/024e36ff8d4014404c8e225f677243ad4ac7bee7))
+* **support:** enforce tenant-bound ticket access ([abe62fd](https://github.com/ProjectMakersDE/horizOn-Server/commit/abe62fd73aab327d2cbecdb9a6aeee9bb2b86930))
+
 ## [1.64.6](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.5...v1.64.6) (2026-08-24)
 
 
