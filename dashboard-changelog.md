@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## [1.103.3](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.103.2...v1.103.3) (2026-09-05)
+
+
+### Bug Fixes
+
+* **api-keys:** route account mutations session only ([4494f4e](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/4494f4ef45019319a12ae3ea965b17835cac3208))
+* **blog:** harden renderer and content security policy ([b872f72](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/b872f7297371e16f2754d619ea25c50731035fdd))
+* **release:** promote account-key and blog security fixes ([#35](https://github.com/ProjectMakersDE/horizOn-Dashboard/issues/35)) ([758f413](https://github.com/ProjectMakersDE/horizOn-Dashboard/commit/758f4130626d00248e121af521ff01ea43f9195a))
+
 ## [1.103.2](https://github.com/ProjectMakersDE/horizOn-Dashboard/compare/v1.103.1...v1.103.2) (2026-08-20)
 
 
