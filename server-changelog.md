@@ -9,6 +9,14 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## [1.64.8](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.7...v1.64.8) (2026-09-23)
+
+
+### Bug Fixes
+
+* **cloud-save:** enforce opt-in project client versions ([4dc8ba3](https://github.com/ProjectMakersDE/horizOn-Server/commit/4dc8ba307a026419f93d9c2c3e31674b7640a952))
+* **news:** allow project-scoped account keys on owned news items (TASK-835) ([30f0862](https://github.com/ProjectMakersDE/horizOn-Server/commit/30f0862762fd5bad36e24aa75a396568ac57cd36))
+
 ## [1.64.7](https://github.com/ProjectMakersDE/horizOn-Server/compare/v1.64.6...v1.64.7) (2026-09-05)
 
 
