@@ -11,5 +11,6 @@ exclude:
   - GEMINI.md
   - README.md
   - LICENSE
+  - scripts
   - Gemfile
   - Gemfile.lock

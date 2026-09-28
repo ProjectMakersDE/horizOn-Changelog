@@ -62,7 +62,7 @@ jobs:
           [Back to Overview](.)
 
           FRONTMATTER
-          echo "$CONTENT" >> dashboard-changelog.md
+          printf '%s\n' "$CONTENT" | python3 scripts/clean_changelog.py >> dashboard-changelog.md
 
       - name: Sync Server changelog
         env:
@@ -82,7 +82,7 @@ jobs:
           [Back to Overview](.)
 
           FRONTMATTER
-          echo "$CONTENT" >> server-changelog.md
+          printf '%s\n' "$CONTENT" | python3 scripts/clean_changelog.py >> server-changelog.md
 
       - name: Sync Godot SDK changelog
         env:
@@ -102,7 +102,7 @@ jobs:
           [Back to Overview](.)
 
           FRONTMATTER
-          echo "$CONTENT" >> godot-sdk-changelog.md
+          printf '%s\n' "$CONTENT" | python3 scripts/clean_changelog.py >> godot-sdk-changelog.md
 
       - name: Sync Unity SDK changelog
         env:
@@ -122,7 +122,7 @@ jobs:
           [Back to Overview](.)
 
           FRONTMATTER
-          echo "$CONTENT" >> unity-sdk-changelog.md
+          printf '%s\n' "$CONTENT" | python3 scripts/clean_changelog.py >> unity-sdk-changelog.md
 
       - name: Sync Unreal SDK changelog
         env:
@@ -142,7 +142,7 @@ jobs:
           [Back to Overview](.)
 
           FRONTMATTER
-          echo "$CONTENT" >> unreal-sdk-changelog.md
+          printf '%s\n' "$CONTENT" | python3 scripts/clean_changelog.py >> unreal-sdk-changelog.md
 
       - name: Sync Simple Server changelog
         env:
@@ -162,7 +162,7 @@ jobs:
           [Back to Overview](.)
 
           FRONTMATTER
-          echo "$CONTENT" >> simple-server-changelog.md
+          printf '%s\n' "$CONTENT" | python3 scripts/clean_changelog.py >> simple-server-changelog.md
 
       - name: Sync MCP Server changelog
         env:
@@ -182,7 +182,7 @@ jobs:
           [Back to Overview](.)
 
           FRONTMATTER
-          echo "$CONTENT" >> mcp-server-changelog.md
+          printf '%s\n' "$CONTENT" | python3 scripts/clean_changelog.py >> mcp-server-changelog.md
 
       - name: Update index version badges
         id: versions
@@ -193,7 +193,7 @@ jobs:
           extract_version() {
             local file="$1"
             local version
-            version=$(grep -m1 -oP '##? \[\K\d+\.\d+\.\d+' "$file")
+            version=$(grep -m1 -oP '^##? \[?\K\d+\.\d+\.\d+' "$file")
             if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
               echo "No valid release version found in $file" >&2
               exit 1
