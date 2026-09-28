@@ -9,6 +9,20 @@ All notable changes to the horizOn MCP Server.
 
 [Back to Overview](.)
 
+## [1.5.5](https://github.com/ProjectMakersDE/horizOn-mcp/compare/v1.5.4...v1.5.5) (2026-09-28)
+
+
+### Bug Fixes
+
+* **tools:** send the player session for score submit and cloud save ([b4de4f1](https://github.com/ProjectMakersDE/horizOn-mcp/commit/b4de4f168ae9ba58ff82c6728e6083bd80e3584e))
+
+## [1.5.4](https://github.com/ProjectMakersDE/horizOn-mcp/compare/v1.5.3...v1.5.4) (2026-09-28)
+
+
+### Bug Fixes
+
+* **package:** add mcpName for the official MCP registry ([25221c8](https://github.com/ProjectMakersDE/horizOn-mcp/commit/25221c84d2c067aaebb8d58abbfcb3df51ea47d1))
+
 ## [1.5.3](https://github.com/ProjectMakersDE/horizOn-mcp/compare/v1.5.2...v1.5.3) (2026-09-28)
 
 
