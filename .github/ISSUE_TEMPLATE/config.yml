@@ -3,6 +3,6 @@ contact_links:
   - name: horizOn Documentation
     url: https://horizon.pm
     about: Visit the horizOn website for documentation and guides
-  - name: General Questions
-    url: https://github.com/ProjectMakersDE/horizOn-Changelog/discussions
-    about: Ask questions and discuss with the community
+  - name: Existing Issues
+    url: https://github.com/ProjectMakersDE/horizOn-Changelog/issues
+    about: Search open and closed issues before you open a new one
