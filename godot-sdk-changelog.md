@@ -9,6 +9,14 @@ All notable changes to the horizOn Godot SDK.
 
 [Back to Overview](.)
 
+## [1.7.2](https://github.com/ProjectMakersDE/horizOn-SDK-Godot/compare/v1.7.1...v1.7.2) (2026-09-28)
+
+
+### Bug Fixes
+
+* **http:** add deleteAsync and send the real HTTP method on the wire ([fb00443](https://github.com/ProjectMakersDE/horizOn-SDK-Godot/commit/fb0044345462710e23b97c53d28caa7c59e5e3ae))
+* **security:** test signed leaderboard transport ([30b7b31](https://github.com/ProjectMakersDE/horizOn-SDK-Godot/commit/30b7b31c68a4fd033c35ab9f2993374e35d863cf))
+
 ## [1.7.1](https://github.com/ProjectMakersDE/horizOn-SDK-Godot/compare/v1.7.0...v1.7.1) (2026-09-01)
 
 
