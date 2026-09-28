@@ -9,6 +9,14 @@ All notable changes to the horizOn Unity SDK.
 
 [Back to Overview](.)
 
+## [1.8.5](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/compare/v1.8.4...v1.8.5) (2026-09-28)
+
+
+### Bug Fixes
+
+* **samples:** add missing UnityDefaultRuntimeTheme.tss and document HorizonConfig gitignore ([0a53c8f](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/commit/0a53c8f5d2fdac6b718d1438f969b47ffe5506fb))
+* **security:** test signed leaderboard transport ([6d95ffa](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/commit/6d95ffad8dec2111914d092e6881c90270d35c39))
+
 ## [1.8.4](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/compare/v1.8.3...v1.8.4) (2026-09-01)
 
 
