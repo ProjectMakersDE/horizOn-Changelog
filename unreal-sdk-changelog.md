@@ -28,7 +28,7 @@ All notable changes to the horizOn Unreal SDK.
 
 ### Bug Fixes
 
-* **sdk:** add per-feature minimal examples and Hello horizOn entry (TASK-217) ([abcb21b](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/commit/abcb21b4755cfa7936b8239703a9cbe08de5995f))
+* **sdk:** add per-feature minimal examples and Hello horizOn entry ([abcb21b](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/commit/abcb21b4755cfa7936b8239703a9cbe08de5995f))
 
 # [1.4.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.3.0...v1.4.0) (2026-04-20)
 
@@ -47,9 +47,7 @@ All notable changes to the horizOn Unreal SDK.
 ## [1.2.1](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.2.0...v1.2.1) (2026-02-23)
 
 
-### Bug Fixes
-
-* **ci:** trigger release build ([4e067ec](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/commit/4e067ec8db98d80944cab80007f592ca60de70a3))
+Maintenance release without user-facing changes.
 
 # [1.2.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.1.0...v1.2.0) (2026-02-23)
 

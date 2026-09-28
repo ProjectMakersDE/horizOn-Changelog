@@ -42,7 +42,7 @@ All notable changes to the horizOn Godot SDK.
 
 ### Bug Fixes
 
-* **sdk:** add per-feature minimal examples and Hello horizOn entry (TASK-217) ([0bc69ad](https://github.com/ProjectMakersDE/horizOn-SDK-Godot/commit/0bc69ad45da581cdcc84bc187c1ca51d2d8c83ee))
+* **sdk:** add per-feature minimal examples and Hello horizOn entry ([0bc69ad](https://github.com/ProjectMakersDE/horizOn-SDK-Godot/commit/0bc69ad45da581cdcc84bc187c1ca51d2d8c83ee))
 
 # [1.4.0](https://github.com/ProjectMakersDE/horizOn-SDK-Godot/compare/v1.3.0...v1.4.0) (2026-04-20)
 
