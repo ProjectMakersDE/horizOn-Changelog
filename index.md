@@ -21,7 +21,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="godot-sdk-changelog" class="product-card">
     <h3>Godot SDK</h3>
     <p>Native GDScript plugin for integrating horizOn into Godot Engine projects.</p>
-    <span class="version">v1.7.3</span>
+    <span class="version">v1.8.0</span>
   </a>
   <a href="unity-sdk-changelog" class="product-card">
     <h3>Unity SDK</h3>
@@ -31,7 +31,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="unreal-sdk-changelog" class="product-card">
     <h3>Unreal SDK</h3>
     <p>C++ plugin for integrating horizOn into Unreal Engine projects.</p>
-    <span class="version">v1.6.0</span>
+    <span class="version">v1.7.0</span>
   </a>
   <a href="simple-server-changelog" class="product-card">
     <h3>Simple Server</h3>
@@ -41,7 +41,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
-    <span class="version">v1.5.5</span>
+    <span class="version">v1.6.0</span>
   </a>
 </div>
 
