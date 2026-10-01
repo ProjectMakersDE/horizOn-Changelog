@@ -9,6 +9,35 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.65.0 (2026-10-01)
+
+
+### Bug Fixes
+
+* **dashboard:** preserve overview error statuses
+* **dashboard:** read legacy usage bucket identifiers safely
+* **gift-codes:** bind redemption to the player session
+* **gift-codes:** require the player session for every redemption
+* **leaderboard:** count a requested API key directly in /limits so a foreign key id cannot reset the shared score count cache
+* **rate-limit:** send Retry-After on crash report and user log 429s and never announce 0 seconds
+* **ratelimit:** enforce hard limit with 429 on leaderboard submit and cloud save
+* **release:** gate server publication on compatible clients
+* **validated-actions:** refuse run tickets with a non-canonical base64 spelling
+* **validated-actions:** scope evidence lookups by API key and finish row clean-up after errors
+
+
+### Features
+
+* **api-explorer:** forward the player session to every App API route that requires it
+* **api-explorer:** proxy the Validated Actions player endpoints with the player session
+* **dashboard:** add scoped operational overview endpoint
+* **leaderboard:** count the score limit per API key
+* **player-profile:** avatar, frame, badges and cosmetic unlocks with gift code grants
+* **sitemap:** list the quickstart docs articles
+* **validated-actions:** evidence upload, review list and leaderboard moderation
+* **validated-actions:** server-checked runs with single-use tickets and rules
+* **validated-actions:** server-owned player state with daily caps
+
 ## 1.64.8 (2026-09-23)
 
 
