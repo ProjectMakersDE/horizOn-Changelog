@@ -9,6 +9,72 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.104.0 (2026-10-01)
+
+
+### Bug Fixes
+
+* **dashboard:** align admin fixtures and overflow actions
+* **dashboard:** align admin layouts and preserve overflow actions
+* **dashboard:** align responsive shell and dialog behavior
+* **dashboard:** cancel obsolete player queries and scope reset to local filters
+* **dashboard:** clarify crash and settings states
+* **dashboard:** complete dev account-key fixtures and safe admin SSR
+* **dashboard:** complete feature page-grid audit for
+* **dashboard:** connect menu favorites and preserve sticky shell scrolling
+* **dashboard:** identify ticket management page correctly
+* **dashboard:** keep leaderboard preview functional and move rules guidance aside
+* **dashboard:** keep player email addresses readable
+* **dashboard:** keep table filters compact and stable
+* **dashboard:** load leaderboard detail by ID for direct links
+* **dashboard:** localize relative crash timestamps
+* **dashboard:** map backend config category names to labels
+* **dashboard:** offer the active leaderboard detail page size
+* **dashboard:** refer to project selector in validated actions
+* **dashboard:** restore ticket deep links and mobile guidance
+* **dashboard:** restore ticket detail readability
+* **dashboard:** show favorites in the Dashboard navigation panel
+* **dashboard:** show isolated measured chart days
+* **dashboard:** show unavailable cloud save count and valid page sizes
+* **dashboard:** stabilize navigation and project context
+* **dashboard:** translate profile catalog and correct key selector hint
+* **dashboard:** use valid ticket sender roles in dev fixtures
+* **feature-layout:** size stat card columns by row width so labels never collide with icons
+* **i18n:** define common.copyFailed in all languages
+* **i18n:** key translation cache by content revision
+* **icons:** bundle dashboard navigation glyphs offline
+* **pricing:** rename Validated Runs to Validated Actions in all languages and add home teaser chips
+* **quickstart:** render inline code in rate limiting do and don't items
+* **sidebar:** left align navigation labels so long names wrap cleanly
+* **theme:** toggle effective system palette on first click
+* **validated-actions:** align inline icons and keep stat labels clear of card icons
+* **validated-actions:** expect translated reason keys in rules spec
+* **validated-actions:** scope evidence record calls to their API key
+
+
+### Features
+
+* **api-explorer:** add a Validated Actions endpoint group with player session support
+* **api-explorer:** offer the player session on every endpoint that requires it
+* **dashboard:** add account-scoped favorites and player table columns
+* **dashboard:** add project workspace shell and home overview
+* **dashboard:** add Validated Actions feature page art and bento tile
+* **dashboard:** align remaining feature pages with page grid
+* **dashboard:** redesign priority feature pages for
+* **dev-mode:** mock Validated Actions admin endpoints and list the feature in llms.txt
+* **features:** show the Validated Actions video card and deep link the quickstart CTA
+* **leaderboard:** show the score limit per API key
+* **player-profile:** manage cosmetics catalog, unlocks and gift code grants
+* **quickstart:** deep link Validated Actions cards, add REST card and planned tutorial video
+* **quickstart:** guide engine setup and feature adoption with inline videos
+* **quickstart:** redesign /quickstart as docs, course and cheat sheet
+* **quickstart:** redesign the start steps
+* **validated-actions:** add feature page, home tile and pitch in 15 languages
+* **validated-actions:** add quickstart steps and concept box for Unity, Godot and Unreal
+* **validated-actions:** add rules editor, runs list and validated-only leaderboards
+* **validated-actions:** edit server-owned values and correct player state
+* **validated-actions:** evidence review, evidence slots and leaderboard moderation
+
 ## 1.103.4 (2026-09-05)
 
 
