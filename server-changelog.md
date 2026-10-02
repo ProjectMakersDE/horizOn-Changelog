@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.66.1 (2026-10-02)
+
+
+### Bug Fixes
+
+* **status:** encode PromQL queries as URI variables
+
 # 1.66.0 (2026-10-02)
 
 
