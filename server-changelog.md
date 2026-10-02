@@ -9,6 +9,20 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.66.0 (2026-10-02)
+
+
+### Bug Fixes
+
+* **validated-actions:** break the bean cycle through the run start context
+* **validated-actions:** show the rules part size in the sus package detail
+
+
+### Features
+
+* **status:** add public status API with 90-day regional availability
+* **validated-actions:** archive sus runs with start context and package export
+
 # 1.65.0 (2026-10-01)
 
 
