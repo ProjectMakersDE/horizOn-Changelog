@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.105.0 (2026-10-02)
+
+
+### Features
+
+* **status:** add public status page at /status
+* **validated-actions:** sus packages review, package export and sus quota
+
 # 1.104.0 (2026-10-01)
 
 
