@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.105.1 (2026-10-05)
+
+
+### Bug Fixes
+
+* **quickstart:** publish approved bilingual tutorial catalog
+
 # 1.105.0 (2026-10-02)
 
 
