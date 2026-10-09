@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.105.2 (2026-10-09)
+
+
+### Bug Fixes
+
+* **sdk:** link Unity and Godot store releases in setup
+
 ## 1.105.1 (2026-10-05)
 
 
