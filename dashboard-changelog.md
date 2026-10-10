@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.106.0 (2026-10-10)
+
+
+### Features
+
+* **admin:** give server resources their own admin page
+* **admin:** show server resources, history and alerts on the system page
+* **dashboard-home:** label the chart axis and show values on hover
+
 ## 1.105.2 (2026-10-09)
 
 
