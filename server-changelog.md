@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.67.0 (2026-10-10)
+
+
+### Features
+
+* **admin:** serve node resources, history and alerts from Prometheus
+
 ## 1.66.2 (2026-10-05)
 
 
