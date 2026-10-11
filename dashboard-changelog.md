@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.107.1 (2026-10-11)
+
+
+### Bug Fixes
+
+* **comparison:** recompute competitor costs with the home method and show horizOn in USD
+
 # 1.107.0 (2026-10-11)
 
 
