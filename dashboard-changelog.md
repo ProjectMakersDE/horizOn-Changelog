@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.107.2 (2026-10-11)
+
+
+### Bug Fixes
+
+* **comparison:** format USD costs and the exchange rate in the page language
+* **i18n:** remove the UTF-8 BOM from the google-signin translations
+* **i18n:** restore diacritics, fix Turkish wording and the duplicate cost heading
+
 ## 1.107.1 (2026-10-11)
 
 
