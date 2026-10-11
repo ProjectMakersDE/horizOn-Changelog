@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.68.1 (2026-10-11)
+
+
+### Bug Fixes
+
+* **config:** keep the config cache filled during a reload and refresh it on every pod
+
 # 1.68.0 (2026-10-11)
 
 
