@@ -9,6 +9,27 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.107.0 (2026-10-11)
+
+
+### Bug Fixes
+
+* **home:** format comparison and stats numbers in the page language
+* **i18n:** remove unused translation keys
+* **pricing:** close the Plus gaps from the tier audit
+* **pricing:** keep the user limits and show leaderboard slots per account
+* **pricing:** localization row text in the plan comparison table
+* **validated-actions:** drop the cloud save from the package hints
+* **validated-actions:** native dialog for the override inspector
+
+
+### Features
+
+* **home:** recompute the competitor comparison and add Plus
+* **leaderboard:** eviction mode setting and account-wide score slots
+* **pricing:** add the Plus tier and sell Enterprise on request
+* **validated-actions:** simpler rule form with templates
+
 # 1.106.0 (2026-10-10)
 
 
