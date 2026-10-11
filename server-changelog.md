@@ -9,6 +9,27 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.68.0 (2026-10-11)
+
+
+### Bug Fixes
+
+* **limits:** keep every Plus default between Basic and Pro
+* **stripe:** conversion values and upgrade events per target tier
+* **stripe:** process subscription events in other API versions
+* **stripe:** skip the account cap on tier changes of existing accounts
+* **tenancy:** keep findAndModify nullable in the first-write hook
+* **validated-actions:** stop reading the cloud save on StartRun
+
+
+### Features
+
+* **leaderboard:** count slots per account and evict on full slots
+* **limits:** leaderboard slots per account, boards per API key and the Free account cap
+* **pricing:** add the Plus tier between Basic and Pro
+* **rate-limit:** count account limits across all pods and enforce the soft limit
+* **tenancy:** create an account database only on its first write
+
 # 1.67.0 (2026-10-10)
 
 
