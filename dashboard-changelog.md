@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.108.0 (2026-10-12)
+
+
+### Features
+
+* **about:** tell the story from one developer's project to a platform for every developer
+* **home:** show uptime as 90-day average with response time and the guaranteed 99.6%
+* **legal:** guarantee 99.98% backend availability and keep the uptime tiles compact
+
 ## 1.107.2 (2026-10-11)
 
 
