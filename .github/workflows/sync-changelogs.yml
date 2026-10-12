@@ -236,6 +236,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "before=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           git add \
             dashboard-changelog.md \
             server-changelog.md \
@@ -254,6 +255,13 @@ jobs:
           fi
 
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      # Each new version in a public changelog is posted to the Discord announcement
+      # channel. Without the secret the step only lists what it would post.
+      - name: Announce new releases on Discord
+        env:
+          DISCORD_CHANGELOG_WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
+        run: python3 scripts/announce_discord.py "${{ steps.commit.outputs.before }}" "${{ steps.commit.outputs.sha }}"
 
   build:
     needs: sync
