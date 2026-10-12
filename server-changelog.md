@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.69.0 (2026-10-12)
+
+
+### Features
+
+* **status:** add the mean backend response time to the status summary
+
 ## 1.68.1 (2026-10-11)
 
 
