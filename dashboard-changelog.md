@@ -9,6 +9,38 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.109.0 (2026-10-13)
+
+
+### Bug Fixes
+
+* **blog:** keep inline code text in post teasers
+* **comparison:** remove a stray closing div in the hub template
+* **docs:** use the real Unity and Unreal SDK names in the quickstart examples
+* **home:** name the testimonials section after what it shows instead of claiming trust
+* **home:** show only real testimonials, centred when there are fewer than three
+* **website:** close the gaps of the pre-release review
+* **website:** derive the feature page snippets from the real Unity SDK and app API
+* **website:** describe backups, replication and the simpleServer exit as they are
+* **website:** name the real server locations Helsinki, Virginia and Singapore
+* **website:** one Discord invite, readable legal emails, plan-based cloud save limit, real 404
+* **website:** point the pricing GDPR row and the comparison matrix to the published DPA template
+* **website:** show registered accounts instead of user capacity and drop unsourced figures
+* **website:** show the testimonial in the page language with a translation note
+* **website:** the home comparison link no longer promises a cost comparison
+
+
+### Features
+
+* **blog:** show release posts first and name the author of a post
+* **docs:** list leaderboard rank and around, name Apple sign-in and the engines behind each snippet
+* **i18n:** gate content parity across languages and show the Unreal and Godot status on the engine picker
+* **i18n:** translate the website credibility texts into the 13 other languages
+* **pricing:** explain what happens at every limit and where a project runs
+* **website:** compare providers by sourced criteria instead of computed costs
+* **website:** explain when a Free account stays active and who runs horizOn
+* **website:** replace the home cost calculator with a sourced comparison teaser
+
 # 1.108.0 (2026-10-12)
 
 
