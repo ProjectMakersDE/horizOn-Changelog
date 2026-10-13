@@ -9,6 +9,22 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.70.0 (2026-10-13)
+
+
+### Bug Fixes
+
+* **account:** a Free account stays active while its game uses the API
+* **blog:** default the new category and author fields for existing callers
+* **news:** answer 403 instead of 500 when the news entry limit is reached
+
+
+### Features
+
+* **blog:** add a category and a named author to blog posts and filter the public list by category
+* **limits:** publish the player overflow buffer and grace period in the feature limits
+* **stats:** report every registered account in the public platform stats
+
 # 1.69.0 (2026-10-12)
 
 
