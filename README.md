@@ -30,12 +30,6 @@ The published changelogs list features, bug fixes, performance improvements
 and security fixes. Internal entries (CI, tests, build, chores, refactoring),
 internal ticket numbers and links into private repositories are left out.
 
-Every new version is also posted to the announcement channel of the
-[horizOn Discord](https://discord.gg/JFmaXtguku) by
-[scripts/announce_discord.py](scripts/announce_discord.py). It reads the
-webhook from the repository secret `DISCORD_CHANGELOG_WEBHOOK`. Without the
-secret the step only lists what it would post.
-
 ## Feedback
 
 Use the issue templates to:
