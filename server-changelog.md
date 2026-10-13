@@ -9,6 +9,18 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.71.0 (2026-10-13)
+
+
+### Bug Fixes
+
+* **tracking:** remove the Meta Conversions API and the Meta pixel IDs
+
+
+### Features
+
+* **email:** open email sending for the Free tier with tight limits
+
 # 1.70.0 (2026-10-13)
 
 
