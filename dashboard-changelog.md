@@ -9,6 +9,15 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.109.1 (2026-10-13)
+
+
+### Bug Fixes
+
+* **i18n:** German texts address customers as ihr/euch instead of du/Sie
+* **website:** live review follow-ups
+* **website:** neutral ticket card text, stacked provider table on mobile
+
 # 1.109.0 (2026-10-13)
 
 
