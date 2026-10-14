@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.110.1 (2026-10-14)
+
+
+### Bug Fixes
+
+* **legal:** Terms describe PayPal and Klarna as payment methods via Stripe
+
 # 1.110.0 (2026-10-14)
 
 
