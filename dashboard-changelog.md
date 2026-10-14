@@ -9,6 +9,20 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.110.0 (2026-10-14)
+
+
+### Bug Fixes
+
+* **home:** landing critique follow-ups
+* **website:** hero tagline and payment methods in privacy policy
+* **website:** honest trust data, support levels, legal fixes
+
+
+### Features
+
+* **register:** replace the sequence captcha with Cloudflare Turnstile
+
 ## 1.109.1 (2026-10-13)
 
 
