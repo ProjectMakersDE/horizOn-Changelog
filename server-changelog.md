@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.72.0 (2026-10-14)
+
+
+### Features
+
+* **auth:** verify a Cloudflare Turnstile token on dashboard signup
+
 # 1.71.0 (2026-10-13)
 
 
