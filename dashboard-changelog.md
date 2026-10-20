@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.110.2 (2026-10-20)
+
+
+### Bug Fixes
+
+* **ssr:** keep the website up under parallel crawler load
+
 ## 1.110.1 (2026-10-14)
 
 
