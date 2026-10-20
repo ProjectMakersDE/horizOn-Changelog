@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.72.1 (2026-10-20)
+
+
+### Bug Fixes
+
+* **blog:** send only a text preview in the public blog list
+
 # 1.72.0 (2026-10-14)
 
 
