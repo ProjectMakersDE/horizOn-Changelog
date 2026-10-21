@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.110.3 (2026-10-21)
+
+
+### Bug Fixes
+
+* **ssr:** refresh cache entries before expiry and cache the backend address
+
 ## 1.110.2 (2026-10-20)
 
 
