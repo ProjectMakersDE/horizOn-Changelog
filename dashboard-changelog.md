@@ -9,6 +9,117 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.111.0 (2026-10-22)
+
+
+### Bug Fixes
+
+* **achievements:** show atomic rewards and honor configured limits
+* align player identity icon and record label
+* **analytics:** keep conversion table columns readable
+* **analytics:** preserve keyboard scroll focus with native region
+* **api-explorer:** retain large bodies behind bounded previews
+* **api-explorer:** wrap complete large request and response previews
+* bound Apple quickstart claims to implemented platform flows
+* brace Unreal quickstart log conditionals
+* capture stack trace in Unity crash quickstart
+* **chat:** honor compact protocol and configurable quotas
+* clarify Items validation and status semantics
+* complete consented conversion measurement and modal labels
+* complete pricing translation namespace and mark legal loads
+* confirm checkout fulfillment and expose conversion evidence
+* consolidate duplicate session expiry assertions
+* **dashboard:** align game catalogs and simplify player support views
+* **dashboard:** align narrow tables and localize visible dates
+* **dashboard:** clarify player state labels
+* **dashboard:** clarify read errors and project selection hints
+* **dashboard:** complete column alignment and readable retry state
+* **dashboard:** focus timestamp regressions on distinct behavior
+* **dashboard:** honor configured Match and Shared object limits
+* **dashboard:** label match details correctly
+* **dashboard:** restore overflow focus and fresh key state
+* **docker:** keep runtime code immutable
+* **docker:** preserve non-root access to SSR build artifacts
+* **docker:** preserve the Angular browser index filename
+* explain configurable anonymous sign-in limits
+* **explorer:** generate valid guest sign-in credentials
+* **geo:** publish generated product and guide references
+* **geo:** verify generated references in CI and release builds
+* **groups:** honor configured pages and optional relation timestamps
+* **guides:** complete native Develop feature examples
+* **guides:** sequence Unreal achievement unlock after read
+* handle email quickstart send results correctly
+* **home:** restore a staggered feature bento and compact comparison
+* **home:** retain the timeline with masked horizontal scrolling
+* **i18n:** complete displayed dashboard translations
+* **inbox:** clarify durable publication guards and quality checks
+* **inbox:** validate new reward selection before saving claim intent
+* keep preview friend codes compatible with player lookup
+* make new dashboard views readable and navigable
+* make persisted inbox key ordering explicit
+* make quickstart preparation and SDK examples executable
+* **matches:** preserve canonical order with explicit string comparison
+* **player-values:** align editor with compact operation contract
+* **player-values:** preserve drafts across project visits
+* preserve checkout attribution and qualify product claims
+* preserve compact inbox intents and configurable text limits
+* **quickstart:** compare Unreal statistics originals case sensitively
+* **quickstart:** provide explicit native guides for existing sessions
+* **quickstart:** retain newer statistics originals on delayed acknowledgement
+* remove duplicate legal fallback test setup
+* remove repeated descriptions from project selection
+* restore usable achievement and item catalog editors
+* reuse system configuration metadata templates
+* **seo:** add truthful localized public structured data
+* **seo:** preserve heading hierarchy and localized image text
+* **seo:** repair retired public links with permanent redirects
+* **seo:** shorten and localize public search metadata
+* share legal document loading and fallback
+* share legal page state and lifecycle
+* **shared-objects:** expose verified Unity onboarding example
+* show timestamp-free achievement unlocks in player records
+* **ssr:** keep the website up under parallel crawler load
+* **ssr:** refresh cache entries before expiry and cache the backend address
+* stabilize dashboard loading and complete visual details
+* support new dashboard features in development preview
+* **system-config:** keep mobile numeric values readable
+* translate plan comparisons and render legal pages on server
+* translate player records in all dashboard locales
+* unify dashboard workbench and player destinations
+* unify game feature workbenches and player navigation
+* use Items catalog terms in conflict messages
+* use Unreal crash report callback signature
+* verify dashboard sessions without the public cache
+* **website:** complete feature discovery and illustrated guides
+* **website:** make roadmap compact and distinguish Develop delivery
+
+
+### Features
+
+* **achievements:** manage definitions and inspect player rewards
+* add connected player record with automatic section loading
+* add Items catalog and inventory support
+* add Marketplace feature guide and native quickstarts
+* add shared objects dashboard and integration guides
+* apply approved bento mosaic with progressive feature disclosure
+* **chat:** add moderation dashboard and durable REST examples
+* **friends:** inspect scoped relationships and guide safe player actions
+* **gift-codes:** configure server-owned player value rewards
+* **gift-codes:** show exact counters and durable V2 quickstarts
+* **groups:** add scoped inspection and revision-safe REST onboarding
+* **inbox:** add protected broadcast and player support dashboard
+* link support data to the matching player record
+* **marketplace:** add project administration and durable original writes
+* **marketplace:** preserve explicit player intents in API Explorer
+* **matches:** add dashboard inspection and durable player workflows
+* **player-values:** add economy workbench and onboarding
+* **statistics:** add dashboard configuration and onboarding
+
+
+### Performance Improvements
+
+* **frontend:** defer modal forms and prioritize measured heroes
+
 ## 1.110.3 (2026-10-21)
 
 
