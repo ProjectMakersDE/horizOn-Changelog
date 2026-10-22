@@ -9,6 +9,115 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.73.0 (2026-10-22)
+
+
+### Bug Fixes
+
+* **achievements:** include feature and quickstart sitemap routes
+* add bounded player record reads for dashboard
+* align journey fixtures with compact consented records
+* allow canonical encoded broadcast IDs in project scope
+* anchor inbox publications to server time
+* **api-explorer:** bound configured Match and Shared payload frames
+* **api:** bound configurable object request frames by BSON encoding
+* attribute consented guest checkout without new event storage
+* **blog:** expose actual modification time for article metadata
+* **blog:** send only a text preview in the public blog list
+* bound gateway admission to measured development capacity
+* bound marketplace replay index lookups
+* **chat:** honor independent admin limits for every plan
+* complete tenant indexes before first writes
+* **core:** share tenant transactions and player feature contracts
+* **development:** capture all SMTP paths in local test mailbox
+* enable scoped Items calls in API Explorer
+* enumerate group indexes through the iterator contract
+* expose bounded offline compact storage migration
+* expose statistics in API explorer and sitemap
+* **gift-codes:** retain null snapshots on value redemption replay
+* honor admin-configured friends and pending limits
+* import legacy inbox claim anchor
+* **inbox:** bound serialized source provenance
+* **inbox:** preserve legacy broadcast constructor mapping
+* **inbox:** preserve original free text replay after policy changes
+* include complete public feature pairs in sitemap
+* initialize chat test clock after index setup
+* **items:** expose complete public tier limits
+* **items:** recognize canonical legacy purchase guards
+* keep marketplace replay metadata on shared listings
+* **marketing:** plan origin reads without named indexes
+* **marketplace:** honor configured limits and retain owner reads
+* **matches:** bound deletion and validate participation invariants
+* **matches:** preserve unknown legacy authority and validate compact data
+* **matches:** reject overflowing legacy integer fields before conversion
+* **matches:** retain original ticket recovery beyond issue window
+* measure verified studio journeys on existing records
+* order bilateral friend fences and verify conflict reconciliation
+* preserve servlet guard rejection status
+* prove real friend write conflicts leave no partial state
+* **realtime:** admit against the latest authenticated account budget
+* **realtime:** bound delivery windows and honor shared poll budgets
+* **realtime:** correlate subscriptions and bound every resync
+* **realtime:** keep SDK fixtures fresh and provide Dev load probe
+* **realtime:** observe tenant key revocation without replacing auth state
+* reconcile full refunds against current Stripe invoices
+* reconcile removed claimed inbox rewards during cold migration
+* record paid checkout once and derive conversion journeys
+* reject legacy achievement rewards after inbox handoff
+* require analytics consent for paid source attribution
+* return the actual shared rate-limit expiry
+* return typed account from refund retry fixture
+* **seo:** omit utility status pages from sitemap
+* share lexical UUID lock order across social features
+* **shared-objects:** bind cold checks to the resolved tenant
+* **shared-objects:** expose revision-safe app explorer routes
+* **shared-objects:** gate compact creation and avoid payload readback
+* **shared-objects:** reject inconsistent catalog allocation before CAS
+* **shared-objects:** require exact numeric payload CAS dialects
+* **statistics:** add atomic player counters and bounded replay
+* **statistics:** parse nested updates within the request context
+* validate checkout returns before confirming activation
+* verify achievement migration revision and format fences
+* verify compact friends persistence and migration boundaries
+
+
+### Features
+
+* **achievements:** unlock progress with durable inbox rewards
+* add atomic player marketplace with protected item returns
+* add bounded hosted chat with durable receipts and moderation
+* add bounded inbox and atomic protected reward claims
+* **auth:** configure anonymous sign-in limits through system config
+* compact gift-code consumption with verified source migration
+* **friends:** add atomic relationships and public player lookup
+* **giftcode:** grant server-owned player values atomically
+* **groups:** add bounded transactional group membership and administration
+* **inbox:** retain source-owned notices and compact recipient status
+* **items:** add bounded inventory and atomic purchases
+* **items:** attach source guards and stable offer references
+* **items:** store immutable bases and compact instance deltas
+* keep chat history local and bound shared server buffers
+* **matches:** add bounded asynchronous matches and ranked run recovery
+* **matches:** integrate compact inbox sources and bounded reads
+* **matches:** separate compact settlement and detail retention
+* **player-values:** add bounded atomic balances and offers
+* **realtime:** add bounded independent return channel
+* **realtime:** expose bounded Dev write-cost diagnostics
+* settle legacy inbox rewards with source-owned grants
+* **shared-objects:** add bounded transactional shared data and trusted notices
+* **shared-objects:** add strict compact codecs and honor admin limits
+* **shared-objects:** store compact identities with explicit cold migration
+
+
+### Performance Improvements
+
+* compact friend storage and preserve revision-safe migration
+* compact group membership and pending storage
+* compact player values with source-owned replay guards
+* **matches:** measure complete cursor IO and bound UUID batches
+* **statistics:** pack counters and replay guards without copied keys
+* store achievement unlock bits and credit rewards atomically
+
 ## 1.72.1 (2026-10-20)
 
 
