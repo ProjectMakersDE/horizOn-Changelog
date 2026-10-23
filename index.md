@@ -36,12 +36,12 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="simple-server-changelog" class="product-card">
     <h3>Simple Server</h3>
     <p>Lightweight self-hosted server for running horizOn with minimal setup.</p>
-    <span class="version">v1.4.0</span>
+    <span class="version">v1.5.0</span>
   </a>
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
-    <span class="version">v1.8.1</span>
+    <span class="version">v1.9.0</span>
   </a>
 </div>
 
