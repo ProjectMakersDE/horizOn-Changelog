@@ -9,6 +9,11 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.74.1 (2026-10-24)
+
+
+Maintenance release without user-facing changes.
+
 # 1.74.0 (2026-10-24)
 
 
