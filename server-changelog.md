@@ -9,6 +9,25 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.74.0 (2026-10-24)
+
+
+### Bug Fixes
+
+* **accounts:** purge Free accounts marked as deleted before
+
+
+### Features
+
+* **accounts:** purge expired Free accounts for good
+* **stats:** keep purged accounts in the registered account count
+
+
+### Performance Improvements
+
+* **mongo:** create account collections only on their first write
+* **mongo:** skip feature sweeps for accounts that never used the feature
+
 ## 1.73.1 (2026-10-22)
 
 
