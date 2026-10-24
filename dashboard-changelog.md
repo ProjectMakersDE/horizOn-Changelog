@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.112.0 (2026-10-24)
+
+
+### Features
+
+* **home:** use square bento tiles with localized captions
+
 # 1.111.0 (2026-10-22)
 
 
