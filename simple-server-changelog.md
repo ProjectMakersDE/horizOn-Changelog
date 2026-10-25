@@ -9,6 +9,13 @@ All notable changes to the horizOn Simple Server.
 
 [Back to Overview](.)
 
+# [1.6.0](https://github.com/ProjectMakersDE/horizOn-simpleServer/compare/v1.5.0...v1.6.0) (2026-10-25)
+
+
+### Features
+
+* **migration:** import horizon-migration.json from horizOn BaaS ([ff92090](https://github.com/ProjectMakersDE/horizOn-simpleServer/commit/ff9209034e3b8d0f54e93b41138b112f432caeb7))
+
 # [1.5.0](https://github.com/ProjectMakersDE/horizOn-simpleServer/compare/v1.4.0...v1.5.0) (2026-10-23)
 
 

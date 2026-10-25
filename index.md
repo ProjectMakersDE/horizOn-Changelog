@@ -11,7 +11,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="dashboard-changelog" class="product-card">
     <h3>Dashboard</h3>
     <p>Web interface for managing your account, API keys, users, and more.</p>
-    <span class="version">v1.113.0</span>
+    <span class="version">v1.114.0</span>
   </a>
   <a href="server-changelog" class="product-card">
     <h3>Server API</h3>
@@ -36,7 +36,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="simple-server-changelog" class="product-card">
     <h3>Simple Server</h3>
     <p>Lightweight self-hosted server for running horizOn with minimal setup.</p>
-    <span class="version">v1.5.0</span>
+    <span class="version">v1.6.0</span>
   </a>
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>

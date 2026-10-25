@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.114.0 (2026-10-25)
+
+
+### Features
+
+* **api-keys:** download a project's content for the Simple Server
+* **partners:** game jams partner page behind an About group in the top nav
+
 # 1.113.0 (2026-10-25)
 
 
