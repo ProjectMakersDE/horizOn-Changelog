@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.1 (2026-10-25)
+
+
+### Bug Fixes
+
+* **nav:** fall back to the menu when the top nav does not fit the language
+
 # 1.114.0 (2026-10-25)
 
 
