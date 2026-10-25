@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.2 (2026-10-25)
+
+
+### Bug Fixes
+
+* **analytics:** restore Ahrefs collection with CSP support
+
 ## 1.114.1 (2026-10-25)
 
 
