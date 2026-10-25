@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.113.0 (2026-10-25)
+
+
+### Bug Fixes
+
+* **pricing:** readable full comparison and a guest path to it from home
+
+
+### Features
+
+* **pricing:** machine-readable plan matrix checked against backend limits
+
 # 1.112.0 (2026-10-24)
 
 
