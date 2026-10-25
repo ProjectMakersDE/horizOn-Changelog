@@ -9,6 +9,16 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.74.2 (2026-10-25)
+
+
+### Bug Fixes
+
+* **auth:** mark check-auth responses no-store so shared caches never reuse them
+* **chat:** report the Free chat limits Free is enforced with
+* **limits:** ship the production player overflow buffer as the code default
+* **marketplace:** retire the receipts-per-player limit
+
 ## 1.74.1 (2026-10-24)
 
 
