@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.75.0 (2026-10-25)
+
+
+### Features
+
+* **project-migration:** export one project's content for the Simple Server
+
 ## 1.74.2 (2026-10-25)
 
 
