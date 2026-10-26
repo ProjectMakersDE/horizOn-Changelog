@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.4 (2026-10-26)
+
+
+### Bug Fixes
+
+* **docker:** keep machine code out of the AOT cache
+
 ## 1.75.3 (2026-10-26)
 
 
