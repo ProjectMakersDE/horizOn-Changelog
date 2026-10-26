@@ -9,6 +9,22 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.1 (2026-10-26)
+
+
+### Bug Fixes
+
+* **cache:** format hit rates in the cache statistics log
+* **loadtest:** add production capacity simulation and analysis
+* **loadtest:** name test players and make the leaderboard steps optional
+* **loadtest:** sample sign-ins under the server cap and add the HTML report
+* **usermanagement:** raise the default guest sign-in limit to 120 per IP and project
+
+
+### Performance Improvements
+
+* **core:** share request write leases per account and pod in 1 s windows
+
 # 1.75.0 (2026-10-25)
 
 
