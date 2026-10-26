@@ -9,6 +9,20 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.3 (2026-10-26)
+
+
+### Bug Fixes
+
+* **core:** convert raw Mongo date filters with the template converter
+* **core:** keep Mongo reads out of monitors on request paths
+* **statistics:** read cached catalogs outside the cache lock
+
+
+### Performance Improvements
+
+* **docker:** train a JDK 25 AOT cache so the image ships with it
+
 ## 1.75.2 (2026-10-26)
 
 
