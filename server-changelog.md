@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.5 (2026-10-26)
+
+
+### Performance Improvements
+
+* cut Mongo and backend CPU per app request
+
 ## 1.75.4 (2026-10-26)
 
 
