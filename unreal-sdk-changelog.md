@@ -9,6 +9,13 @@ All notable changes to the horizOn Unreal SDK.
 
 [Back to Overview](.)
 
+## [1.10.3](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.10.2...v1.10.3) (2026-10-26)
+
+
+### Bug Fixes
+
+* **examples:** include package definitions in standalone builds ([8159874](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/commit/815987440bae8ce7e100c517cdb4412dcf804a0b))
+
 ## [1.10.2](https://github.com/ProjectMakersDE/horizOn-SDK-Unreal/compare/v1.10.1...v1.10.2) (2026-10-25)
 
 
