@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.2 (2026-10-26)
+
+
+### Bug Fixes
+
+* **core:** read cached account routes outside the cache lock
+
 ## 1.75.1 (2026-10-26)
 
 
