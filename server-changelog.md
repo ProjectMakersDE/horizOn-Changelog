@@ -9,6 +9,28 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.6 (2026-10-28)
+
+
+### Bug Fixes
+
+* **mongo:** read the index list and the evidence slot from the primary
+* **mongo:** run a read transaction again after an election interrupts it
+* **security:** let a forwarded failure keep its status
+
+
+### Performance Improvements
+
+* let the primary alone acknowledge writes nobody misses after a failover
+* **mongo:** create account indexes per collection in one command, side by side
+* **mongo:** read-only tenant transactions commit on the primary alone
+* **mongo:** request write lease acknowledged by the primary alone
+* **mongo:** skip unchanged index definitions after a pod start
+* take the restore write lease only before the first tenant write
+* **user-management:** group writes into one transaction only next to the primary
+* **user-management:** one majority wait for sign-up with session, password reset and sign-out everywhere
+* **validated-actions:** drop two majority waits from score writes and context release
+
 ## 1.75.5 (2026-10-26)
 
 
