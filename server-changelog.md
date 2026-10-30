@@ -9,6 +9,25 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.7 (2026-10-30)
+
+
+### Bug Fixes
+
+* **lease:** release background write leases before the MongoDB client closes
+* **mongo:** keep one MongoConfig constructor so the configuration proxy can be built
+* **user-limit:** send each user limit warning mail once per limit
+
+
+### Performance Improvements
+
+* **cloudsave:** skip the player read when the session verified the player
+* **mongo:** make driver wire compression configurable per deployment
+* **news:** cache the app news list per pod for 30 seconds
+* **signals:** skip key hashing for players already counted today on this pod
+* **tasks:** take the write lease only for accounts with work in minute sweeps
+* **users:** drop the token existence check on anonymous signup
+
 ## 1.75.6 (2026-10-28)
 
 
