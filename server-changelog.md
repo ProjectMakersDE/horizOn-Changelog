@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.8 (2026-10-30)
+
+
+### Bug Fixes
+
+* **docker:** check the AOT cache for code regions instead of a JDK 25.0.4 log line
+
 ## 1.75.7 (2026-10-30)
 
 
