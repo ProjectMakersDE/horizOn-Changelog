@@ -9,6 +9,17 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.3 (2026-11-03)
+
+
+### Bug Fixes
+
+* **auth:** keep visitors on public pages when their session expires
+* **seo:** add lint:sitemap guard for pages missing from the sitemap
+* **seo:** keep search snippets within title and description length limits
+* **seo:** noindex the quickstart end page
+* **seo:** sort the sitemap guard output with a compare function
+
 ## 1.114.2 (2026-10-25)
 
 
