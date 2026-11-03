@@ -9,6 +9,16 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.9 (2026-11-03)
+
+
+### Bug Fixes
+
+* **loadtest:** draw the report charts once in headless Chrome so the HTML needs no JavaScript
+* **loadtest:** run a stage from several load clients and cut the window at the hold end
+* **seo:** list all feature pages and the legal pages in the sitemap
+* **sitemap:** omit lastmod for static pages
+
 ## 1.75.8 (2026-10-30)
 
 
