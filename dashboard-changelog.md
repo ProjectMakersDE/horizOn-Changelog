@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.4 (2026-11-04)
+
+
+### Bug Fixes
+
+* **seo:** run the features overview title and description through the length check
+
 ## 1.114.3 (2026-11-03)
 
 
