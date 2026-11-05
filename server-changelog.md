@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.10 (2026-11-05)
+
+
+### Bug Fixes
+
+* **cloud-save:** filter admin cloud save list by player ID
+
 ## 1.75.9 (2026-11-03)
 
 
