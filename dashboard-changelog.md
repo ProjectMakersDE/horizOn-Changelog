@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.6 (2026-11-06)
+
+
+### Bug Fixes
+
+* **api-keys:** say that regenerate keeps players and project data
+
 ## 1.114.5 (2026-11-05)
 
 
