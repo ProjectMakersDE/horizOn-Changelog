@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.75.12 (2026-11-10)
+
+
+### Bug Fixes
+
+* **news:** send LLM translations through the server with the stored key
+
 ## 1.75.11 (2026-11-06)
 
 
