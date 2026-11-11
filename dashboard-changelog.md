@@ -9,6 +9,26 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.7 (2026-11-11)
+
+
+### Bug Fixes
+
+* **frontpages:** remove the hero layout shift on mobile
+* **frontpages:** share the background layer stack of image sections
+* **leaderboards:** plain delete label in the bulk bar and archive unchecked on reset
+* **news:** allow local Ollama and LM Studio in the CSP
+* **news:** share one recording fetch mock in the translation spec
+* **news:** translate OpenAI and Gemini through the server proxy
+* **pricing:** signed in plan cards lead to the account settings and show the own plan
+* **seo:** fit titles and descriptions by display width, add alt texts
+* **seo:** rewrite overlong SEO titles and descriptions
+
+
+### Performance Improvements
+
+* **frontpages:** cut main-thread work on mobile
+
 ## 1.114.6 (2026-11-06)
 
 
