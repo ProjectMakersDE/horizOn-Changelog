@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.76.0 (2026-11-12)
+
+
+### Features
+
+* **auth:** block fulldiets.com and further disposable email domains
+
 ## 1.75.12 (2026-11-10)
 
 
