@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.8 (2026-11-15)
+
+
+### Bug Fixes
+
+* **pricing:** align API key fallbacks with the live limits
+* **pricing:** group the comparison table and explain every row
+
 ## 1.114.7 (2026-11-11)
 
 
