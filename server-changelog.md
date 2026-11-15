@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.77.0 (2026-11-15)
+
+
+### Features
+
+* **matches:** limit open matches per account
+
 # 1.76.0 (2026-11-12)
 
 
