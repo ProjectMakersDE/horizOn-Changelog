@@ -31,7 +31,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="unreal-sdk-changelog" class="product-card">
     <h3>Unreal SDK</h3>
     <p>C++ plugin for integrating horizOn into Unreal Engine projects.</p>
-    <span class="version">v1.10.5</span>
+    <span class="version">v1.10.6</span>
   </a>
   <a href="simple-server-changelog" class="product-card">
     <h3>Simple Server</h3>
@@ -41,7 +41,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
-    <span class="version">v1.9.1</span>
+    <span class="version">v1.9.2</span>
   </a>
 </div>
 
