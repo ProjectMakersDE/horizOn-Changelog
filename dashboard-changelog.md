@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.114.9 (2026-11-15)
+
+
+### Bug Fixes
+
+* **pricing:** show open matches per account under matches
+
 ## 1.114.8 (2026-11-15)
 
 
