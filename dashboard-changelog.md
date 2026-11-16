@@ -9,6 +9,30 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.115.0 (2026-11-16)
+
+
+### Bug Fixes
+
+* **avv:** show the acceptance time as sent, without a time zone claim
+* **seo:** name the language in translated blog titles so cut titles stay unique
+* **seo:** redirect language home with trailing slash to the self-canonical URL
+* **seo:** specific search snippets for five low-CTR blog guides
+* **users:** show and manage players whose project key was deleted
+
+
+### Features
+
+* **account:** conclude the data processing agreement online
+* **api-keys:** restore deleted project keys from the API key page
+* **item-gifts:** project page for item gifts with settings, returns and recovery
+* **plans:** show live connections and the connection peak per plan
+
+
+### Performance Improvements
+
+* **blog:** load the first post image eagerly with high priority
+
 ## 1.114.9 (2026-11-15)
 
 
