@@ -16,7 +16,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="server-changelog" class="product-card">
     <h3>Server API</h3>
     <p>Backend API powering authentication, data management, and integrations.</p>
-    <span class="version">v1.77.0</span>
+    <span class="version">v1.78.0</span>
   </a>
   <a href="godot-sdk-changelog" class="product-card">
     <h3>Godot SDK</h3>
@@ -41,7 +41,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
-    <span class="version">v1.9.2</span>
+    <span class="version">v1.10.0</span>
   </a>
 </div>
 

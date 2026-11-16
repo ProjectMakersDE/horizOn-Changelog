@@ -9,6 +9,39 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.78.0 (2026-11-16)
+
+
+### Bug Fixes
+
+* **item-gifts:** cover gift kinds and cleanup dependency in existing inbox and deletion tests
+* **realtime:** confirm a missing lease before closing a connection as replaced
+* **realtime:** make the probe hold up in fire tests
+* **realtime:** replace the benchmark script with an SDK-like probe
+* **realtime:** report realtime only where a gateway runs
+* **realtime:** resume tickets read the core project key, replay uses the commit time
+* **realtime:** run the Mongo stream test on a chat topic
+* **users:** manage players whose project key was deleted
+
+
+### Features
+
+* **account:** conclude the data processing agreement online
+* **api-keys:** restore deleted project keys with their players and data
+* **item-gifts:** send items privately through the inbox with decline and safe returns
+* **realtime:** bind gateway calls to the authenticated project and carry limits in the ticket
+* **realtime:** gateway image in CI and socket v2 probe
+* **realtime:** one shared stream per gateway pod, socket sends, resume tickets and drain
+* **realtime:** probe socket base for the Develop gateway port
+* **realtime:** publish realtime connection limit and burst per tier
+* **realtime:** push chat messages and match state with the event
+* **realtime:** socket frames, resume tickets, snapshots and burst limits in the backend
+
+
+### Performance Improvements
+
+* **realtime:** fewer writes per chat send and match turn
+
 # 1.77.0 (2026-11-15)
 
 
