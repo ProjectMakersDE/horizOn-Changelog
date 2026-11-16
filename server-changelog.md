@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.78.1 (2026-11-16)
+
+
+### Bug Fixes
+
+* **realtime:** name the source repository on the gateway image so ghcr creates the package
+
 # 1.78.0 (2026-11-16)
 
 
