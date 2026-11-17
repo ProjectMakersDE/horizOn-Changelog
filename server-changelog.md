@@ -9,6 +9,15 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.78.2 (2026-11-17)
+
+
+### Bug Fixes
+
+* **api-keys:** list only the assigned project for scoped account keys
+* **matches:** retry a result report that loses to a simultaneous one
+* **realtime:** probe waits for the socket close before the ticket reconnect
+
 ## 1.78.1 (2026-11-16)
 
 
