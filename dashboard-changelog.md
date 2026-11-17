@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.115.2 (2026-11-17)
+
+
+### Bug Fixes
+
+* **api-keys:** show the copyable ID in key details
+
 ## 1.115.1 (2026-11-17)
 
 

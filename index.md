@@ -11,7 +11,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="dashboard-changelog" class="product-card">
     <h3>Dashboard</h3>
     <p>Web interface for managing your account, API keys, users, and more.</p>
-    <span class="version">v1.115.1</span>
+    <span class="version">v1.115.2</span>
   </a>
   <a href="server-changelog" class="product-card">
     <h3>Server API</h3>
@@ -41,7 +41,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
-    <span class="version">v1.11.0</span>
+    <span class="version">v1.11.1</span>
   </a>
 </div>
 
