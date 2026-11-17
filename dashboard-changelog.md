@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.115.1 (2026-11-17)
+
+
+### Bug Fixes
+
+* **legal:** say on every translated legal page that only English and German are binding
+* **ssr:** correct the routing comment, the generic backend Service is not region local
+
 # 1.115.0 (2026-11-16)
 
 
