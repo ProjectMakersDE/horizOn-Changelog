@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.79.0 (2026-11-18)
+
+
+### Features
+
+* **analytics:** attribute developer registration milestones
+
 ## 1.78.2 (2026-11-17)
 
 
