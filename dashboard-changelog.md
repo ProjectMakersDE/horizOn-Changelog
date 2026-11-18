@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.116.0 (2026-11-18)
+
+
+### Bug Fixes
+
+* **marketing:** surface developer signup and integration guides
+
+
+### Features
+
+* **analytics:** show the developer registration funnel
+
 ## 1.115.2 (2026-11-17)
 
 
