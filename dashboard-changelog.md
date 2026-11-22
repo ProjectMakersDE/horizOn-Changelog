@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.116.1 (2026-11-22)
+
+
+### Bug Fixes
+
+* **branding:** replace the horizOn logo with the new mark and wordmark
+
 # 1.116.0 (2026-11-18)
 
 
