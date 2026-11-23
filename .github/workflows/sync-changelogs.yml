@@ -7,6 +7,11 @@ on:
     types: [sync-changelog]
   workflow_dispatch:
 
+# Explicit bash makes every run step fail on a failing pipe, not only on its last command.
+defaults:
+  run:
+    shell: bash
+
 # Every run reconciles every source, so the newest queued run also heals any
 # dispatch that was superseded while another publication was still running.
 concurrency:
