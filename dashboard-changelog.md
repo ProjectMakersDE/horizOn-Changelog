@@ -9,6 +9,19 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.117.0 (2026-11-23)
+
+
+### Bug Fixes
+
+* **auth:** keep the link example out of the feature page curl block
+* **auth:** shorten the repeated link comments in the quickstart examples
+
+
+### Features
+
+* **auth:** document linking a guest account
+
 ## 1.116.1 (2026-11-22)
 
 
