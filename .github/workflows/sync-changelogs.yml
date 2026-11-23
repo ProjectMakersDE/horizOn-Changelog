@@ -34,6 +34,9 @@ jobs:
       mcp_version: ${{ steps.versions.outputs.mcp }}
 
     steps:
+      - name: Remove root-owned Jekyll output of an earlier run
+        run: docker run --rm -v "$PWD:/w" alpine sh -c 'rm -rf /w/_site'
+
       - name: Checkout changelog repo
         uses: actions/checkout@v7
         with:
@@ -284,6 +287,10 @@ jobs:
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
+
+      - name: Hand the Jekyll output back to the runner user
+        if: always()
+        run: docker run --rm -v "$PWD:/w" alpine chown -R "$(id -u):$(id -g)" /w
 
   deploy:
     needs: [sync, build]
