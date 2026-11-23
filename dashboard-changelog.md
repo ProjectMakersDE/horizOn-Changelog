@@ -9,6 +9,14 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+## 1.117.1 (2026-11-23)
+
+
+### Bug Fixes
+
+* **email-sending:** verification template help names verificationUrl
+* **player-reset:** public password reset page for game players
+
 # 1.117.0 (2026-11-23)
 
 
