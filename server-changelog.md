@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.81.0 (2026-11-23)
+
+
+### Features
+
+* **items:** read and preserve stack inventory schema v2 and stack templates
+
 ## 1.80.1 (2026-11-23)
 
 
