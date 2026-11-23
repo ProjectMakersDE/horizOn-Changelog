@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, proxmox-ci, horizon-changelog-ci]
     permissions:
       contents: write
     outputs:
@@ -257,7 +257,7 @@ jobs:
 
   build:
     needs: sync
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, proxmox-ci, horizon-changelog-ci]
     permissions:
       contents: read
       pages: write
@@ -282,7 +282,7 @@ jobs:
 
   deploy:
     needs: [sync, build]
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, proxmox-ci, horizon-changelog-ci]
     permissions:
       pages: write
       id-token: write
