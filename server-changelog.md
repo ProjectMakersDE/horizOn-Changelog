@@ -9,6 +9,14 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+## 1.80.1 (2026-11-23)
+
+
+### Bug Fixes
+
+* **user-email:** default verification mail links to the verify endpoint
+* **user-email:** player password reset link works, mail language passed on
+
 # 1.80.0 (2026-11-23)
 
 
