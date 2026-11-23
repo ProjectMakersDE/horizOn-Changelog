@@ -9,6 +9,13 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.80.0 (2026-11-23)
+
+
+### Features
+
+* **auth:** link a guest account to email, Google or Apple
+
 # 1.79.0 (2026-11-18)
 
 

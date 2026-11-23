@@ -16,7 +16,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="server-changelog" class="product-card">
     <h3>Server API</h3>
     <p>Backend API powering authentication, data management, and integrations.</p>
-    <span class="version">v1.79.0</span>
+    <span class="version">v1.80.0</span>
   </a>
   <a href="godot-sdk-changelog" class="product-card">
     <h3>Godot SDK</h3>
@@ -31,7 +31,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="unreal-sdk-changelog" class="product-card">
     <h3>Unreal SDK</h3>
     <p>C++ plugin for integrating horizOn into Unreal Engine projects.</p>
-    <span class="version">v1.12.0</span>
+    <span class="version">v1.13.0</span>
   </a>
   <a href="simple-server-changelog" class="product-card">
     <h3>Simple Server</h3>
@@ -41,7 +41,7 @@ Stay up to date with the latest changes to the horizOn platform.
   <a href="mcp-server-changelog" class="product-card">
     <h3>MCP Server</h3>
     <p>MCP server providing AI coding assistants with horizOn docs, tools, and prompts.</p>
-    <span class="version">v1.11.1</span>
+    <span class="version">v1.12.0</span>
   </a>
 </div>
 
