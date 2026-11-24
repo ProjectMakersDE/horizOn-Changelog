@@ -9,6 +9,18 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.118.0 (2026-11-24)
+
+
+### Bug Fixes
+
+* **items:** stack subtitle in 15 languages, no character counter on maxStack
+
+
+### Features
+
+* **items:** stack templates and stack inventory view
+
 ## 1.117.1 (2026-11-23)
 
 
