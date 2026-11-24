@@ -9,6 +9,19 @@ All notable changes to the horizOn Server (Backend API).
 
 [Back to Overview](.)
 
+# 1.82.0 (2026-11-24)
+
+
+### Bug Fixes
+
+* **items:** unique definitions keep their previous JSON shape
+* **items:** unit tests for stack mode lock, grants, equip, discard and stack block
+
+
+### Features
+
+* **items:** stack templates, stack slots and stack grants behind ITEMS_STACK_ENABLED
+
 # 1.81.0 (2026-11-23)
 
 
