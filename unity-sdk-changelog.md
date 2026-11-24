@@ -9,6 +9,13 @@ All notable changes to the horizOn Unity SDK.
 
 [Back to Overview](.)
 
+# [1.16.0](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/compare/v1.15.1...v1.16.0) (2026-11-24)
+
+
+### Features
+
+* **items:** stack inventory, equip and discard ([3d4f962](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/commit/3d4f962e3e4c64fad2f05b0e8c4864a4fbeb1a3f))
+
 ## [1.15.1](https://github.com/ProjectMakersDE/horizOn-SDK-Unity/compare/v1.15.0...v1.15.1) (2026-11-23)
 
 
