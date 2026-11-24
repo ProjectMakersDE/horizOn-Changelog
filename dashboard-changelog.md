@@ -9,6 +9,13 @@ All notable changes to the horizOn Dashboard (Frontend).
 
 [Back to Overview](.)
 
+# 1.119.0 (2026-11-24)
+
+
+### Features
+
+* **items:** quickstart and feature examples show stacks
+
 # 1.118.0 (2026-11-24)
 
 
